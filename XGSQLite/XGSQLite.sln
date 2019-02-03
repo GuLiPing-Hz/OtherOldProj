@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XGSQLite", "XGSQLite\XGSQLite.vcproj", "{A4FC1395-ED8E-47E0-81E2-D4FF499545E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XGSQLiteTest", "XGSQLiteTest\XGSQLiteTest\XGSQLiteTest.vcproj", "{0BAF80C4-CB26-4AC9-8472-40C6A0765632}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4FC1395-ED8E-47E0-81E2-D4FF499545E3} = {A4FC1395-ED8E-47E0-81E2-D4FF499545E3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4FC1395-ED8E-47E0-81E2-D4FF499545E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4FC1395-ED8E-47E0-81E2-D4FF499545E3}.Debug|Win32.Build.0 = Debug|Win32
+		{A4FC1395-ED8E-47E0-81E2-D4FF499545E3}.Release|Win32.ActiveCfg = Release|Win32
+		{A4FC1395-ED8E-47E0-81E2-D4FF499545E3}.Release|Win32.Build.0 = Release|Win32
+		{0BAF80C4-CB26-4AC9-8472-40C6A0765632}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BAF80C4-CB26-4AC9-8472-40C6A0765632}.Debug|Win32.Build.0 = Debug|Win32
+		{0BAF80C4-CB26-4AC9-8472-40C6A0765632}.Release|Win32.ActiveCfg = Release|Win32
+		{0BAF80C4-CB26-4AC9-8472-40C6A0765632}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

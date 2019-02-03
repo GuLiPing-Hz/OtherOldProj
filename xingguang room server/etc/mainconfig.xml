@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by dsfdsf (ORiON) -->
+<config>
+	<servercfg logdir="/home/heyu/netapp/log/" listen="8000" udp="8000" threadcount="10" maxclient="32" queuesize="256" conntimeout="100000"/>
+	<mysqlcfg ip="127.0.0.1" port="3306" user="root" pass=""/>
+	<bdbcfg>
+		<maindb envdir="/home/heyu/netapp/bdb/main" dbdir="/home/heyu/netapp/bdb/main" dbname="main.db" ndbname="num.db" size_gb="0" size_b="1048576"/>
+		<!--timeoutdb envdir="/app/dev/netapp/bdb/timeout/" dbdir="/app/dev/netapp/bdb/timeout/" dbname="timeout.db" size_gb="0" size_b="524288"/-->
+	</bdbcfg>
+</config>

@@ -1,0 +1,1941 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+A	test/main.cpp	/^	A(int u) : i(u){}$/;"	f	class:A
+A	test/main.cpp	/^class A$/;"	c	file:
+A	test/main11.cpp	/^class A$/;"	c	file:
+A	test/main6.cpp	/^class A$/;"	c	file:
+A	test/main9.cpp	/^		A(){cout << "A()" << endl;}$/;"	f	class:A
+A	test/main9.cpp	/^		A(int i) : m_i(i){cout << "A(int i)" << endl;}$/;"	f	class:A
+A	test/main9.cpp	/^class A$/;"	c	file:
+AC_ANONYMOUS_VARIABLE	ac/util/scope_guard.h	666;"	d
+AC_BDBENV_H_	ac/bdb/bdbenv.h	2;"	d
+AC_BDB_UK_H	ac/bdb/bdb_uk.h	2;"	d
+AC_CLIENTSOCKET_H_	network/clientsocket.h	2;"	d
+AC_CONCATENATE	ac/util/scope_guard.h	665;"	d
+AC_CONCATENATE_DIRECT	ac/util/scope_guard.h	664;"	d
+AC_COUNTER_H_	network/counter.h	2;"	d
+AC_CRITICAL	ac/log/log.h	74;"	d
+AC_CRITICAL	ac/log/log.h	77;"	d
+AC_DATADECODER_H_	network/datadecoder.h	2;"	d
+AC_DATAPROCESSOR_H_	network/dataprocessor.h	2;"	d
+AC_DEBUG	ac/log/log.h	38;"	d
+AC_DEBUG	ac/log/log.h	41;"	d
+AC_ERROR	ac/log/log.h	65;"	d
+AC_ERROR	ac/log/log.h	68;"	d
+AC_INFO	ac/log/log.h	47;"	d
+AC_INFO	ac/log/log.h	50;"	d
+AC_LISTENSOCKET_H_	network/listensocket.h	2;"	d
+AC_LOG	ac/log/log.h	15;"	d
+AC_LOG_DATE_FILE_LOGGER_H_	ac/log/datefilelogger.h	2;"	d
+AC_LOG_H_	ac/log/log.h	2;"	d
+AC_LOG_LOGGER_H_	ac/log/logger.h	2;"	d
+AC_LOG_LOG_DISPATCHER_H_	ac/log/logdispatcher.h	2;"	d
+AC_LOG_LOG_PRIORITY_H_	ac/log/logpriority.h	2;"	d
+AC_LOG_NULL_LOGGER_H_	ac/log/nulllogger.h	2;"	d
+AC_LOG_OSTREAM_LOGGER_H_	ac/log/ostreamlogger.h	2;"	d
+AC_LOG_RETURN	ac/log/log.h	19;"	d
+AC_LOG_RETURN_VOID	ac/log/log.h	23;"	d
+AC_LOG_STACKTRACE_H_	ac/log/stacktrace.h	2;"	d
+AC_LOG_UDPLOGGER_H_	ac/log/udplogger.h	2;"	d
+AC_NETAPP_H_	network/netapp.h	2;"	d
+AC_NETWORK_EVENTHANDLER_H_	network/eventhandler.h	2;"	d
+AC_NETWORK_REACTOR_H_	network/reactor.h	2;"	d
+AC_NETWORK_SOCKET_H_	network/socket.h	2;"	d
+AC_NONCOPYABLE_H_	ac/util/non_copyable.h	2;"	d
+AC_ON_BLOCK_EXIT	ac/util/scope_guard.h	668;"	d
+AC_ON_BLOCK_EXIT_OBJ	ac/util/scope_guard.h	669;"	d
+AC_PACKAGE_H_	network/package.h	2;"	d
+AC_RESULTEVENTHANDLER_H_	network/resulteventhandler.h	2;"	d
+AC_SET_DEFAULT_LOGGER	ac/log/log.h	8;"	d
+AC_SET_LOGGER	ac/log/log.h	11;"	d
+AC_STATIC_CHECK	ac/util/static_check.h	49;"	d
+AC_TIMEUSE_H_	ac/util/timeuse.h	2;"	d
+AC_TRACE	ac/log/log.h	29;"	d
+AC_TRACE	ac/log/log.h	32;"	d
+AC_UTIL_ALLOCATOR_H_	ac/util/allocator.h	13;"	d
+AC_UTIL_CIRCLE_QUEUE_4_TYPE_H_	ac/util/circle_queue_4_type.h	2;"	d
+AC_UTIL_CIRCLE_QUEUE_H_	ac/util/circle_queue.h	2;"	d
+AC_UTIL_COMPOSITESTREAM_H_	ac/util/compositestream.h	2;"	d
+AC_UTIL_DATA_BLOCK_H_	ac/util/data_block.h	2;"	d
+AC_UTIL_DESTROYABLE_H	ac/util/destroyable.h	2;"	d
+AC_UTIL_HANDLE_H_	ac/util/handle.h	2;"	d
+AC_UTIL_MUTEX_H_	ac/util/mutex.h	2;"	d
+AC_UTIL_NOTIFY_H_	ac/util/notify.h	2;"	d
+AC_UTIL_OBJECT_ALLOCATOR_H	ac/util/objectallocator.h	2;"	d
+AC_UTIL_OBJECT_MANAGER_H	ac/util/objectmanager.h	2;"	d
+AC_UTIL_OBJECT_POOL_H	ac/util/objectpool.h	2;"	d
+AC_UTIL_PROTOCOLSTREAM_H_	ac/util/protocolstream.h	2;"	d
+AC_UTIL_QUEUE_H_	ac/util/queue.h	2;"	d
+AC_UTIL_RW_MUTEX_H_	ac/util/rw_mutex.h	2;"	d
+AC_UTIL_SCOPEGUARD_INC_	ac/util/scope_guard.h	22;"	d
+AC_UTIL_STATIC_CHECK_INC_	ac/util/static_check.h	7;"	d
+AC_UTIL_STREAM_H_	ac/util/stream.h	2;"	d
+AC_UTIL_THREADPOOL_H_	ac/util/threadpool.h	2;"	d
+AC_UTIL_THREAD_H_	ac/util/thread.h	2;"	d
+AC_UTIL_TSS_H_	ac/util/tss.h	2;"	d
+AC_WARNING	ac/log/log.h	56;"	d
+AC_WARNING	ac/log/log.h	59;"	d
+AC_WORKTHREADPOOL_H_	network/workthreadpool.h	2;"	d
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlComment::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlComment
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlDeclaration::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlDeclaration
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlDocument
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlElement::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlElement
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlText::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlText
+Accept	ac/xml/tinyxml.cpp	/^bool TiXmlUnknown::Accept( TiXmlVisitor* visitor ) const$/;"	f	class:TiXmlUnknown
+Accept	network/socket.cpp	/^int Socket::Accept(Socket& client)$/;"	f	class:ac::Socket
+Acquire	ac/util/mutex.cpp	/^int SemMutex::Acquire(bool block) const$/;"	f	class:ac::SemMutex
+Acquire	ac/util/mutex.h	/^	virtual int Acquire(bool block=true) const$/;"	f	class:ac::ThreadMutex
+Acquire	ac/util/mutex.h	/^	virtual int Acquire(bool) const { return 0; }$/;"	f	class:ac::NullMutex
+AcquireRead	ac/util/rw_mutex.h	/^	int AcquireRead(bool block) const$/;"	f	class:ac::ThreadRWMutex
+AcquireWrite	ac/util/rw_mutex.h	/^	int AcquireWrite(bool block) const$/;"	f	class:ac::ThreadRWMutex
+Add	ac/xml/tinyxml.cpp	/^void TiXmlAttributeSet::Add( TiXmlAttribute* addMe )$/;"	f	class:TiXmlAttributeSet
+AddBuf	network/clientsocket.cpp	/^	int ClientSocketBase::AddBuf(const char* buf,size_t buflen)$/;"	f	class:ac::ClientSocketBase
+AddBuf	network/clientsocket.h	/^			virtual int AddBuf(const char* buf,size_t buflen)$/;"	f	class:ac::BackClientSocketBase
+AddBuf	network/package.h	/^			int AddBuf(const char* buf,size_t buflen)$/;"	f	class:ac::PackageBase
+AddFDEventHandler	network/reactor.cpp	/^	void EventHandlerSet::AddFDEventHandler(FDEventHandler *pHandler,int mask,struct timeval *timeout)$/;"	f	class:ac::EventHandlerSet
+AddTMEventHandler	network/reactor.cpp	/^	void EventHandlerSet::AddTMEventHandler(TMEventHandler *pHandler,struct timeval *timeout)$/;"	f	class:ac::EventHandlerSet
+AddTMPackage	stockserver/netproxy.h	/^		void AddTMPackage(TMPackage* package){$/;"	f	class:NetProxy
+Allocate	ac/util/allocator.cpp	/^void * MallocAllocator::Allocate(size_t iSize, size_t * pRealSize)$/;"	f	class:ac::MallocAllocator
+Allocate	ac/util/allocator.cpp	/^void * NewAllocator::Allocate(size_t iSize, size_t * pRealSize)$/;"	f	class:ac::NewAllocator
+Allocator	ac/util/allocator.h	/^class Allocator$/;"	c	namespace:ac
+Append	ac/util/data_block.h	/^	int Append(const char *buf,size_t buflen)$/;"	f	class:ac::DataBlock
+AtomicPop	ac/util/circle_queue.cpp	/^ssize_t CircleQueue::AtomicPop(void * data, size_t len, bool block)$/;"	f	class:ac::CircleQueue
+AtomicPush	ac/util/circle_queue.cpp	/^int CircleQueue::AtomicPush(const void * data, size_t len, bool block)$/;"	f	class:ac::CircleQueue
+AtomicSetLogger	ac/log/logdispatcher.cpp	/^void LogDispatcher::AtomicSetLogger(LogPriority iPriority, Logger * pNewLogger)$/;"	f	class:ac::LogDispatcher
+Attribute	ac/xml/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name ) const$/;"	f	class:TiXmlElement
+Attribute	ac/xml/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name, double* d ) const$/;"	f	class:TiXmlElement
+Attribute	ac/xml/tinyxml.cpp	/^const char* TiXmlElement::Attribute( const char* name, int* i ) const$/;"	f	class:TiXmlElement
+Attribute	ac/xml/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name ) const$/;"	f	class:TiXmlElement
+Attribute	ac/xml/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name, double* d ) const$/;"	f	class:TiXmlElement
+Attribute	ac/xml/tinyxml.cpp	/^const std::string* TiXmlElement::Attribute( const std::string& name, int* i ) const$/;"	f	class:TiXmlElement
+B	test/main.cpp	/^	B() : a(9),c(&a) {cout << "b"<< endl;}$/;"	f	class:B
+B	test/main.cpp	/^class B$/;"	c	file:
+B	test/main11.cpp	/^class B : public A$/;"	c	file:
+B	test/main9.cpp	/^		B(){cout <<"B()"<< endl;}$/;"	f	class:B
+B	test/main9.cpp	/^		B(int i): A(i){cout << "B(int i)" <<endl;}$/;"	f	class:B
+B	test/main9.cpp	/^class B : virtual public A$/;"	c	file:
+BDBDataProcessor	bdbcache/bdbdataprocessor.h	/^		BDBDataProcessor(Bdb_UK *pBdb) : m_pBdb(pBdb){}$/;"	f	class:BDBDataProcessor
+BDBDataProcessor	bdbcache/bdbdataprocessor.h	/^class BDBDataProcessor : public DataProcessor$/;"	c
+BDBINFO	bdbcache/serverconf.h	/^}BDBINFO;$/;"	t
+BINARY_PACKAGE_MAXLEN	ac/util/protocolstream.h	/^	BINARY_PACKAGE_MAXLEN	= 0xffff,$/;"	e	enum:ac::<anonymous>
+BINARY_PACKLEN_LEN	ac/util/protocolstream.h	/^	BINARY_PACKLEN_LEN		= 2,$/;"	e	enum:ac::<anonymous>
+BINARY_STREAM_PROTOCOL	ac/util/stream.h	/^	BINARY_STREAM_PROTOCOL	= 0x02,$/;"	e	enum:ac::<anonymous>
+BackClientSocket	stockserver/stockclient.h	/^		BackClientSocket(Reactor *pReactor,const char *ip,int port,int packcount = 256) : $/;"	f	class:BackClientSocket
+BackClientSocket	stockserver/stockclient.h	/^class BackClientSocket : public BackClientSocketBase$/;"	c
+BackClientSocketBase	network/clientsocket.h	/^			BackClientSocketBase(Reactor *pReactor,const char* ip,int port) : ClientSocketBase(pReactor),m_port(port)$/;"	f	class:ac::BackClientSocketBase
+BackClientSocketBase	network/clientsocket.h	/^	class BackClientSocketBase : public ClientSocketBase\/\/ , public TMEventHandler$/;"	c	namespace:ac
+BdbConf	bdbcache/serverconf.h	/^class BdbConf$/;"	c
+BdbEnv	ac/bdb/bdbenv.h	/^			BdbEnv() : m_Env(NULL){}$/;"	f	class:ac::BdbEnv
+BdbEnv	ac/bdb/bdbenv.h	/^	class BdbEnv$/;"	c	namespace:ac
+BdbProxyConf	stockserver/serverconf.h	/^class BdbProxyConf$/;"	c
+Bdb_UK	ac/bdb/bdb_uk.h	/^			Bdb_UK() : m_db(NULL){}$/;"	f	class:ac::Bdb_UK
+Bdb_UK	ac/bdb/bdb_uk.h	/^	class Bdb_UK$/;"	c	namespace:ac
+BinaryReadStream	ac/util/protocolstream.cpp	/^BinaryReadStream::BinaryReadStream(const char* ptr_, size_t len_)$/;"	f	class:ac::BinaryReadStream
+BinaryReadStream	ac/util/protocolstream.h	/^class BinaryReadStream : public ReadStreamImpl$/;"	c	namespace:ac
+BinaryWriteStream	ac/util/protocolstream.cpp	/^BinaryWriteStream::BinaryWriteStream(char* ptr_, size_t len_)$/;"	f	class:ac::BinaryWriteStream
+BinaryWriteStream	ac/util/protocolstream.h	/^class BinaryWriteStream : public WriteStreamImpl$/;"	c	namespace:ac
+Bind	network/socket.cpp	/^int Socket::Bind(const char* host, unsigned short port)$/;"	f	class:ac::Socket
+Bind	network/socket.cpp	/^int Socket::Bind(const sockaddr* addr, size_t addrlen)$/;"	f	class:ac::Socket
+BindUnixSocket	network/socket.cpp	/^int Socket::BindUnixSocket(const char* path)$/;"	f	class:ac::Socket
+Blank	ac/xml/tinyxmlparser.cpp	/^bool TiXmlText::Blank() const$/;"	f	class:TiXmlText
+C	test/main.cpp	/^	C(A *a){}$/;"	f	class:C
+C	test/main.cpp	/^class C$/;"	c	file:
+C	test/main9.cpp	/^		C(){cout <<"C()"<< endl;}$/;"	f	class:C
+C	test/main9.cpp	/^		C(int i) : A(i){cout << "C(int i)"<< endl;}$/;"	f	class:C
+C	test/main9.cpp	/^class C : virtual public A$/;"	c	file:
+CDATA	ac/xml/tinyxml.h	/^	bool CDATA() const				{ return cdata; }$/;"	f	class:TiXmlText
+CLEANUP_FUNC	ac/util/tss.h	/^typedef void(*CLEANUP_FUNC)(void* p);$/;"	t
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	ac/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	bdbcache/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	mysqlproxy/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	mysqlproxy2/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	presstest/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	stockserver/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_BINARY_DIR	unittest/Makefile	/^CMAKE_BINARY_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	ac/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	bdbcache/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	mysqlproxy/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	mysqlproxy2/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	presstest/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	stockserver/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_COMMAND	unittest/Makefile	/^CMAKE_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake$/;"	m
+CMAKE_EDIT_COMMAND	Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	ac/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	bdbcache/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	mysqlproxy/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	mysqlproxy2/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	presstest/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	stockserver/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	unittest/Makefile	/^CMAKE_EDIT_COMMAND = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/ccmake$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	ac/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	bdbcache/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	mysqlproxy/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	mysqlproxy2/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	presstest/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	stockserver/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMAKE_SOURCE_DIR	unittest/Makefile	/^CMAKE_SOURCE_DIR = \/app\/dev\/netapp\/src$/;"	m
+CMD_STOCKINFO	stockserver/netproxy.h	/^	CMD_STOCKINFO = 0x01,$/;"	e	enum:PTLCMD
+CMD_USERAUTH	stockserver/netproxy.h	/^	CMD_USERAUTH,$/;"	e	enum:PTLCMD
+COMMENT	ac/xml/tinyxml.h	/^		COMMENT,$/;"	e	enum:TiXmlNode::NodeType
+COMPOSITE_BINARY_STREAM_PROTOCOL	ac/util/stream.h	/^	COMPOSITE_BINARY_STREAM_PROTOCOL	= BINARY_STREAM_PROTOCOL | COMPOSITE_FLAG,$/;"	e	enum:ac::<anonymous>
+COMPOSITE_FLAG	ac/util/stream.h	/^	COMPOSITE_FLAG = 0x10000000,$/;"	e	enum:ac::<anonymous>
+COMPOSITE_TEXT_STREAM_PROTOCOL	ac/util/stream.h	/^	COMPOSITE_TEXT_STREAM_PROTOCOL		= TEXT_STREAM_PROTOCOL | COMPOSITE_FLAG,$/;"	e	enum:ac::<anonymous>
+COMPOSITE_TEXT_STREAM_PROTOCOL_2	ac/util/stream.h	/^	COMPOSITE_TEXT_STREAM_PROTOCOL_2	= TEXT_STREAM_PROTOCOL_2 | COMPOSITE_FLAG,$/;"	e	enum:ac::<anonymous>
+CQueue	ac/util/circle_queue.h	/^	} CQueue;$/;"	t	class:ac::CircleQueue
+CStr	ac/xml/tinyxml.h	/^	const char* CStr()								{ return buffer.c_str(); }$/;"	f	class:TiXmlPrinter
+CacheDataDecoder	stockserver/netproxy.h	/^		CacheDataDecoder(int pttype,size_t hdlen) : StockDataDecoderBase(pttype,hdlen){}$/;"	f	class:CacheDataDecoder
+CacheDataDecoder	stockserver/netproxy.h	/^class CacheDataDecoder : public StockDataDecoderBase$/;"	c
+Child	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::Child( const char* value, int count ) const$/;"	f	class:TiXmlHandle
+Child	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::Child( int count ) const$/;"	f	class:TiXmlHandle
+Child	ac/xml/tinyxml.h	/^	TiXmlHandle Child( const std::string& _value, int index ) const			{ return Child( _value.c_str(), index ); }$/;"	f	class:TiXmlHandle
+ChildElement	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::ChildElement( const char* value, int count ) const$/;"	f	class:TiXmlHandle
+ChildElement	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::ChildElement( int count ) const$/;"	f	class:TiXmlHandle
+ChildElement	ac/xml/tinyxml.h	/^	TiXmlHandle ChildElement( const std::string& _value, int index ) const	{ return ChildElement( _value.c_str(), index ); }$/;"	f	class:TiXmlHandle
+Chunks_	ac/util/objectpool.h	/^	std::vector<T *>	Chunks_;$/;"	m	class:ac::ObjectPoolAllocator
+CircleQueue	ac/util/circle_queue.cpp	/^CircleQueue::CircleQueue(size_t queue_size, const Mutex * writer_mutex, const Mutex * reader_mutex, Allocator * allocator)$/;"	f	class:ac::CircleQueue
+CircleQueue	ac/util/circle_queue.h	/^class CircleQueue : public NonCopyable$/;"	c	namespace:ac
+CircleQueue4Type	ac/util/circle_queue_4_type.h	/^	CircleQueue4Type(size_t limit = DEFAULT_LIMIT, const Mutex * writer_mutex=NullMutex::Instance(), const Mutex * reader_mutex=NullMutex::Instance(), Allocator * pAllocator=Allocator::Instance())$/;"	f	class:ac::CircleQueue4Type
+CircleQueue4Type	ac/util/circle_queue_4_type.h	/^class CircleQueue4Type : public Queue<T>$/;"	c	namespace:ac
+Clean__tss	mysqlproxy/mysqldataprocessor.cpp	/^void Clean__tss(void* p)$/;"	f
+Clean__tss	mysqlproxy2/mysqldataprocessor.cpp	/^void Clean__tss(void* p)$/;"	f
+Clean__tss	network/workthreadpool.cpp	/^	void Clean__tss(void* p)$/;"	f	namespace:ac
+Clear	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::Clear(u_int32_t *count)$/;"	f	class:ac::Bdb_UK
+Clear	ac/util/compositestream.h	/^    virtual void Clear()$/;"	f	class:ac::CompositeWriteStream
+Clear	ac/util/protocolstream.cpp	/^void BinaryWriteStream::Clear()$/;"	f	class:ac::BinaryWriteStream
+Clear	ac/util/protocolstream.cpp	/^void TextWriteStream2::Clear()$/;"	f	class:ac::TextWriteStream2
+Clear	ac/util/protocolstream.cpp	/^void TextWriteStream::Clear()$/;"	f	class:ac::TextWriteStream
+Clear	ac/xml/tinyxml.cpp	/^void TiXmlNode::Clear()$/;"	f	class:TiXmlNode
+Clear	ac/xml/tinyxml.h	/^	void Clear()		{ row = col = -1; }$/;"	f	struct:TiXmlCursor
+ClearError	ac/xml/tinyxml.h	/^	void ClearError()						{	error = false; $/;"	f	class:TiXmlDocument
+ClearThis	ac/xml/tinyxml.cpp	/^void TiXmlElement::ClearThis()$/;"	f	class:TiXmlElement
+ClientDataDecoder	stockserver/netproxy.h	/^		ClientDataDecoder(int pttype,size_t hdlen) : StockDataDecoderBase(pttype,hdlen){}$/;"	f	class:ClientDataDecoder
+ClientDataDecoder	stockserver/netproxy.h	/^class ClientDataDecoder : public StockDataDecoderBase$/;"	c
+ClientMap	network/counter.h	/^	class ClientMap$/;"	c	namespace:ac
+ClientSocket	network/clientsocket.h	/^			ClientSocket(){}$/;"	f	class:ac::ClientSocket
+ClientSocket	network/clientsocket.h	/^			ClientSocket(Reactor *pReactor) : ClientSocketBase(pReactor){}$/;"	f	class:ac::ClientSocket
+ClientSocket	network/clientsocket.h	/^	class ClientSocket : public ClientSocketBase , public Destroyable$/;"	c	namespace:ac
+ClientSocketBase	network/clientsocket.h	/^			ClientSocketBase() : m_timeout(3){}$/;"	f	class:ac::ClientSocketBase
+ClientSocketBase	network/clientsocket.h	/^			ClientSocketBase(Reactor *pReactor) : FDEventHandler(pReactor){m_timeout = 3;}$/;"	f	class:ac::ClientSocketBase
+ClientSocketBase	network/clientsocket.h	/^	class ClientSocketBase : public FDEventHandler\/*,public Destroyable*\/$/;"	c	namespace:ac
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlComment::Clone() const$/;"	f	class:TiXmlComment
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlDeclaration::Clone() const$/;"	f	class:TiXmlDeclaration
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlDocument::Clone() const$/;"	f	class:TiXmlDocument
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlElement::Clone() const$/;"	f	class:TiXmlElement
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlText::Clone() const$/;"	f	class:TiXmlText
+Clone	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlUnknown::Clone() const$/;"	f	class:TiXmlUnknown
+Close	network/clientsocket.cpp	/^	void BackClientSocketBase::Close()$/;"	f	class:ac::BackClientSocketBase
+Close	network/clientsocket.h	/^			virtual void Close()$/;"	f	class:ac::ClientSocket
+Close	network/clientsocket.h	/^			virtual void Close()$/;"	f	class:ac::ClientSocketBase
+Close	network/eventhandler.cpp	/^	void FDEventHandler::Close()$/;"	f	class:ac::FDEventHandler
+Close	network/eventhandler.cpp	/^	void TMEventHandler::Close()$/;"	f	class:ac::TMEventHandler
+Close	network/socket.cpp	/^void Socket::Close()$/;"	f	class:ac::Socket
+Close	stockserver/stockclient.h	/^		void Close()$/;"	f	class:StockClient
+Close	stockserver/stockclient.h	/^		void Close()$/;"	f	class:TMPackage
+Column	ac/xml/tinyxml.h	/^	int Column() const		{ return location.col + 1; }	\/\/\/< See Row()$/;"	f	class:TiXmlBase
+CompileTimeError	ac/util/static_check.h	/^    template<> struct CompileTimeError<true> {};$/;"	s	namespace:ac
+CompositeBinaryWriteStream	ac/util/compositestream.h	/^typedef CompositeWriteStream<BinaryWriteStream> CompositeBinaryWriteStream;$/;"	t	namespace:ac
+CompositeTextWriteStream	ac/util/compositestream.h	/^typedef CompositeWriteStream<TextWriteStream> CompositeTextWriteStream;$/;"	t	namespace:ac
+CompositeWriteStream	ac/util/compositestream.h	/^	CompositeWriteStream(char* buffer, size_t len)$/;"	f	class:ac::CompositeWriteStream
+CompositeWriteStream	ac/util/compositestream.h	/^class CompositeWriteStream : public WriteStreamImpl {$/;"	c	namespace:ac
+Connect	mysqlproxy/mysqldataprocessor.cpp	/^int MysqlDataProcessor::Connect(MYSQL *&cnn)$/;"	f	class:MysqlDataProcessor
+Connect	mysqlproxy2/mysqldataprocessor.cpp	/^int MysqlDataProcessor::Connect(MYSQL *&cnn)$/;"	f	class:MysqlDataProcessor
+Connect	network/clientsocket.cpp	/^	int BackClientSocketBase::Connect()$/;"	f	class:ac::BackClientSocketBase
+Connect	network/socket.cpp	/^int Socket::Connect(const char* host, unsigned short port, unsigned int usec_timeout)$/;"	f	class:ac::Socket
+Connect	network/socket.cpp	/^int Socket::Connect(const sockaddr* addr, size_t addrlen, unsigned int usec_timeout)$/;"	f	class:ac::Socket
+ConnectUnixSocket	network/socket.cpp	/^int Socket::ConnectUnixSocket(const char* path, unsigned int usec_timeout)$/;"	f	class:ac::Socket
+ConvertUTF32ToUTF8	ac/xml/tinyxmlparser.cpp	/^void TiXmlBase::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:TiXmlBase
+Copy	ac/util/data_block.cpp	/^	int DataBlock::Copy(size_t pos,const char *buf,size_t buflen)$/;"	f	class:ac::DataBlock
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlComment::CopyTo( TiXmlComment* target ) const$/;"	f	class:TiXmlComment
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlDeclaration::CopyTo( TiXmlDeclaration* target ) const$/;"	f	class:TiXmlDeclaration
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlDocument::CopyTo( TiXmlDocument* target ) const$/;"	f	class:TiXmlDocument
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlElement::CopyTo( TiXmlElement* target ) const$/;"	f	class:TiXmlElement
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlNode::CopyTo( TiXmlNode* target ) const$/;"	f	class:TiXmlNode
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlText::CopyTo( TiXmlText* target ) const$/;"	f	class:TiXmlText
+CopyTo	ac/xml/tinyxml.cpp	/^void TiXmlUnknown::CopyTo( TiXmlUnknown* target ) const$/;"	f	class:TiXmlUnknown
+Counter	network/counter.h	/^			Counter(int min = 1,int max = 100000000)$/;"	f	class:ac::Counter
+Counter	network/counter.h	/^	class Counter$/;"	c	namespace:ac
+Create	ac/util/objectallocator.h	/^	virtual T * Create()$/;"	f	class:ac::ObjectDefaultAllocator
+Create	ac/util/objectmanager.h	/^	T * Create()$/;"	f	class:ac::ObjectManager
+Create	ac/util/objectpool.h	/^	virtual T * Create()$/;"	f	class:ac::ObjectPoolAllocator
+Create	network/socket.cpp	/^int Socket::Create(int domain, int type, int protocol)$/;"	f	class:ac::Socket
+CreateClient	network/listensocket.h	/^			virtual ClientSocket* CreateClient()$/;"	f	class:ac::ListenSocket
+CreateClient	stockserver/stockclient.h	/^		virtual ClientSocket* CreateClient()$/;"	f	class:StockListener
+CreatePackage	stockserver/stockclient.cpp	/^TMPackage* BackClientSocket::CreatePackage()$/;"	f	class:BackClientSocket
+CreateThread	ac/util/threadpool.cpp	/^Thread* ThreadPool::CreateThread()$/;"	f	class:ac::ThreadPool
+Cursor	ac/xml/tinyxmlparser.cpp	/^	const TiXmlCursor& Cursor()	{ return cursor; }$/;"	f	class:TiXmlParsingData
+D	test/main9.cpp	/^		D(){cout <<"D()"<< endl;}$/;"	f	class:D
+D	test/main9.cpp	/^		D(int i) : B(i),C(i){cout << "D(int i)" << endl;}$/;"	f	class:D
+D	test/main9.cpp	/^class D : public B,public C$/;"	c	file:
+DBDataDecoder	stockserver/netproxy.h	/^		DBDataDecoder(int pttype,size_t hdlen) : StockDataDecoderBase(pttype,hdlen){}$/;"	f	class:DBDataDecoder
+DBDataDecoder	stockserver/netproxy.h	/^class DBDataDecoder : public StockDataDecoderBase$/;"	c
+DEBUG	ac/xml/tinyxml.h	43;"	d
+DECLARATION	ac/xml/tinyxml.h	/^		DECLARATION,$/;"	e	enum:TiXmlNode::NodeType
+DEFAULT_BLOCK_SIZE	ac/util/data_block.h	/^enum {DEFAULT_BLOCK_SIZE = 1024,MAX_BLOCK_SIZE = 65535\/*5242880 5M*\/};$/;"	e	enum:ac::<anonymous>
+DEFAULT_FORMAT	ac/log/logger.cpp	/^const std::string Logger::DEFAULT_FORMAT="[%D][%P] %m (%F:%L %f)";$/;"	m	class:ac::Logger	file:
+DEFAULT_FORMAT	ac/log/logger.h	/^	static const std::string DEFAULT_FORMAT;$/;"	m	class:ac::Logger
+DEFAULT_LIMIT	ac/util/circle_queue_4_type.h	/^	enum { DEFAULT_LIMIT = 1000 };$/;"	e	enum:ac::CircleQueue4Type::<anonymous>
+DEFAULT_LIMIT	ac/util/queue.h	/^	enum { DEFAULT_LIMIT = 1000 };$/;"	e	enum:ac::SyncQueue::<anonymous>
+DOCUMENT	ac/xml/tinyxml.h	/^		DOCUMENT,$/;"	e	enum:TiXmlNode::NodeType
+DataBlock	ac/util/data_block.h	/^	DataBlock(size_t size = DEFAULT_BLOCK_SIZE,size_t maxsize = MAX_BLOCK_SIZE,Allocator *pAllocator = Allocator::Instance())$/;"	f	class:ac::DataBlock
+DataBlock	ac/util/data_block.h	/^class DataBlock$/;"	c	namespace:ac
+DataDecoder	network/datadecoder.h	/^			DataDecoder(int pttype,size_t hdlen) : m_pttype(pttype),m_hdlen(hdlen) {}$/;"	f	class:ac::DataDecoder
+DataDecoder	network/datadecoder.h	/^	class DataDecoder : public DataDecoderBase$/;"	c	namespace:ac
+DataDecoderBase	network/datadecoder.h	/^			DataDecoderBase(){}$/;"	f	class:ac::DataDecoderBase
+DataDecoderBase	network/datadecoder.h	/^	class DataDecoderBase$/;"	c	namespace:ac
+DataDecoder_Q	network/datadecoder.h	/^			DataDecoder_Q(int pttype,size_t hdlen,SyncQueue<Package*> *queue,ObjectPoolAllocator<Package> *pPackagePool) 				: DataDecoder(pttype,hdlen),ObjectManager<Package>(pPackagePool),m_queue_process(queue),m_PackagePool(pPackagePool) {}$/;"	f	class:ac::DataDecoder_Q
+DataDecoder_Q	network/datadecoder.h	/^	class DataDecoder_Q : public DataDecoder,public ObjectManager<Package>\/\/queue$/;"	c	namespace:ac
+DataDecoder_Q_echo	network/datadecoder.h	/^			DataDecoder_Q_echo(int pttype,size_t hdlen,SyncQueue<Package*> *queue,ObjectPoolAllocator<Package> *pPackagePool) 				$/;"	f	class:ac::DataDecoder_Q_echo
+DataDecoder_Q_echo	network/datadecoder.h	/^	class DataDecoder_Q_echo : public DataDecoder_Q$/;"	c	namespace:ac
+DataDecoder_helloworld	network/datadecoder.h	/^	class DataDecoder_helloworld : public DataDecoderBase\/\/直接把接到数据放入发送缓冲区$/;"	c	namespace:ac
+DataProcessor	network/dataprocessor.h	/^	class DataProcessor : public NonCopyable$/;"	c	namespace:ac
+DataProcessor_Echo	network/dataprocessor.h	/^	class DataProcessor_Echo : public DataProcessor$/;"	c	namespace:ac
+DateFileLogger	ac/log/datefilelogger.cpp	/^DateFileLogger::DateFileLogger(const std::string & sLogFile, const std::string & sLogFormat)$/;"	f	class:ac::DateFileLogger
+DateFileLogger	ac/log/datefilelogger.h	/^class DateFileLogger : public Logger$/;"	c	namespace:ac
+Deallocate	ac/util/allocator.cpp	/^void MallocAllocator::Deallocate(void * pData)$/;"	f	class:ac::MallocAllocator
+Deallocate	ac/util/allocator.cpp	/^void NewAllocator::Deallocate(void * pData)$/;"	f	class:ac::NewAllocator
+Del	network/counter.h	/^			void Del(int id)$/;"	f	class:ac::ClientMap
+DelFDEventHandler	network/reactor.cpp	/^	void EventHandlerSet::DelFDEventHandler(int fd,int mask)$/;"	f	class:ac::EventHandlerSet
+DelInfo	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::DelInfo(void *keybuf,int keylen)$/;"	f	class:ac::Bdb_UK
+DelTMEventHandler	network/reactor.cpp	/^	void EventHandlerSet::DelTMEventHandler(TMEventHandler *pHandler)$/;"	f	class:ac::EventHandlerSet
+Destroy	ac/util/destroyable.h	/^	void Destroy()$/;"	f	class:ac::Destroyable
+Destroy	ac/util/objectallocator.h	/^	virtual void Destroy(T * p)$/;"	f	class:ac::ObjectDefaultAllocator
+Destroy	ac/util/objectpool.h	/^	virtual void Destroy(T * pObject)$/;"	f	class:ac::ObjectPoolAllocator
+DestroyCallback	ac/util/destroyable.h	/^struct DestroyCallback$/;"	s	namespace:ac
+DestroyThread	ac/util/threadpool.cpp	/^void ThreadPool::DestroyThread(Thread* thread)$/;"	f	class:ac::ThreadPool
+Destroyable	ac/util/destroyable.h	/^class Destroyable$/;"	c	namespace:ac
+DestroyableGuard	ac/util/destroyable.h	/^	DestroyableGuard(Destroyable *pDab) : m_pDab(pDab){}$/;"	f	class:ac::DestroyableGuard
+DestroyableGuard	ac/util/destroyable.h	/^class DestroyableGuard$/;"	c	namespace:ac
+Dismiss	ac/util/scope_guard.h	/^        void Dismiss() const throw() $/;"	f	class:ac::ScopeGuardImplBase
+DoIndent	ac/xml/tinyxml.h	/^	void DoIndent()	{$/;"	f	class:TiXmlPrinter
+DoLineBreak	ac/xml/tinyxml.h	/^	void DoLineBreak() {$/;"	f	class:TiXmlPrinter
+DoubleValue	ac/xml/tinyxml.cpp	/^double  TiXmlAttribute::DoubleValue() const$/;"	f	class:TiXmlAttribute
+ELEMENT	ac/xml/tinyxml.h	/^		ELEMENT,$/;"	e	enum:TiXmlNode::NodeType
+EPReactor	network/reactor.h	/^			EPReactor() : m_running(true){}$/;"	f	class:ac::EPReactor
+EPReactor	network/reactor.h	/^	class EPReactor : public Reactor$/;"	c	namespace:ac
+Element	ac/xml/tinyxml.h	/^	TiXmlElement* Element() const	{ return ToElement(); }$/;"	f	class:TiXmlHandle
+EncodeString	ac/xml/tinyxml.cpp	/^void TiXmlBase::EncodeString( const TIXML_STRING& str, TIXML_STRING* outString )$/;"	f	class:TiXmlBase
+Encoding	ac/xml/tinyxml.h	/^	const char *Encoding() const		{ return encoding.c_str (); }$/;"	f	class:TiXmlDeclaration
+Entity	ac/xml/tinyxml.h	/^	struct Entity$/;"	s	class:TiXmlBase
+Error	ac/xml/tinyxml.h	/^	bool Error() const						{ return error; }$/;"	f	class:TiXmlDocument
+ErrorCol	ac/xml/tinyxml.h	/^	int ErrorCol() const	{ return errorLocation.col+1; }	\/\/\/< The column where the error occured. See ErrorRow()$/;"	f	class:TiXmlDocument
+ErrorDesc	ac/xml/tinyxml.h	/^	const char * ErrorDesc() const	{ return errorDesc.c_str (); }$/;"	f	class:TiXmlDocument
+ErrorId	ac/xml/tinyxml.h	/^	int ErrorId()	const				{ return errorId; }$/;"	f	class:TiXmlDocument
+ErrorRow	ac/xml/tinyxml.h	/^	int ErrorRow() const	{ return errorLocation.row+1; }$/;"	f	class:TiXmlDocument
+EventHandler	network/eventhandler.h	/^			EventHandler(){}$/;"	f	class:ac::EventHandler
+EventHandler	network/eventhandler.h	/^	class EventHandler : public NonCopyable$/;"	c	namespace:ac
+EventHandlerSet	network/reactor.h	/^	class EventHandlerSet$/;"	c	namespace:ac
+ExecSql	mysqlproxy/mysqldataprocessor.cpp	/^int MysqlDataProcessor::ExecSql(MYSQL *&cnn,const char *sql,size_t sqllen)$/;"	f	class:MysqlDataProcessor
+ExecSql	mysqlproxy2/mysqldataprocessor.cpp	/^int MysqlDataProcessor::ExecSql(MYSQL *&cnn,const char *sql,size_t sqllen)$/;"	f	class:MysqlDataProcessor
+Execute	ac/util/scope_guard.h	/^        void Execute() $/;"	f	class:ac::ObjScopeGuardImpl0
+Execute	ac/util/scope_guard.h	/^        void Execute() $/;"	f	class:ac::ObjScopeGuardImpl1
+Execute	ac/util/scope_guard.h	/^        void Execute() $/;"	f	class:ac::ObjScopeGuardImpl2
+Execute	ac/util/scope_guard.h	/^        void Execute() $/;"	f	class:ac::ObjScopeGuardImpl3
+Execute	ac/util/scope_guard.h	/^        void Execute() $/;"	f	class:ac::ScopeGuardImpl0
+Execute	ac/util/scope_guard.h	/^        void Execute()$/;"	f	class:ac::ScopeGuardImpl1
+Execute	ac/util/scope_guard.h	/^        void Execute()$/;"	f	class:ac::ScopeGuardImpl2
+Execute	ac/util/scope_guard.h	/^        void Execute()$/;"	f	class:ac::ScopeGuardImpl3
+Execute	ac/util/scope_guard.h	/^        void Execute()$/;"	f	class:ac::ScopeGuardImpl4
+Execute	ac/util/scope_guard.h	/^        void Execute()$/;"	f	class:ac::ScopeGuardImpl5
+F	ac/util/md5.c	105;"	d	file:
+F	ac/util/md5.c	107;"	d	file:
+F	ac/util/md5.c	126;"	d	file:
+F	ac/util/md5.c	128;"	d	file:
+F	ac/util/md5.c	147;"	d	file:
+F	ac/util/md5.c	149;"	d	file:
+F	ac/util/md5.c	168;"	d	file:
+F	ac/util/md5.c	86;"	d	file:
+FDEHINFO	network/reactor.h	/^		}FDEHINFO;$/;"	t	class:ac::EventHandlerSet
+FDEHInfo	network/reactor.h	/^			FDEHInfo() : isInuse(false){}$/;"	f	struct:ac::EventHandlerSet::FDEHInfo
+FDEHInfo	network/reactor.h	/^		typedef struct FDEHInfo$/;"	s	class:ac::EventHandlerSet
+FDEventHandler	network/eventhandler.h	/^			FDEventHandler()$/;"	f	class:ac::FDEventHandler
+FDEventHandler	network/eventhandler.h	/^			FDEventHandler(Reactor *pReactor)$/;"	f	class:ac::FDEventHandler
+FDEventHandler	network/eventhandler.h	/^	class FDEventHandler : virtual public EventHandler$/;"	c	namespace:ac
+Find	ac/xml/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttributeSet::Find( const char* name ) const$/;"	f	class:TiXmlAttributeSet
+Find	ac/xml/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttributeSet::Find( const std::string& name ) const$/;"	f	class:TiXmlAttributeSet
+Find	ac/xml/tinyxml.h	/^	TiXmlAttribute*	Find( const char* _name ) {$/;"	f	class:TiXmlAttributeSet
+Find	ac/xml/tinyxml.h	/^	TiXmlAttribute*	Find( const std::string& _name ) {$/;"	f	class:TiXmlAttributeSet
+First	ac/xml/tinyxml.h	/^	TiXmlAttribute* First()					{ return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }$/;"	f	class:TiXmlAttributeSet
+First	ac/xml/tinyxml.h	/^	const TiXmlAttribute* First()	const	{ return ( sentinel.next == &sentinel ) ? 0 : sentinel.next; }$/;"	f	class:TiXmlAttributeSet
+FirstAttribute	ac/xml/tinyxml.h	/^	TiXmlAttribute* FirstAttribute() 				{ return attributeSet.First(); }$/;"	f	class:TiXmlElement
+FirstAttribute	ac/xml/tinyxml.h	/^	const TiXmlAttribute* FirstAttribute() const	{ return attributeSet.First(); }		\/\/\/< Access the first attribute in this element.$/;"	f	class:TiXmlElement
+FirstChild	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChild( const char * value ) const$/;"	f	class:TiXmlHandle
+FirstChild	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChild() const$/;"	f	class:TiXmlHandle
+FirstChild	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::FirstChild( const char * _value ) const$/;"	f	class:TiXmlNode
+FirstChild	ac/xml/tinyxml.h	/^	TiXmlHandle FirstChild( const std::string& _value ) const				{ return FirstChild( _value.c_str() ); }$/;"	f	class:TiXmlHandle
+FirstChild	ac/xml/tinyxml.h	/^	TiXmlNode* FirstChild( const char * _value ) {$/;"	f	class:TiXmlNode
+FirstChild	ac/xml/tinyxml.h	/^	TiXmlNode* FirstChild( const std::string& _value )				{	return FirstChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChild	ac/xml/tinyxml.h	/^	TiXmlNode* FirstChild()						{ return firstChild; }$/;"	f	class:TiXmlNode
+FirstChild	ac/xml/tinyxml.h	/^	const TiXmlNode* FirstChild( const std::string& _value ) const	{	return FirstChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChild	ac/xml/tinyxml.h	/^	const TiXmlNode* FirstChild()	const		{ return firstChild; }	\/\/\/< The first child of this node. Will be null if there are no children.$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChildElement( const char * value ) const$/;"	f	class:TiXmlHandle
+FirstChildElement	ac/xml/tinyxml.cpp	/^TiXmlHandle TiXmlHandle::FirstChildElement() const$/;"	f	class:TiXmlHandle
+FirstChildElement	ac/xml/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::FirstChildElement( const char * _value ) const$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::FirstChildElement() const$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.h	/^	TiXmlElement* FirstChildElement( const char * _value ) {$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.h	/^	TiXmlElement* FirstChildElement( const std::string& _value )				{	return FirstChildElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.h	/^	TiXmlElement* FirstChildElement() {$/;"	f	class:TiXmlNode
+FirstChildElement	ac/xml/tinyxml.h	/^	TiXmlHandle FirstChildElement( const std::string& _value ) const		{ return FirstChildElement( _value.c_str() ); }$/;"	f	class:TiXmlHandle
+FirstChildElement	ac/xml/tinyxml.h	/^	const TiXmlElement* FirstChildElement( const std::string& _value ) const	{	return FirstChildElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+Flush	ac/util/compositestream.h	/^	void Flush()$/;"	f	class:ac::CompositeWriteStream
+Flush	ac/util/protocolstream.cpp	/^void BinaryWriteStream::Flush()$/;"	f	class:ac::BinaryWriteStream
+Flush	ac/util/protocolstream.cpp	/^void TextWriteStream2::Flush()$/;"	f	class:ac::TextWriteStream2
+Flush	ac/util/protocolstream.cpp	/^void TextWriteStream::Flush()$/;"	f	class:ac::TextWriteStream
+FormatDate	ac/log/logpriority.cpp	/^static int FormatDate(string & s)$/;"	f	namespace:ac	file:
+FormatFile	ac/log/logpriority.cpp	/^static int FormatFile(const char * File, string & s)$/;"	f	namespace:ac	file:
+FormatLine	ac/log/logpriority.cpp	/^static int FormatLine(int iLine, string & s)$/;"	f	namespace:ac	file:
+FormatLog	ac/log/logpriority.cpp	/^std::string FormatLog(const std::string & sFormat, LogPriority iLogPriority, const char * szFile, int iLine, const char * szFunction, const char * szFmt, ...)$/;"	f	namespace:ac
+FormatPriority	ac/log/logpriority.cpp	/^static int FormatPriority(LogPriority iLogPriority, string & s)$/;"	f	namespace:ac	file:
+FormatProcessID	ac/log/logpriority.cpp	/^static int FormatProcessID(string & s)$/;"	f	namespace:ac	file:
+FormatThreadID	ac/log/logpriority.cpp	/^static int FormatThreadID(string & s)$/;"	f	namespace:ac	file:
+GET_UINT32	ac/util/md5.c	26;"	d	file:
+Get	network/counter.h	/^			ClientSocketBase* Get(int id)$/;"	f	class:ac::ClientMap
+Get	network/counter.h	/^			inline int Get(){$/;"	f	class:ac::Counter
+GetAuthInfoFromStream	stockserver/netproxy.cpp	/^int GetAuthInfoFromStream(BinaryReadStream *stream,char *user,size_t &userlen,char *passwd,size_t &passwdlen)$/;"	f
+GetBlocking	network/socket.cpp	/^int Socket::GetBlocking(bool& blocking)$/;"	f	class:ac::Socket
+GetBuf	ac/util/data_block.h	/^	char* GetBuf() const {return m_buf;}$/;"	f	class:ac::DataBlock
+GetBuf	network/package.h	/^			char *GetBuf() const {return m_db.GetBuf();}$/;"	f	class:ac::PackageBase
+GetBuflen	network/package.h	/^			size_t GetBuflen() const {return m_db.GetPos();}$/;"	f	class:ac::PackageBase
+GetCacheServer	stockserver/netproxy.cpp	/^BackClientSocket* NetProxy::GetCacheServer(char* key)$/;"	f	class:NetProxy
+GetCacheServerBymd5	stockserver/netproxy.cpp	/^BackClientSocket* NetProxy::GetCacheServerBymd5(char* keymd5)$/;"	f	class:NetProxy
+GetChar	ac/xml/tinyxml.h	/^	inline static const char* GetChar( const char* p, char* _value, int* length, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+GetClientID	network/eventhandler.h	/^                        int GetClientID(){return m_id;}$/;"	f	class:ac::FDEventHandler
+GetClientID	network/package.h	/^			int GetClientID() const {return m_clientid;}$/;"	f	class:ac::PackageBase2
+GetCurrent	ac/util/compositestream.h	/^	virtual char* GetCurrent() const$/;"	f	class:ac::CompositeWriteStream
+GetCurrent	ac/util/protocolstream.h	/^	virtual char* GetCurrent() const$/;"	f	class:ac::BinaryWriteStream
+GetCurrent	ac/util/protocolstream.h	/^	virtual char* GetCurrent() const$/;"	f	class:ac::TextWriteStream
+GetCurrent	ac/util/protocolstream.h	/^	virtual char* GetCurrent() const$/;"	f	class:ac::TextWriteStream2
+GetDBServer	stockserver/netproxy.cpp	/^BackClientSocket* NetProxy::GetDBServer(char *key)$/;"	f	class:NetProxy
+GetData	ac/util/compositestream.h	/^	virtual const char* GetData() const$/;"	f	class:ac::CompositeWriteStream
+GetData	ac/util/protocolstream.cpp	/^const char* BinaryReadStream::GetData() const$/;"	f	class:ac::BinaryReadStream
+GetData	ac/util/protocolstream.cpp	/^const char* BinaryWriteStream::GetData() const$/;"	f	class:ac::BinaryWriteStream
+GetData	ac/util/protocolstream.cpp	/^const char* TextReadStream2::GetData() const$/;"	f	class:ac::TextReadStream2
+GetData	ac/util/protocolstream.cpp	/^const char* TextReadStream::GetData() const$/;"	f	class:ac::TextReadStream
+GetData	ac/util/protocolstream.cpp	/^const char* TextWriteStream2::GetData() const$/;"	f	class:ac::TextWriteStream2
+GetData	ac/util/protocolstream.cpp	/^const char* TextWriteStream::GetData() const$/;"	f	class:ac::TextWriteStream
+GetDestroyCallback	ac/util/destroyable.h	/^	inline DestroyCallback * GetDestroyCallback() const$/;"	f	class:ac::Destroyable
+GetDocument	ac/xml/tinyxml.cpp	/^const TiXmlDocument* TiXmlNode::GetDocument() const$/;"	f	class:TiXmlNode
+GetDocument	ac/xml/tinyxml.h	/^	TiXmlDocument* GetDocument() {$/;"	f	class:TiXmlNode
+GetEntity	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlBase::GetEntity( const char* p, char* value, int* length, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+GetEnv	ac/bdb/bdbenv.h	/^			inline DB_ENV* GetEnv() const {return m_Env;}$/;"	f	class:ac::BdbEnv
+GetFD	ac/util/notify.h	/^	int GetFD(){ return m_fd; }$/;"	f	class:ac::SocketNotification
+GetFD	network/eventhandler.h	/^			int GetFD() const {$/;"	f	class:ac::FDEventHandler
+GetFDEventHandler	network/reactor.cpp	/^	FDEventHandler* EventHandlerSet::GetFDEventHandler(int fd,int *flag,int isupdatetime)$/;"	f	class:ac::EventHandlerSet
+GetFormat	ac/log/logger.h	/^	inline const std::string & GetFormat() const { return sLogFormat_; }$/;"	f	class:ac::Logger
+GetHandle	network/socket.h	/^	Handle GetHandle() const { return handle; }$/;"	f	class:ac::Socket
+GetInfo	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::GetInfo(void *keybuf,int keylen,void *valuebuf,int &valuelen)$/;"	f	class:ac::Bdb_UK
+GetInfo	ac/nouse/TBdbHashQueue.cpp	/^int TBdbHashQueue::GetInfo(void* buf, int& len)$/;"	f	class:TBdbHashQueue
+GetInfo	ac/nouse/TBdb_Queue.cpp	/^int TBdb_Queue::GetInfo(\/*void *keybuf,int &keylen,*\/void *valuebuf,int &valuelen)$/;"	f	class:TBdb_Queue
+GetInfo	network/netapp.h	/^			void GetInfo(char* str)$/;"	f	class:ac::NetApp
+GetInfo	network/reactor.h	/^			void GetInfo(char *str)$/;"	f	class:ac::EventHandlerSet
+GetInfo	network/reactor.h	/^			void GetInfo(char *str){m_Set.GetInfo(str);}$/;"	f	class:ac::EPReactor
+GetInfo	stockserver/netproxy.h	/^		void GetInfo(char* str)$/;"	f	class:NetProxy
+GetLogFileName	ac/log/datefilelogger.cpp	/^string DateFileLogger::GetLogFileName()$/;"	f	class:ac::DateFileLogger
+GetLogPriorityDesc	ac/log/logpriority.cpp	/^static const char * GetLogPriorityDesc(LogPriority lp)$/;"	f	namespace:ac	file:
+GetLogger	ac/log/logdispatcher.cpp	/^Logger * LogDispatcher::GetLogger(LogPriority iPriority)$/;"	f	class:ac::LogDispatcher
+GetMap	network/counter.h	/^			hash_map<int,ClientSocketBase*>* GetMap(){$/;"	f	class:ac::ClientMap
+GetMapForTMPackage	stockserver/netproxy.h	/^		hash_map<int,TMPackage*>* GetMapForTMPackage(){$/;"	f	class:NetProxy
+GetNotification	ac/util/queue.h	/^	Notification* GetNotification() { return this->notify; }$/;"	f	class:ac::Queue
+GetPos	ac/util/data_block.h	/^	size_t GetPos() const {return m_pos;}$/;"	f	class:ac::DataBlock
+GetQueueBlockSize	ac/util/circle_queue.h	/^	inline static size_t GetQueueBlockSize()$/;"	f	class:ac::CircleQueue
+GetRB	network/clientsocket.h	/^			DataBlock* GetRB(){return &m_recvdata;}$/;"	f	class:ac::ClientSocketBase
+GetReactor	network/eventhandler.h	/^			Reactor* GetReactor(){return m_pReactor;}$/;"	f	class:ac::EventHandler
+GetResult	ac/util/protocolstream.cpp	/^int GetResult(BinaryReadStream *stream,int &col,int &field,ResultSet *resultset)$/;"	f	namespace:ac
+GetResult	network/package.h	/^			int GetResult() const {return m_result;}$/;"	f	class:ac::ResultPackage
+GetSeq	ac/nouse/TBdbSeq.cpp	/^int TBdbSeq::GetSeq(db_seq_t* seq)$/;"	f	class:TBdbSeq
+GetSize	ac/util/circle_queue.cpp	/^size_t CircleQueue::GetSize() const$/;"	f	class:ac::CircleQueue
+GetSize	ac/util/circle_queue_4_type.h	/^	virtual size_t GetSize() const$/;"	f	class:ac::CircleQueue4Type
+GetSize	ac/util/compositestream.h	/^	virtual size_t GetSize() const$/;"	f	class:ac::CompositeWriteStream
+GetSize	ac/util/protocolstream.cpp	/^size_t BinaryReadStream::GetSize() const$/;"	f	class:ac::BinaryReadStream
+GetSize	ac/util/protocolstream.cpp	/^size_t BinaryWriteStream::GetSize() const$/;"	f	class:ac::BinaryWriteStream
+GetSize	ac/util/protocolstream.cpp	/^size_t TextReadStream2::GetSize() const$/;"	f	class:ac::TextReadStream2
+GetSize	ac/util/protocolstream.cpp	/^size_t TextReadStream::GetSize() const$/;"	f	class:ac::TextReadStream
+GetSize	ac/util/protocolstream.cpp	/^size_t TextWriteStream2::GetSize() const$/;"	f	class:ac::TextWriteStream2
+GetSize	ac/util/protocolstream.cpp	/^size_t TextWriteStream::GetSize() const$/;"	f	class:ac::TextWriteStream
+GetSize	ac/util/queue.h	/^	virtual size_t GetSize() const$/;"	f	class:ac::SyncQueue
+GetStockClient	stockserver/netproxy.h	/^		StockClient* GetStockClient(int id){$/;"	f	class:NetProxy
+GetStockInfo	stockserver/stockdata.h	/^		STOCKINFO* GetStockInfo(string stockid)$/;"	f	class:StockData
+GetTMPackage	stockserver/netproxy.h	/^		TMPackage* GetTMPackage(int timerid){$/;"	f	class:NetProxy
+GetText	ac/xml/tinyxml.cpp	/^const char* TiXmlElement::GetText() const$/;"	f	class:TiXmlElement
+GetThreadID	ac/util/thread.h	/^	inline pthread_t GetThreadID() const { return hdl; }$/;"	f	class:ac::Thread
+GetThreadNum	ac/util/threadpool.cpp	/^size_t ThreadPool::GetThreadNum()$/;"	f	class:ac::ThreadPool
+GetTimeOut	stockserver/stockclient.h	/^		int GetTimeOut() const{$/;"	f	class:TMPackage
+GetTimeout	network/clientsocket.h	/^			int GetTimeout() const {return m_timeout;}$/;"	f	class:ac::ClientSocketBase
+GetTimerID	network/eventhandler.h	/^			int GetTimerID(){return m_id;}$/;"	f	class:ac::TMEventHandler
+GetType	stockserver/stockclient.h	/^		int GetType() const{$/;"	f	class:TMPackage
+GetUserAuthSql	stockserver/netproxy.cpp	/^void GetUserAuthSql(char* sql,char* user)$/;"	f
+GetUserData	ac/xml/tinyxml.h	/^	const void* GetUserData() const 		{ return userData; }	\/\/\/< Get a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+GetUserData	ac/xml/tinyxml.h	/^	void* GetUserData()						{ return userData; }	\/\/\/< Get a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+GetWB	network/clientsocket.h	/^			DataBlock* GetWB(){return &m_senddata;}$/;"	f	class:ac::ClientSocketBase
+Get_isAuth	stockserver/stockclient.h	/^		bool Get_isAuth() const{return m_isAuth;}$/;"	f	class:StockClient
+Getip	network/clientsocket.h	/^			char* Getip(){$/;"	f	class:ac::BackClientSocketBase
+Getport	network/clientsocket.h	/^			int Getport() const{$/;"	f	class:ac::BackClientSocketBase
+HEADER_LEN_2	network/datadecoder.h	/^		HEADER_LEN_2 = 2,$/;"	e	enum:ac::<anonymous>
+HEADER_LEN_4	network/datadecoder.h	/^		HEADER_LEN_4 = 4,$/;"	e	enum:ac::<anonymous>
+HEADER_LEN_6	network/datadecoder.h	/^		HEADER_LEN_6 = 6,$/;"	e	enum:ac::<anonymous>
+Handle	ac/util/handle.h	/^	Handle(int hdl_ = -1)$/;"	f	struct:ac::Handle
+Handle	ac/util/handle.h	/^struct Handle$/;"	s	namespace:ac
+Identify	ac/xml/tinyxmlparser.cpp	/^TiXmlNode* TiXmlNode::Identify( const char* p, TiXmlEncoding encoding )$/;"	f	class:TiXmlNode
+IncreaseObjects	ac/util/objectpool.h	/^	int IncreaseObjects(size_t iIncNum)$/;"	f	class:ac::ObjectPoolAllocator
+Indent	ac/xml/tinyxml.h	/^	const char* Indent()							{ return indent.c_str(); }$/;"	f	class:TiXmlPrinter
+Init	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::Init(BdbEnv *env,const char *bdbfilename,const char* database,DBTYPE dbtype,int type)$/;"	f	class:ac::Bdb_UK
+Init	ac/bdb/bdbenv.cpp	/^	int BdbEnv::Init(const char *bdbenvfolder,const char *bdbfolder,int bdbcachesize_gb,int bdbcachesize_b,int flag,int lock_times)$/;"	f	class:ac::BdbEnv
+Init	ac/nouse/TBdbHashQueue.cpp	/^int TBdbHashQueue::Init(TBdbEnv* env, const char* dbfile)$/;"	f	class:TBdbHashQueue
+Init	ac/nouse/TBdbSeq.cpp	/^int TBdbSeq::Init(TBdb_UK *db)$/;"	f	class:TBdbSeq
+Init	ac/nouse/TBdb_Queue.cpp	/^int TBdb_Queue::Init(TBdbEnv *env,char *bdbfilename,int recordlen)$/;"	f	class:TBdb_Queue
+Init	network/reactor.cpp	/^	int EPReactor::Init()$/;"	f	class:ac::EPReactor
+InitPos	ac/util/data_block.h	/^	void InitPos() {m_pos = 0;}$/;"	f	class:ac::DataBlock
+InsertAfterChild	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertAfterChild( TiXmlNode* afterThis, const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+InsertBeforeChild	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertBeforeChild( TiXmlNode* beforeThis, const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+InsertEndChild	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlNode::InsertEndChild( const TiXmlNode& addThis )$/;"	f	class:TiXmlNode
+Instance	ac/log/logdispatcher.cpp	/^LogDispatcher * LogDispatcher::Instance()$/;"	f	class:ac::LogDispatcher
+Instance	ac/log/nulllogger.cpp	/^NullLogger * NullLogger::Instance()$/;"	f	class:ac::NullLogger
+Instance	ac/util/allocator.cpp	/^Allocator * Allocator::Instance()$/;"	f	class:ac::Allocator
+Instance	ac/util/allocator.cpp	/^MallocAllocator * MallocAllocator::Instance()$/;"	f	class:ac::MallocAllocator
+Instance	ac/util/allocator.cpp	/^NewAllocator * NewAllocator::Instance()$/;"	f	class:ac::NewAllocator
+Instance	ac/util/mutex.cpp	/^NullMutex * NullMutex::Instance()$/;"	f	class:ac::NullMutex
+IntValue	ac/xml/tinyxml.cpp	/^int TiXmlAttribute::IntValue() const$/;"	f	class:TiXmlAttribute
+IsAlive	ac/util/thread.h	/^	inline bool IsAlive() const { return alive; }$/;"	f	class:ac::Thread
+IsAlpha	ac/xml/tinyxmlparser.cpp	/^\/*static*\/ int TiXmlBase::IsAlpha( unsigned char anyByte, TiXmlEncoding \/*encoding*\/ )$/;"	f	class:TiXmlBase
+IsAlphaNum	ac/xml/tinyxmlparser.cpp	/^\/*static*\/ int TiXmlBase::IsAlphaNum( unsigned char anyByte, TiXmlEncoding \/*encoding*\/ )$/;"	f	class:TiXmlBase
+IsEmpty	ac/util/circle_queue.h	/^	inline bool IsEmpty() const  { return queue_->wr_ptr==queue_->rd_ptr; }$/;"	f	class:ac::CircleQueue
+IsEmpty	ac/util/protocolstream.cpp	/^bool BinaryReadStream::IsEmpty() const$/;"	f	class:ac::BinaryReadStream
+IsEmpty	ac/util/protocolstream.cpp	/^bool TextReadStream2::IsEmpty() const$/;"	f	class:ac::TextReadStream2
+IsEmpty	ac/util/protocolstream.cpp	/^bool TextReadStream::IsEmpty() const$/;"	f	class:ac::TextReadStream
+IsEnd	ac/util/protocolstream.cpp	/^bool BinaryReadStream::IsEnd() const$/;"	f	class:ac::BinaryReadStream
+IsEnd	ac/util/protocolstream.cpp	/^bool TextReadStream2::IsEnd() const$/;"	f	class:ac::TextReadStream2
+IsEnd	ac/util/protocolstream.cpp	/^bool TextReadStream::IsEnd() const$/;"	f	class:ac::TextReadStream
+IsFull	ac/util/circle_queue.cpp	/^bool CircleQueue::IsFull(size_t wr_len) const$/;"	f	class:ac::CircleQueue
+IsInit	ac/util/circle_queue.h	/^	inline bool IsInit() const { return queue_; }$/;"	f	class:ac::CircleQueue
+IsInit	ac/util/objectpool.h	/^	inline bool IsInit() const { return iCurrNum_>0; }$/;"	f	class:ac::ObjectPoolAllocator
+IsLocked	ac/util/mutex.h	/^	bool IsLocked() const$/;"	f	class:ac::LockGuard
+IsLocked	ac/util/rw_mutex.h	/^	bool IsLocked() const$/;"	f	class:ac::RLockGuard
+IsLocked	ac/util/rw_mutex.h	/^	bool IsLocked() const$/;"	f	class:ac::WLockGuard
+IsValid	ac/util/compositestream.h	/^	virtual bool IsValid() const$/;"	f	class:ac::CompositeWriteStream
+IsValid	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::IsValid() const$/;"	f	class:ac::BinaryWriteStream
+IsValid	ac/util/protocolstream.cpp	/^bool TextWriteStream2::IsValid() const$/;"	f	class:ac::TextWriteStream2
+IsValid	ac/util/protocolstream.cpp	/^bool TextWriteStream::IsValid() const$/;"	f	class:ac::TextWriteStream
+IsWhiteSpace	ac/xml/tinyxml.h	/^	inline static bool IsWhiteSpace( char c )		$/;"	f	class:TiXmlBase
+IsWhiteSpace	ac/xml/tinyxml.h	/^	inline static bool IsWhiteSpace( int c )$/;"	f	class:TiXmlBase
+IsWhiteSpaceCondensed	ac/xml/tinyxml.h	/^	static bool IsWhiteSpaceCondensed()						{ return condenseWhiteSpace; }$/;"	f	class:TiXmlBase
+IterateChildren	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::IterateChildren( const TiXmlNode* previous ) const$/;"	f	class:TiXmlNode
+IterateChildren	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::IterateChildren( const char * val, const TiXmlNode* previous ) const$/;"	f	class:TiXmlNode
+IterateChildren	ac/xml/tinyxml.h	/^	TiXmlNode* IterateChildren( const TiXmlNode* previous ) {$/;"	f	class:TiXmlNode
+IterateChildren	ac/xml/tinyxml.h	/^	TiXmlNode* IterateChildren( const char * _value, const TiXmlNode* previous ) {$/;"	f	class:TiXmlNode
+IterateChildren	ac/xml/tinyxml.h	/^	TiXmlNode* IterateChildren( const std::string& _value, const TiXmlNode* previous ) {	return IterateChildren (_value.c_str (), previous);	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+IterateChildren	ac/xml/tinyxml.h	/^	const TiXmlNode* IterateChildren( const std::string& _value, const TiXmlNode* previous ) const	{	return IterateChildren (_value.c_str (), previous);	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+JobThread	ac/util/threadpool.cpp	/^JobThread::JobThread(ThreadPool* pool_)$/;"	f	class:ac::JobThread
+JobThread	ac/util/threadpool.cpp	/^class JobThread : public Thread$/;"	c	namespace:ac	file:
+Join	ac/util/thread.cpp	/^void Thread::Join()$/;"	f	class:ac::Thread
+LP_AC_ALL	ac/log/logpriority.h	/^        LP_AC_ALL = (LP_AC_CRITICAL -1) | LP_AC_MAX,$/;"	e	enum:ac::<anonymous>
+LP_AC_CRITICAL	ac/log/logpriority.h	/^        LP_AC_CRITICAL  =   LP_BASE << 6,$/;"	e	enum:ac::LogPriority
+LP_AC_DEBUG	ac/log/logpriority.h	/^        LP_AC_DEBUG       = LP_BASE << 2,$/;"	e	enum:ac::LogPriority
+LP_AC_ERROR	ac/log/logpriority.h	/^        LP_AC_ERROR       =   LP_BASE << 5,$/;"	e	enum:ac::LogPriority
+LP_AC_INFO	ac/log/logpriority.h	/^        LP_AC_INFO          = LP_BASE << 3,$/;"	e	enum:ac::LogPriority
+LP_AC_MAX	ac/log/logpriority.h	/^        LP_AC_MAX = LP_AC_CRITICAL,$/;"	e	enum:ac::<anonymous>
+LP_AC_TRACE	ac/log/logpriority.h	/^        LP_AC_TRACE        = LP_BASE << 1,          $/;"	e	enum:ac::LogPriority
+LP_AC_WARNING	ac/log/logpriority.h	/^        LP_AC_WARNING   =  LP_BASE << 4,$/;"	e	enum:ac::LogPriority
+LP_ALL	ac/log/logpriority.h	/^        LP_ALL = ( LP_MAX - 1 ) | LP_MAX$/;"	e	enum:ac::<anonymous>
+LP_BASE	ac/log/logpriority.h	/^        LP_BASE          =  1,$/;"	e	enum:ac::LogPriority
+LP_CRITICAL	ac/log/logpriority.h	/^        LP_CRITICAL  =   LP_BASE << 14,$/;"	e	enum:ac::LogPriority
+LP_DEBUG	ac/log/logpriority.h	/^        LP_DEBUG       = LP_BASE << 8,$/;"	e	enum:ac::LogPriority
+LP_ERROR	ac/log/logpriority.h	/^        LP_ERROR       =   LP_BASE << 13,$/;"	e	enum:ac::LogPriority
+LP_INFO	ac/log/logpriority.h	/^        LP_INFO          = LP_BASE << 9,$/;"	e	enum:ac::LogPriority
+LP_MAX	ac/log/logpriority.h	/^        LP_MAX = LP_CRITICAL,$/;"	e	enum:ac::<anonymous>
+LP_TRACE	ac/log/logpriority.h	/^        LP_TRACE        = LP_BASE << 7,          $/;"	e	enum:ac::LogPriority
+LP_USER1	ac/log/logpriority.h	/^        LP_USER1        = LP_BASE << 10,$/;"	e	enum:ac::LogPriority
+LP_USER2	ac/log/logpriority.h	/^        LP_USER2        = LP_BASE << 11,$/;"	e	enum:ac::LogPriority
+LP_WARNING	ac/log/logpriority.h	/^        LP_WARNING   =  LP_BASE << 12,$/;"	e	enum:ac::LogPriority
+Last	ac/xml/tinyxml.h	/^	TiXmlAttribute* Last()					{ return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }$/;"	f	class:TiXmlAttributeSet
+Last	ac/xml/tinyxml.h	/^	const TiXmlAttribute* Last() const		{ return ( sentinel.prev == &sentinel ) ? 0 : sentinel.prev; }$/;"	f	class:TiXmlAttributeSet
+LastAttribute	ac/xml/tinyxml.h	/^	TiXmlAttribute* LastAttribute()					{ return attributeSet.Last(); }$/;"	f	class:TiXmlElement
+LastAttribute	ac/xml/tinyxml.h	/^	const TiXmlAttribute* LastAttribute()	const 	{ return attributeSet.Last(); }		\/\/\/< Access the last attribute in this element.$/;"	f	class:TiXmlElement
+LastChild	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::LastChild( const char * _value ) const$/;"	f	class:TiXmlNode
+LastChild	ac/xml/tinyxml.h	/^	TiXmlNode* LastChild( const char * _value ) {$/;"	f	class:TiXmlNode
+LastChild	ac/xml/tinyxml.h	/^	TiXmlNode* LastChild( const std::string& _value )				{	return LastChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+LastChild	ac/xml/tinyxml.h	/^	TiXmlNode* LastChild()	{ return lastChild; }$/;"	f	class:TiXmlNode
+LastChild	ac/xml/tinyxml.h	/^	const TiXmlNode* LastChild( const std::string& _value ) const	{	return LastChild (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+LastChild	ac/xml/tinyxml.h	/^	const TiXmlNode* LastChild() const	{ return lastChild; }		\/\/\/ The last child of this node. Will be null if there are no children.$/;"	f	class:TiXmlNode
+LineBreak	ac/xml/tinyxml.h	/^	const char* LineBreak()							{ return lineBreak.c_str(); }$/;"	f	class:TiXmlPrinter
+LinkEndChild	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlNode::LinkEndChild( TiXmlNode* node )$/;"	f	class:TiXmlNode
+Listen	network/listensocket.cpp	/^	int ListenSocketBase::Listen()$/;"	f	class:ac::ListenSocketBase
+Listen	network/listensocket.cpp	/^	int UdpListenSocket::Listen()$/;"	f	class:ac::UdpListenSocket
+Listen	network/socket.cpp	/^int Socket::Listen(unsigned int backlog)$/;"	f	class:ac::Socket
+ListenSocket	network/listensocket.h	/^			ListenSocket(int port,Reactor *pReactor,ObjectAllocator<ClientSocket> * pObjectAllocator,Counter *pCounter,DataDecoderBase *pDecoder,ClientMap *pClientMap,int timeout = 3) :$/;"	f	class:ac::ListenSocket
+ListenSocket	network/listensocket.h	/^	class ListenSocket : public ListenSocketBase2,public ObjectManager<ClientSocket>$/;"	c	namespace:ac
+ListenSocketBase	network/listensocket.h	/^			ListenSocketBase(int port,Reactor *pReactor,int timeout = 3) :$/;"	f	class:ac::ListenSocketBase
+ListenSocketBase	network/listensocket.h	/^	class ListenSocketBase : public FDEventHandler$/;"	c	namespace:ac
+ListenSocketBase2	network/listensocket.h	/^			ListenSocketBase2(int port,Reactor *pReactor,Counter *pCounter,DataDecoderBase *pDecoder,ClientMap *pClientMap,int timeout = 3) : $/;"	f	class:ac::ListenSocketBase2
+ListenSocketBase2	network/listensocket.h	/^	class ListenSocketBase2 : public ListenSocketBase$/;"	c	namespace:ac
+LoadFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( FILE* file, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::LoadFile( const char* _filename, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+LoadFile	ac/xml/tinyxml.h	/^	bool LoadFile( const std::string& filename, TiXmlEncoding encoding = TIXML_DEFAULT_ENCODING )			\/\/\/< STL std::string version.$/;"	f	class:TiXmlDocument
+Lock	ac/util/mutex.h	/^	int Lock(bool block=true) const$/;"	f	class:ac::LockGuard
+Lock	ac/util/rw_mutex.h	/^	int Lock(bool block=true) const$/;"	f	class:ac::RLockGuard
+Lock	ac/util/rw_mutex.h	/^	int Lock(bool block=true) const$/;"	f	class:ac::WLockGuard
+LockGuard	ac/util/mutex.h	/^	LockGuard(const Mutex * mutex) : mutex_(mutex), acquired_(false) {}$/;"	f	class:ac::LockGuard
+LockGuard	ac/util/mutex.h	/^class LockGuard$/;"	c	namespace:ac
+Log	ac/log/datefilelogger.cpp	/^int DateFileLogger::Log(LogPriority , const string & sLogMsg)$/;"	f	class:ac::DateFileLogger
+Log	ac/log/logdispatcher.h	/^	inline int Log(LogPriority iPriority, const std::string & s)$/;"	f	class:ac::LogDispatcher
+Log	ac/log/nulllogger.h	/^	virtual int Log(LogPriority, const std::string &)$/;"	f	class:ac::NullLogger
+Log	ac/log/ostreamlogger.cpp	/^int OStreamLogger::Log(LogPriority , const std::string & s)$/;"	f	class:ac::OStreamLogger
+Log	ac/log/udplogger.cpp	/^int UdpLogger::Log(LogPriority, const std::string & s)$/;"	f	class:ac::UdpLogger
+LogDispatcher	ac/log/logdispatcher.cpp	/^LogDispatcher::LogDispatcher()$/;"	f	class:ac::LogDispatcher
+LogDispatcher	ac/log/logdispatcher.h	/^class LogDispatcher : public NonCopyable$/;"	c	namespace:ac
+LogPriorities	ac/log/logpriority.h	/^typedef long LogPriorities;$/;"	t	namespace:ac
+LogPriority	ac/log/logpriority.h	/^enum LogPriority$/;"	g	namespace:ac
+Logger	ac/log/logger.h	/^	Logger(const std::string & sLogFormat=DEFAULT_FORMAT) : sLogFormat_(sLogFormat) {}$/;"	f	class:ac::Logger
+Logger	ac/log/logger.h	/^class Logger$/;"	c	namespace:ac
+LoggerMap	ac/log/logdispatcher.h	/^	typedef std::map<LogPriority, Logger *> LoggerMap;$/;"	t	class:ac::LogDispatcher
+MAXCLIENTCOUNT	network/reactor.h	22;"	d
+MAXPACKCOUNT	network/reactor.h	23;"	d
+MAX_BLOCK_SIZE	ac/util/data_block.h	/^enum {DEFAULT_BLOCK_SIZE = 1024,MAX_BLOCK_SIZE = 65535\/*5242880 5M*\/};$/;"	e	enum:ac::<anonymous>
+MAX_ENTITY_LENGTH	ac/xml/tinyxml.h	/^		MAX_ENTITY_LENGTH = 6$/;"	e	enum:TiXmlBase::<anonymous>
+MYSQLDATAPROCESSOR_H_	bdbcache/bdbdataprocessor.h	2;"	d
+MYSQLDATAPROCESSOR_H_	mysqlproxy/mysqldataprocessor.h	2;"	d
+MYSQLDATAPROCESSOR_H_	mysqlproxy2/mysqldataprocessor.h	2;"	d
+MYSQLPROXYINFO	stockserver/serverconf.h	/^}MYSQLPROXYINFO;$/;"	t
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl0<F> MakeGuard(F fun)$/;"	f	class:ac::ScopeGuardImpl0
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl1<F, P1> MakeGuard(F fun, P1 p1)$/;"	f	class:ac::ScopeGuardImpl1
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl2<F, P1, P2> MakeGuard(F fun, P1 p1, P2 p2)$/;"	f	class:ac::ScopeGuardImpl2
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl3<F, P1, P2, P3> MakeGuard(F fun, P1 p1, P2 p2, P3 p3)$/;"	f	class:ac::ScopeGuardImpl3
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl4< F, P1, P2, P3, P4 > MakeGuard($/;"	f	class:ac::ScopeGuardImpl4
+MakeGuard	ac/util/scope_guard.h	/^        static ScopeGuardImpl5< F, P1, P2, P3, P4, P5 > MakeGuard($/;"	f	class:ac::ScopeGuardImpl5
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl0<F> MakeGuard(F fun)$/;"	f	namespace:ac
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl1<F, P1> MakeGuard(F fun, P1 p1)$/;"	f	namespace:ac
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl2<F, P1, P2> MakeGuard(F fun, P1 p1, P2 p2)$/;"	f	namespace:ac
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl3<F, P1, P2, P3> MakeGuard(F fun, P1 p1, P2 p2, P3 p3)$/;"	f	namespace:ac
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl4< F, P1, P2, P3, P4 > MakeGuard( F fun, P1 p1, P2 p2, P3 p3, P4 p4 )$/;"	f	namespace:ac
+MakeGuard	ac/util/scope_guard.h	/^    inline ScopeGuardImpl5< F, P1, P2, P3, P4, P5 > MakeGuard( F fun, P1 p1, P2 p2, P3 p3, P4 p4, P5 p5 )$/;"	f	namespace:ac
+MakeObjGuard	ac/util/scope_guard.h	/^        static ObjScopeGuardImpl0<Obj, MemFun> MakeObjGuard(Obj& obj, MemFun memFun)$/;"	f	class:ac::ObjScopeGuardImpl0
+MakeObjGuard	ac/util/scope_guard.h	/^        static ObjScopeGuardImpl1<Obj, MemFun, P1> MakeObjGuard(Obj& obj, MemFun memFun, P1 p1)$/;"	f	class:ac::ObjScopeGuardImpl1
+MakeObjGuard	ac/util/scope_guard.h	/^        static ObjScopeGuardImpl2<Obj, MemFun, P1, P2> MakeObjGuard(Obj& obj, MemFun memFun, P1 p1, P2 p2)$/;"	f	class:ac::ObjScopeGuardImpl2
+MakeObjGuard	ac/util/scope_guard.h	/^        static ObjScopeGuardImpl3< Obj, MemFun, P1, P2, P3 > MakeObjGuard($/;"	f	class:ac::ObjScopeGuardImpl3
+MakeObjGuard	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl0<Obj, MemFun> MakeObjGuard(Obj& obj, MemFun memFun)$/;"	f	namespace:ac
+MakeObjGuard	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl1<Obj, MemFun, P1> MakeObjGuard(Obj& obj, MemFun memFun, P1 p1)$/;"	f	namespace:ac
+MakeObjGuard	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl2<Obj, MemFun, P1, P2> MakeObjGuard(Obj& obj, MemFun memFun, P1 p1, P2 p2)$/;"	f	namespace:ac
+MakeObjGuard	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl3< Obj, MemFun, P1, P2, P3 > MakeObjGuard($/;"	f	namespace:ac
+MallocAllocator	ac/util/allocator.h	/^class MallocAllocator : public Allocator$/;"	c	namespace:ac
+Mutex	ac/util/mutex.h	/^class Mutex$/;"	c	namespace:ac
+MysqlConf	mysqlproxy/serverconf.h	/^class MysqlConf$/;"	c
+MysqlConf	mysqlproxy2/serverconf.h	/^class MysqlConf$/;"	c
+MysqlConf	unittest/serverconf.h	/^class MysqlConf$/;"	c
+MysqlDataProcessor	mysqlproxy/mysqldataprocessor.h	/^		MysqlDataProcessor(const char* mysqlip,int mysqlport,const char *mysqluser,const char *mysqlpass)$/;"	f	class:MysqlDataProcessor
+MysqlDataProcessor	mysqlproxy/mysqldataprocessor.h	/^class MysqlDataProcessor : public DataProcessor$/;"	c
+MysqlDataProcessor	mysqlproxy2/mysqldataprocessor.h	/^		MysqlDataProcessor(const char* mysqlip,int mysqlport,const char *mysqluser,const char *mysqlpass)$/;"	f	class:MysqlDataProcessor
+MysqlDataProcessor	mysqlproxy2/mysqldataprocessor.h	/^class MysqlDataProcessor : public DataProcessor$/;"	c
+MysqlProxyConf	stockserver/serverconf.h	/^class MysqlProxyConf$/;"	c
+NETPROXY_H_	stockserver/netproxy.h	2;"	d
+NUM_ENTITY	ac/xml/tinyxml.h	/^		NUM_ENTITY = 5,$/;"	e	enum:TiXmlBase::<anonymous>
+Name	ac/xml/tinyxml.h	/^	const char*		Name()  const		{ return name.c_str(); }		\/\/\/< Return the name of this attribute.$/;"	f	class:TiXmlAttribute
+NameTStr	ac/xml/tinyxml.h	/^	const TIXML_STRING& NameTStr() const { return name; }$/;"	f	class:TiXmlAttribute
+NetApp	network/netapp.h	/^			NetApp(int port,size_t maxclient,size_t maxqueuecount,size_t threadcount,DataProcessor *pDataProcessor,int pttype,size_t hdlen,int udpport,int timeout = 3) : $/;"	f	class:ac::NetApp
+NetApp	network/netapp.h	/^	class NetApp$/;"	c	namespace:ac
+NetProxy	stockserver/netproxy.h	/^		NetProxy(int port,size_t maxclient,int pttype,size_t hdlen,int udpport,MysqlProxyConf *mpconf,BdbProxyConf *bdbpconf,int timeout = 3) :$/;"	f	class:NetProxy
+NetProxy	stockserver/netproxy.h	/^class NetProxy$/;"	c
+NewAllocator	ac/util/allocator.h	/^class NewAllocator : public Allocator$/;"	c	namespace:ac
+Next	ac/xml/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttribute::Next() const$/;"	f	class:TiXmlAttribute
+Next	ac/xml/tinyxml.h	/^	TiXmlAttribute* Next() {$/;"	f	class:TiXmlAttribute
+NextSibling	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::NextSibling( const char * _value ) const $/;"	f	class:TiXmlNode
+NextSibling	ac/xml/tinyxml.h	/^	TiXmlNode* NextSibling( const char* _next ) {$/;"	f	class:TiXmlNode
+NextSibling	ac/xml/tinyxml.h	/^	TiXmlNode* NextSibling( const std::string& _value) 					{	return NextSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSibling	ac/xml/tinyxml.h	/^	TiXmlNode* NextSibling()							{ return next; }$/;"	f	class:TiXmlNode
+NextSibling	ac/xml/tinyxml.h	/^	const TiXmlNode* NextSibling( const std::string& _value) const		{	return NextSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSibling	ac/xml/tinyxml.h	/^	const TiXmlNode* NextSibling() const				{ return next; }$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::NextSiblingElement( const char * _value ) const$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.cpp	/^const TiXmlElement* TiXmlNode::NextSiblingElement() const$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.h	/^	TiXmlElement* NextSiblingElement( const char *_next ) {$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.h	/^	TiXmlElement* NextSiblingElement( const std::string& _value)				{	return NextSiblingElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.h	/^	TiXmlElement* NextSiblingElement() {$/;"	f	class:TiXmlNode
+NextSiblingElement	ac/xml/tinyxml.h	/^	const TiXmlElement* NextSiblingElement( const std::string& _value) const	{	return NextSiblingElement (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+NoChildren	ac/xml/tinyxml.h	/^	bool NoChildren() const						{ return !firstChild; }$/;"	f	class:TiXmlNode
+Node	ac/xml/tinyxml.h	/^	TiXmlNode* Node() const			{ return ToNode(); } $/;"	f	class:TiXmlHandle
+NodeType	ac/xml/tinyxml.h	/^	enum NodeType$/;"	g	class:TiXmlNode
+NonCopyable	ac/util/non_copyable.h	/^    NonCopyable() {}$/;"	f	class:ac::NonCopyable
+NonCopyable	ac/util/non_copyable.h	/^class NonCopyable$/;"	c	namespace:ac
+Notification	ac/util/notify.h	/^struct Notification$/;"	s	namespace:ac
+NullLogger	ac/log/nulllogger.h	/^class NullLogger : public Logger$/;"	c	namespace:ac
+NullMutex	ac/util/mutex.h	/^class NullMutex : public Mutex$/;"	c	namespace:ac
+OStreamLogger	ac/log/ostreamlogger.cpp	/^OStreamLogger::OStreamLogger(std::ostream & stream, const std::string & sLogFormat)$/;"	f	class:ac::OStreamLogger
+OStreamLogger	ac/log/ostreamlogger.h	/^class OStreamLogger : public Logger$/;"	c	namespace:ac
+ObjScopeGuardImpl0	ac/util/scope_guard.h	/^        ObjScopeGuardImpl0(Obj& obj, MemFun memFun) : obj_(obj), memFun_(memFun) $/;"	f	class:ac::ObjScopeGuardImpl0
+ObjScopeGuardImpl0	ac/util/scope_guard.h	/^    class ObjScopeGuardImpl0 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ObjScopeGuardImpl1	ac/util/scope_guard.h	/^        ObjScopeGuardImpl1(Obj& obj, MemFun memFun, P1 p1) : obj_(obj), memFun_(memFun), p1_(p1) $/;"	f	class:ac::ObjScopeGuardImpl1
+ObjScopeGuardImpl1	ac/util/scope_guard.h	/^    class ObjScopeGuardImpl1 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ObjScopeGuardImpl2	ac/util/scope_guard.h	/^        ObjScopeGuardImpl2(Obj& obj, MemFun memFun, P1 p1, P2 p2) : obj_(obj), memFun_(memFun), p1_(p1), p2_(p2) $/;"	f	class:ac::ObjScopeGuardImpl2
+ObjScopeGuardImpl2	ac/util/scope_guard.h	/^    class ObjScopeGuardImpl2 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ObjScopeGuardImpl3	ac/util/scope_guard.h	/^        ObjScopeGuardImpl3( Obj & obj, MemFun memFun, P1 p1, P2 p2, P3 p3 ) :$/;"	f	class:ac::ObjScopeGuardImpl3
+ObjScopeGuardImpl3	ac/util/scope_guard.h	/^    class ObjScopeGuardImpl3 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ObjectAllocator	ac/util/objectallocator.h	/^class ObjectAllocator$/;"	c	namespace:ac
+ObjectDefaultAllocator	ac/util/objectallocator.h	/^	ObjectDefaultAllocator(Allocator * pAllocator) : pAllocator_(pAllocator) {}$/;"	f	class:ac::ObjectDefaultAllocator
+ObjectDefaultAllocator	ac/util/objectallocator.h	/^class ObjectDefaultAllocator : public ObjectAllocator<T>$/;"	c	namespace:ac
+ObjectManager	ac/util/objectmanager.h	/^	ObjectManager(ObjectAllocator<T> * pObjectAllocator) $/;"	f	class:ac::ObjectManager
+ObjectManager	ac/util/objectmanager.h	/^class ObjectManager : public DestroyCallback$/;"	c	namespace:ac
+ObjectPoolAllocator	ac/util/objectpool.h	/^	ObjectPoolAllocator(size_t iInitNum, size_t iMaxNum=0, size_t iIncNum=0, Mutex * pMutex=NullMutex::Instance(), Allocator *pAllocator=Allocator::Instance())$/;"	f	class:ac::ObjectPoolAllocator
+ObjectPoolAllocator	ac/util/objectpool.h	/^class ObjectPoolAllocator : public ObjectAllocator<T>$/;"	c	namespace:ac
+Objects_	ac/util/objectpool.h	/^	std::list<T *>	Objects_;$/;"	m	class:ac::ObjectPoolAllocator
+OnAccept	network/listensocket.cpp	/^	void ListenSocketBase2::OnAccept(int fd)$/;"	f	class:ac::ListenSocketBase2
+OnFDRead	bdbcache/main.cpp	/^void UdpListenSocket::OnFDRead()$/;"	f	class:UdpListenSocket
+OnFDRead	mysqlproxy/main.cpp	/^void UdpListenSocket::OnFDRead()$/;"	f	class:UdpListenSocket
+OnFDRead	mysqlproxy2/main.cpp	/^void UdpListenSocket::OnFDRead()$/;"	f	class:UdpListenSocket
+OnFDRead	network/clientsocket.cpp	/^	void ClientSocketBase::OnFDRead()$/;"	f	class:ac::ClientSocketBase
+OnFDRead	network/listensocket.cpp	/^	void ListenSocketBase::OnFDRead()$/;"	f	class:ac::ListenSocketBase
+OnFDRead	network/resulteventhandler.cpp	/^	void ResultEventHandler::OnFDRead()$/;"	f	class:ac::ResultEventHandler
+OnFDRead	stockserver/main.cpp	/^void UdpListenSocket::OnFDRead()$/;"	f	class:UdpListenSocket
+OnFDRead	unittest/main.cpp	/^void UdpListenSocket::OnFDRead()$/;"	f	class:UdpListenSocket
+OnFDReadTimeOut	network/clientsocket.cpp	/^	void ClientSocketBase::OnFDReadTimeOut()$/;"	f	class:ac::ClientSocketBase
+OnFDReadTimeOut	network/listensocket.h	/^			virtual void OnFDReadTimeOut(){}$/;"	f	class:ac::ListenSocketBase
+OnFDReadTimeOut	network/listensocket.h	/^			virtual void OnFDReadTimeOut(){}$/;"	f	class:ac::UdpListenSocket
+OnFDReadTimeOut	network/resulteventhandler.h	/^		virtual void OnFDReadTimeOut(){};$/;"	f	class:ac::ResultEventHandler
+OnFDWrite	network/clientsocket.cpp	/^	void BackClientSocketBase::OnFDWrite()$/;"	f	class:ac::BackClientSocketBase
+OnFDWrite	network/clientsocket.cpp	/^	void ClientSocketBase::OnFDWrite()$/;"	f	class:ac::ClientSocketBase
+OnFDWrite	network/listensocket.h	/^			virtual void OnFDWrite(){}$/;"	f	class:ac::ListenSocketBase
+OnFDWrite	network/listensocket.h	/^			virtual void OnFDWrite(){}$/;"	f	class:ac::UdpListenSocket
+OnFDWrite	network/resulteventhandler.h	/^		virtual void OnFDWrite(){};$/;"	f	class:ac::ResultEventHandler
+OnFDWriteTimeOut	network/clientsocket.cpp	/^	void ClientSocketBase::OnFDWriteTimeOut()$/;"	f	class:ac::ClientSocketBase
+OnFDWriteTimeOut	network/listensocket.h	/^			virtual void OnFDWriteTimeOut(){}$/;"	f	class:ac::ListenSocketBase
+OnFDWriteTimeOut	network/listensocket.h	/^			virtual void OnFDWriteTimeOut(){}$/;"	f	class:ac::UdpListenSocket
+OnFDWriteTimeOut	network/resulteventhandler.h	/^		virtual void OnFDWriteTimeOut(){};$/;"	f	class:ac::ResultEventHandler
+OnPackage	network/datadecoder.cpp	/^	int DataDecoder_Q::OnPackage(ClientSocketBase *pClient,const char* buf,size_t buflen)$/;"	f	class:ac::DataDecoder_Q
+OnPackage	network/datadecoder.cpp	/^	int DataDecoder_helloworld::OnPackage(ClientSocketBase *pClient,const char* buf,size_t buflen)$/;"	f	class:ac::DataDecoder_helloworld
+OnPackage	stockserver/cachedatadecoder.cpp	/^int CacheDataDecoder::OnPackage(ClientSocketBase* \/*pClient*\/,const char* buf,size_t buflen)$/;"	f	class:CacheDataDecoder
+OnPackage	stockserver/clientdatadecoder.cpp	/^int ClientDataDecoder::OnPackage(ClientSocketBase *pClient,const char* buf,size_t buflen)$/;"	f	class:ClientDataDecoder
+OnPackage	stockserver/dbdatadecoder.cpp	/^int DBDataDecoder::OnPackage(ClientSocketBase* \/*pClient*\/,const char* buf,size_t buflen)$/;"	f	class:DBDataDecoder
+OnTimeOut	stockserver/stockclient.h	/^		void OnTimeOut()$/;"	f	class:TMPackage
+OnTimeOut	stockserver/stockclient.h	/^		void OnTimeOut(){}$/;"	f	class:StockClient
+P	ac/util/md5.c	76;"	d	file:
+PROTOCOLTYPE_BINARY	network/datadecoder.h	/^		PROTOCOLTYPE_BINARY,$/;"	e	enum:ac::<anonymous>
+PROTOCOLTYPE_TEXT	network/datadecoder.h	/^		PROTOCOLTYPE_TEXT = 1,$/;"	e	enum:ac::<anonymous>
+PTLCMD	stockserver/netproxy.h	/^enum PTLCMD$/;"	g
+PUT_UINT32	ac/util/md5.c	34;"	d	file:
+Package	network/package.h	/^	class Package : public PackageBase , public Destroyable$/;"	c	namespace:ac
+PackageBase	network/package.h	/^	class PackageBase : public PackageBase2$/;"	c	namespace:ac
+PackageBase2	network/package.h	/^	class PackageBase2 : public NonCopyable$/;"	c	namespace:ac
+Parent	ac/xml/tinyxml.h	/^	TiXmlNode* Parent()							{ return parent; }$/;"	f	class:TiXmlNode
+Parent	ac/xml/tinyxml.h	/^	const TiXmlNode* Parent() const				{ return parent; }$/;"	f	class:TiXmlNode
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlAttribute::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlAttribute
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlComment::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlComment
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlDeclaration::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding _encoding )$/;"	f	class:TiXmlDeclaration
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlDocument::Parse( const char* p, TiXmlParsingData* prevData, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlElement::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlElement
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlText::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlText
+Parse	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlUnknown::Parse( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlUnknown
+Pop	ac/util/circle_queue.cpp	/^ssize_t CircleQueue::Pop(void * data, size_t len, bool block)$/;"	f	class:ac::CircleQueue
+Pop	ac/util/queue.h	/^	int Pop(T& value, bool block=false)$/;"	f	class:ac::Queue
+PopImp	ac/util/circle_queue_4_type.h	/^	virtual int PopImp(T& value, bool block)$/;"	f	class:ac::CircleQueue4Type
+PopImp	ac/util/queue.h	/^	virtual int PopImp(T& value, bool block)$/;"	f	class:ac::SyncQueue
+Previous	ac/xml/tinyxml.cpp	/^const TiXmlAttribute* TiXmlAttribute::Previous() const$/;"	f	class:TiXmlAttribute
+Previous	ac/xml/tinyxml.h	/^	TiXmlAttribute* Previous() {$/;"	f	class:TiXmlAttribute
+PreviousSibling	ac/xml/tinyxml.cpp	/^const TiXmlNode* TiXmlNode::PreviousSibling( const char * _value ) const$/;"	f	class:TiXmlNode
+PreviousSibling	ac/xml/tinyxml.h	/^	TiXmlNode* PreviousSibling( const char *_prev ) {$/;"	f	class:TiXmlNode
+PreviousSibling	ac/xml/tinyxml.h	/^	TiXmlNode* PreviousSibling( const std::string& _value ) 			{	return PreviousSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+PreviousSibling	ac/xml/tinyxml.h	/^	TiXmlNode* PreviousSibling()						{ return prev; }$/;"	f	class:TiXmlNode
+PreviousSibling	ac/xml/tinyxml.h	/^	const TiXmlNode* PreviousSibling( const std::string& _value ) const	{	return PreviousSibling (_value.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlNode
+PreviousSibling	ac/xml/tinyxml.h	/^	const TiXmlNode* PreviousSibling() const			{ return prev; }$/;"	f	class:TiXmlNode
+Print	ac/log/stacktrace.cpp	/^void StackTrace::Print(size_t indent, const char* action, const char* file, size_t line, const char* func)$/;"	f	class:ac::StackTrace
+Print	ac/xml/tinyxml.cpp	/^void TiXmlAttribute::Print( FILE* cfile, int \/*depth*\/, TIXML_STRING* str ) const$/;"	f	class:TiXmlAttribute
+Print	ac/xml/tinyxml.cpp	/^void TiXmlComment::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlComment
+Print	ac/xml/tinyxml.cpp	/^void TiXmlDeclaration::Print( FILE* cfile, int \/*depth*\/, TIXML_STRING* str ) const$/;"	f	class:TiXmlDeclaration
+Print	ac/xml/tinyxml.cpp	/^void TiXmlDocument::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlDocument
+Print	ac/xml/tinyxml.cpp	/^void TiXmlElement::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlElement
+Print	ac/xml/tinyxml.cpp	/^void TiXmlText::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlText
+Print	ac/xml/tinyxml.cpp	/^void TiXmlUnknown::Print( FILE* cfile, int depth ) const$/;"	f	class:TiXmlUnknown
+Print	ac/xml/tinyxml.h	/^	virtual void Print( FILE* cfile, int depth ) const {$/;"	f	class:TiXmlAttribute
+Print	ac/xml/tinyxml.h	/^	virtual void Print( FILE* cfile, int depth ) const {$/;"	f	class:TiXmlDeclaration
+Print	ac/xml/tinyxml.h	/^	void Print() const						{ Print( stdout, 0 ); }$/;"	f	class:TiXmlDocument
+Process	bdbcache/bdbdataprocessor.cpp	/^int BDBDataProcessor::Process(const char *inbuf,size_t inbuflen,char *outbuf,size_t &outbuflen)$/;"	f	class:BDBDataProcessor
+Process	mysqlproxy/mysqldataprocessor.cpp	/^int MysqlDataProcessor::Process(const char *inbuf,size_t inbuflen,char *outbuf,size_t &outbuflen)$/;"	f	class:MysqlDataProcessor
+Process	mysqlproxy2/mysqldataprocessor.cpp	/^int MysqlDataProcessor::Process(const char *inbuf,size_t inbuflen,char *outbuf,size_t &outbuflen)$/;"	f	class:MysqlDataProcessor
+Process	network/datadecoder.cpp	/^	int DataDecoder::Process(ClientSocketBase *pClient)$/;"	f	class:ac::DataDecoder
+Process	network/datadecoder.cpp	/^	int DataDecoder_Q_echo::Process(ClientSocketBase *pClient)$/;"	f	class:ac::DataDecoder_Q_echo
+Process	network/datadecoder.cpp	/^	int DataDecoder_helloworld::Process(ClientSocketBase *pClient)$/;"	f	class:ac::DataDecoder_helloworld
+Process	network/dataprocessor.h	/^			virtual int Process(const char *inbuf,size_t inbuflen,char *outbuf,$/;"	f	class:ac::DataProcessor_Echo
+Push	ac/util/circle_queue.cpp	/^int CircleQueue::Push(const void * data, size_t len, bool block)$/;"	f	class:ac::CircleQueue
+Push	ac/util/queue.h	/^	int Push(const T& value)$/;"	f	class:ac::Queue
+PushImp	ac/util/circle_queue_4_type.h	/^	virtual int PushImp(const T& value)$/;"	f	class:ac::CircleQueue4Type
+PushImp	ac/util/queue.h	/^	virtual int PushImp(const T& value)$/;"	f	class:ac::SyncQueue
+Put	network/counter.h	/^			void Put(int id,ClientSocketBase *pClient)$/;"	f	class:ac::ClientMap
+PutInfo	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::PutInfo(void *keybuf,int keylen,void *valuebuf,int valuelen)$/;"	f	class:ac::Bdb_UK
+PutInfo	ac/nouse/TBdbHashQueue.cpp	/^int TBdbHashQueue::PutInfo(const void* buf, int len)$/;"	f	class:TBdbHashQueue
+PutInfo	ac/nouse/TBdb_Queue.cpp	/^int TBdb_Queue::PutInfo(\/*void *keybuf,int keylen,*\/void *valuebuf,int valuelen)$/;"	f	class:TBdb_Queue
+PutStockInfo	stockserver/stockdata.h	/^		void PutStockInfo(string stockid,STOCKINFO info)$/;"	f	class:StockData
+QueryDoubleAttribute	ac/xml/tinyxml.cpp	/^int TiXmlElement::QueryDoubleAttribute( const char* name, double* dval ) const$/;"	f	class:TiXmlElement
+QueryDoubleAttribute	ac/xml/tinyxml.cpp	/^int TiXmlElement::QueryDoubleAttribute( const std::string& name, double* dval ) const$/;"	f	class:TiXmlElement
+QueryDoubleValue	ac/xml/tinyxml.cpp	/^int TiXmlAttribute::QueryDoubleValue( double* dval ) const$/;"	f	class:TiXmlAttribute
+QueryFloatAttribute	ac/xml/tinyxml.h	/^	int QueryFloatAttribute( const char* name, float* _value ) const {$/;"	f	class:TiXmlElement
+QueryIntAttribute	ac/xml/tinyxml.cpp	/^int TiXmlElement::QueryIntAttribute( const char* name, int* ival ) const$/;"	f	class:TiXmlElement
+QueryIntAttribute	ac/xml/tinyxml.cpp	/^int TiXmlElement::QueryIntAttribute( const std::string& name, int* ival ) const$/;"	f	class:TiXmlElement
+QueryIntValue	ac/xml/tinyxml.cpp	/^int TiXmlAttribute::QueryIntValue( int* ival ) const$/;"	f	class:TiXmlAttribute
+QueryValueAttribute	ac/xml/tinyxml.h	/^	template< typename T > int QueryValueAttribute( const std::string& name, T* outValue ) const$/;"	f	class:TiXmlElement
+Queue	ac/util/queue.h	/^	Queue() : notify(0) {}$/;"	f	class:ac::Queue
+Queue	ac/util/queue.h	/^class Queue$/;"	c	namespace:ac
+QueueBlock	ac/util/circle_queue.h	/^	} QueueBlock;$/;"	t	class:ac::CircleQueue
+READMASK	test/main.cpp	49;"	d	file:
+REQUESTCOUNT	presstest/testbdbcache.cpp	20;"	d	file:
+REQUESTCOUNT	presstest/testclient.cpp	18;"	d	file:
+REQUESTCOUNT	presstest/testmysqlproxy.cpp	20;"	d	file:
+RLockGuard	ac/util/rw_mutex.h	/^	RLockGuard(const RWMutex * mutex) : mutex_(mutex), acquired_(false) {}$/;"	f	class:ac::RLockGuard
+RLockGuard	ac/util/rw_mutex.h	/^class RLockGuard$/;"	c	namespace:ac
+RM	Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	ac/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	bdbcache/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	mysqlproxy/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	mysqlproxy2/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	presstest/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	stockserver/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RM	unittest/Makefile	/^RM = \/app\/software\/cmake-2.4.8-Linux-i386\/bin\/cmake -E remove -f$/;"	m
+RWMutex	ac/util/rw_mutex.h	/^class RWMutex$/;"	c	namespace:ac
+Reactor	network/reactor.h	/^	class Reactor : public NonCopyable$/;"	c	namespace:ac
+Read	ac/util/protocolstream.cpp	/^bool BinaryReadStream::Read(\/* out *\/ char & c)$/;"	f	class:ac::BinaryReadStream
+Read	ac/util/protocolstream.cpp	/^bool BinaryReadStream::Read(\/* out *\/ int & i)$/;"	f	class:ac::BinaryReadStream
+Read	ac/util/protocolstream.cpp	/^bool BinaryReadStream::Read(\/* out *\/ short & i)$/;"	f	class:ac::BinaryReadStream
+Read	ac/util/protocolstream.cpp	/^bool BinaryReadStream::Read(char* str, size_t strlen, \/* out *\/ size_t& outlen)$/;"	f	class:ac::BinaryReadStream
+Read	ac/util/protocolstream.cpp	/^bool BinaryReadStream::Read(string *str, \/* out *\/ size_t& outlen)$/;"	f	class:ac::BinaryReadStream
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream2::Read(\/* out *\/ char & c)$/;"	f	class:ac::TextReadStream2
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream2::Read(\/* out *\/ int & i)$/;"	f	class:ac::TextReadStream2
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream2::Read(\/* out *\/ short & i)$/;"	f	class:ac::TextReadStream2
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream2::Read(char* str, size_t strlen, \/* out *\/ size_t & len)$/;"	f	class:ac::TextReadStream2
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream::Read(\/* out *\/ char & c)$/;"	f	class:ac::TextReadStream
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream::Read(\/* out *\/ int & i)$/;"	f	class:ac::TextReadStream
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream::Read(\/* out *\/ short & i)$/;"	f	class:ac::TextReadStream
+Read	ac/util/protocolstream.cpp	/^bool TextReadStream::Read(char* str, size_t strlen, \/* out *\/ size_t & len)$/;"	f	class:ac::TextReadStream
+ReadAll	ac/util/protocolstream.cpp	/^size_t BinaryReadStream::ReadAll(char * szBuffer, size_t iLen) const$/;"	f	class:ac::BinaryReadStream
+ReadAll	ac/util/protocolstream.cpp	/^size_t TextReadStream2::ReadAll(char * szBuffer, size_t iLen) const$/;"	f	class:ac::TextReadStream2
+ReadAll	ac/util/protocolstream.cpp	/^size_t TextReadStream::ReadAll(char * szBuffer, size_t iLen) const$/;"	f	class:ac::TextReadStream
+ReadCfg	bdbcache/serverconf.cpp	/^int BdbConf::ReadCfg()$/;"	f	class:BdbConf
+ReadCfg	bdbcache/serverconf.cpp	/^int ServerConf::ReadCfg()$/;"	f	class:ServerConf
+ReadCfg	mysqlproxy/serverconf.cpp	/^int MysqlConf::ReadCfg()$/;"	f	class:MysqlConf
+ReadCfg	mysqlproxy/serverconf.cpp	/^int ServerConf::ReadCfg()$/;"	f	class:ServerConf
+ReadCfg	mysqlproxy2/serverconf.cpp	/^int MysqlConf::ReadCfg()$/;"	f	class:MysqlConf
+ReadCfg	mysqlproxy2/serverconf.cpp	/^int ServerConf::ReadCfg()$/;"	f	class:ServerConf
+ReadCfg	stockserver/serverconf.cpp	/^int BdbProxyConf::ReadCfg()$/;"	f	class:BdbProxyConf
+ReadCfg	stockserver/serverconf.cpp	/^int MysqlProxyConf::ReadCfg()$/;"	f	class:MysqlProxyConf
+ReadCfg	stockserver/serverconf.cpp	/^int ServerConf::ReadCfg()$/;"	f	class:ServerConf
+ReadCfg	unittest/serverconf.cpp	/^int ServerConf::ReadCfg()$/;"	f	class:ServerConf
+ReadContent	ac/util/protocolstream.cpp	/^bool TextReadStream2::ReadContent(char* str, size_t maxlen)$/;"	f	class:ac::TextReadStream2
+ReadContent	ac/util/protocolstream.cpp	/^bool TextReadStream::ReadContent(char* str, size_t maxlen)$/;"	f	class:ac::TextReadStream
+ReadLength	ac/util/protocolstream.cpp	/^bool BinaryReadStream::ReadLength(size_t & outlen)$/;"	f	class:ac::BinaryReadStream
+ReadLength	ac/util/protocolstream.cpp	/^bool TextReadStream2::ReadLength(size_t & outlen)$/;"	f	class:ac::TextReadStream2
+ReadLength	ac/util/protocolstream.cpp	/^bool TextReadStream::ReadLength(size_t & outlen)$/;"	f	class:ac::TextReadStream
+ReadLengthWithoutOffset	ac/util/protocolstream.cpp	/^bool BinaryReadStream::ReadLengthWithoutOffset(size_t & outlen)$/;"	f	class:ac::BinaryReadStream
+ReadLengthWithoutOffset	ac/util/protocolstream.cpp	/^bool TextReadStream2::ReadLengthWithoutOffset(size_t & outlen)$/;"	f	class:ac::TextReadStream2
+ReadLengthWithoutOffset	ac/util/protocolstream.cpp	/^bool TextReadStream::ReadLengthWithoutOffset(size_t & outlen)$/;"	f	class:ac::TextReadStream
+ReadName	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlBase::ReadName( const char* p, TIXML_STRING * name, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+ReadStream	ac/util/stream.h	/^struct ReadStream$/;"	s	namespace:ac
+ReadStreamImpl	ac/util/protocolstream.h	/^struct ReadStreamImpl : public ReadStream$/;"	s	namespace:ac
+ReadText	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlBase::ReadText(	const char* p, $/;"	f	class:TiXmlBase
+ReadValue	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlElement::ReadValue( const char* p, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlElement
+RealClose	network/clientsocket.cpp	/^	void BackClientSocketBase::RealClose()$/;"	f	class:ac::BackClientSocketBase
+RegisterRead	network/eventhandler.cpp	/^	int FDEventHandler::RegisterRead(int timeout)$/;"	f	class:ac::FDEventHandler
+RegisterRead	network/eventhandler.cpp	/^	int FDEventHandler::RegisterRead(struct timeval *timeout)$/;"	f	class:ac::FDEventHandler
+RegisterReadEvent	network/reactor.cpp	/^	int EPReactor::RegisterReadEvent(FDEventHandler *pHandler,struct timeval *timeout)$/;"	f	class:ac::EPReactor
+RegisterTimer	network/eventhandler.cpp	/^	int TMEventHandler::RegisterTimer(int timeout)$/;"	f	class:ac::TMEventHandler
+RegisterTimer	network/eventhandler.cpp	/^	int TMEventHandler::RegisterTimer(struct timeval *timeout)$/;"	f	class:ac::TMEventHandler
+RegisterTimer	network/reactor.cpp	/^	int EPReactor::RegisterTimer(TMEventHandler *pHandler,struct timeval *timeout)$/;"	f	class:ac::EPReactor
+RegisterWrite	network/eventhandler.cpp	/^	int FDEventHandler::RegisterWrite(int timeout)$/;"	f	class:ac::FDEventHandler
+RegisterWrite	network/eventhandler.cpp	/^	int FDEventHandler::RegisterWrite(struct timeval *timeout)$/;"	f	class:ac::FDEventHandler
+RegisterWriteEvent	network/reactor.cpp	/^	int EPReactor::RegisterWriteEvent(FDEventHandler *pHandler,struct timeval *timeout)$/;"	f	class:ac::EPReactor
+Release	ac/util/mutex.cpp	/^int SemMutex::Release() const$/;"	f	class:ac::SemMutex
+Release	ac/util/mutex.h	/^	virtual int Release() const { return 0; }$/;"	f	class:ac::NullMutex
+Release	ac/util/mutex.h	/^	virtual int Release() const$/;"	f	class:ac::ThreadMutex
+Release	ac/util/rw_mutex.h	/^	int Release() const$/;"	f	class:ac::ThreadRWMutex
+Remove	ac/xml/tinyxml.cpp	/^void TiXmlAttributeSet::Remove( TiXmlAttribute* removeMe )$/;"	f	class:TiXmlAttributeSet
+RemoveAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::RemoveAttribute( const char * name )$/;"	f	class:TiXmlElement
+RemoveAttribute	ac/xml/tinyxml.h	/^	void RemoveAttribute( const std::string& name )	{	RemoveAttribute (name.c_str ());	}	\/\/\/< STL std::string form.$/;"	f	class:TiXmlElement
+RemoveChild	ac/xml/tinyxml.cpp	/^bool TiXmlNode::RemoveChild( TiXmlNode* removeThis )$/;"	f	class:TiXmlNode
+Rep	ac/xml/tinystr.h	/^	struct Rep$/;"	s	class:TiXmlString
+ReplaceChild	ac/xml/tinyxml.cpp	/^TiXmlNode* TiXmlNode::ReplaceChild( TiXmlNode* replaceThis, const TiXmlNode& withThis )$/;"	f	class:TiXmlNode
+ResultEventHandler	network/resulteventhandler.h	/^		ResultEventHandler(Reactor *pReactor,SyncQueue<ResultPackage*> *pResultQueue,ClientMap *pClientMap) $/;"	f	class:ac::ResultEventHandler
+ResultEventHandler	network/resulteventhandler.h	/^	class ResultEventHandler : public FDEventHandler$/;"	c	namespace:ac
+ResultPackage	network/package.h	/^			ResultPackage() : m_result(0){}$/;"	f	class:ac::ResultPackage
+ResultPackage	network/package.h	/^	class ResultPackage : public Package$/;"	c	namespace:ac
+ResultSet	ac/util/protocolstream.h	/^class ResultSet : public map<string,string>$/;"	c	namespace:ac
+RootElement	ac/xml/tinyxml.h	/^	TiXmlElement* RootElement()					{ return FirstChildElement(); }$/;"	f	class:TiXmlDocument
+RootElement	ac/xml/tinyxml.h	/^	const TiXmlElement* RootElement() const		{ return FirstChildElement(); }$/;"	f	class:TiXmlDocument
+RoundupMem	ac/util/circle_queue.h	/^	inline static size_t RoundupMem(size_t mem_size, size_t  mem_align=sizeof(size_t))$/;"	f	class:ac::CircleQueue
+Row	ac/xml/tinyxml.h	/^	int Row() const			{ return location.row + 1; }$/;"	f	class:TiXmlBase
+Run	ac/util/threadpool.cpp	/^void JobThread::Run()$/;"	f	class:ac::JobThread
+Run	network/reactor.cpp	/^	int EPReactor::Run()$/;"	f	class:ac::EPReactor
+RunOnce	ac/util/threadpool.cpp	/^bool ThreadPool::RunOnce()$/;"	f	class:ac::ThreadPool
+RunOnce	network/workthreadpool.cpp	/^	bool WorkThreadPool::RunOnce()$/;"	f	class:ac::WorkThreadPool
+S	ac/util/md5.c	74;"	d	file:
+SERVER_CONF_H_	bdbcache/serverconf.h	2;"	d
+SERVER_CONF_H_	mysqlproxy/serverconf.h	2;"	d
+SERVER_CONF_H_	mysqlproxy2/serverconf.h	2;"	d
+SERVER_CONF_H_	stockserver/serverconf.h	2;"	d
+SERVER_CONF_H_	unittest/serverconf.h	2;"	d
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	ac/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	bdbcache/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	mysqlproxy/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	mysqlproxy2/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	presstest/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	stockserver/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	unittest/Makefile	/^SHELL = \/bin\/sh$/;"	m
+STOCKCLIENT_H_	stockserver/stockclient.h	2;"	d
+STOCKDATA_H_	stockserver/stockdata.h	2;"	d
+STOCKINFO	stockserver/stockdata.h	/^}STOCKINFO;$/;"	t
+SafeExecute	ac/util/scope_guard.h	/^        static void SafeExecute(J& j) throw() $/;"	f	class:ac::ScopeGuardImplBase
+SaveFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::SaveFile( FILE* fp ) const$/;"	f	class:TiXmlDocument
+SaveFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::SaveFile( const char * filename ) const$/;"	f	class:TiXmlDocument
+SaveFile	ac/xml/tinyxml.cpp	/^bool TiXmlDocument::SaveFile() const$/;"	f	class:TiXmlDocument
+SaveFile	ac/xml/tinyxml.h	/^	bool SaveFile( const std::string& filename ) const		\/\/\/< STL std::string version.$/;"	f	class:TiXmlDocument
+Scan	network/reactor.cpp	/^	void EventHandlerSet::Scan()$/;"	f	class:ac::EventHandlerSet
+ScopeGuard	ac/util/scope_guard.h	/^    typedef const ScopeGuardImplBase& ScopeGuard;$/;"	t	namespace:ac
+ScopeGuardImpl0	ac/util/scope_guard.h	/^        ScopeGuardImpl0(F fun) : fun_(fun) $/;"	f	class:ac::ScopeGuardImpl0
+ScopeGuardImpl0	ac/util/scope_guard.h	/^    class ScopeGuardImpl0 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImpl1	ac/util/scope_guard.h	/^        ScopeGuardImpl1(F fun, P1 p1) : fun_(fun), p1_(p1) $/;"	f	class:ac::ScopeGuardImpl1
+ScopeGuardImpl1	ac/util/scope_guard.h	/^    class ScopeGuardImpl1 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImpl2	ac/util/scope_guard.h	/^        ScopeGuardImpl2(F fun, P1 p1, P2 p2) : fun_(fun), p1_(p1), p2_(p2) $/;"	f	class:ac::ScopeGuardImpl2
+ScopeGuardImpl2	ac/util/scope_guard.h	/^    class ScopeGuardImpl2: public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImpl3	ac/util/scope_guard.h	/^        ScopeGuardImpl3(F fun, P1 p1, P2 p2, P3 p3) : fun_(fun), p1_(p1), p2_(p2), p3_(p3) $/;"	f	class:ac::ScopeGuardImpl3
+ScopeGuardImpl3	ac/util/scope_guard.h	/^    class ScopeGuardImpl3 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImpl4	ac/util/scope_guard.h	/^        ScopeGuardImpl4( F fun, P1 p1, P2 p2, P3 p3, P4 p4 ) :$/;"	f	class:ac::ScopeGuardImpl4
+ScopeGuardImpl4	ac/util/scope_guard.h	/^    class ScopeGuardImpl4 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImpl5	ac/util/scope_guard.h	/^        ScopeGuardImpl5( F fun, P1 p1, P2 p2, P3 p3, P4 p4, P5 p5 ) :$/;"	f	class:ac::ScopeGuardImpl5
+ScopeGuardImpl5	ac/util/scope_guard.h	/^    class ScopeGuardImpl5 : public ScopeGuardImplBase$/;"	c	namespace:ac
+ScopeGuardImplBase	ac/util/scope_guard.h	/^        ScopeGuardImplBase() throw() : dismissed_(false) $/;"	f	class:ac::ScopeGuardImplBase
+ScopeGuardImplBase	ac/util/scope_guard.h	/^        ScopeGuardImplBase(const ScopeGuardImplBase& other) throw() $/;"	f	class:ac::ScopeGuardImplBase
+ScopeGuardImplBase	ac/util/scope_guard.h	/^    class ScopeGuardImplBase$/;"	c	namespace:ac
+SemMutex	ac/util/mutex.cpp	/^SemMutex::SemMutex(key_t key, int oflag)$/;"	f	class:ac::SemMutex
+SemMutex	ac/util/mutex.h	/^class SemMutex : public Mutex$/;"	c	namespace:ac
+ServerConf	bdbcache/serverconf.h	/^class ServerConf$/;"	c
+ServerConf	mysqlproxy/serverconf.h	/^class ServerConf$/;"	c
+ServerConf	mysqlproxy2/serverconf.h	/^class ServerConf$/;"	c
+ServerConf	stockserver/serverconf.h	/^class ServerConf$/;"	c
+ServerConf	unittest/serverconf.h	/^class ServerConf$/;"	c
+SetAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const char * cname, const char * cvalue )$/;"	f	class:TiXmlElement
+SetAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const char * name, int val )$/;"	f	class:TiXmlElement
+SetAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const std::string& name, const std::string& _value )$/;"	f	class:TiXmlElement
+SetAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::SetAttribute( const std::string& name, int val )$/;"	f	class:TiXmlElement
+SetBackServer	stockserver/stockclient.h	/^		void SetBackServer(BackClientSocket *pBackServer){$/;"	f	class:TMPackage
+SetBlocking	network/socket.cpp	/^int Socket::SetBlocking(bool blocking)$/;"	f	class:ac::Socket
+SetCDATA	ac/xml/tinyxml.h	/^	void SetCDATA( bool _cdata )	{ cdata = _cdata; }$/;"	f	class:TiXmlText
+SetClientID	network/eventhandler.h	/^			void SetClientID(int id){m_id = id;}$/;"	f	class:ac::FDEventHandler
+SetClientID	network/package.h	/^			void SetClientID(int id){m_clientid = id;}$/;"	f	class:ac::PackageBase2
+SetClientMap	network/clientsocket.h	/^			void SetClientMap(ClientMap *pClientMap){m_pClientMap = pClientMap;}$/;"	f	class:ac::ClientSocket
+SetCondenseWhiteSpace	ac/xml/tinyxml.h	/^	static void SetCondenseWhiteSpace( bool condense )		{ condenseWhiteSpace = condense; }$/;"	f	class:TiXmlBase
+SetDecoder	network/clientsocket.h	/^			void SetDecoder(DataDecoderBase* pDecoder){m_pDecoder = pDecoder;}$/;"	f	class:ac::ClientSocketBase
+SetDefaultLogger	ac/log/logdispatcher.cpp	/^void LogDispatcher::SetDefaultLogger(Logger * pDefaultLogger)$/;"	f	class:ac::LogDispatcher
+SetDelay	network/socket.cpp	/^int Socket::SetDelay(bool delay)$/;"	f	class:ac::Socket
+SetDestroyCallback	ac/util/destroyable.h	/^	inline void SetDestroyCallback(DestroyCallback * pCB)$/;"	f	class:ac::Destroyable
+SetDocument	ac/xml/tinyxml.h	/^	void SetDocument( TiXmlDocument* doc )	{ document = doc; }$/;"	f	class:TiXmlAttribute
+SetDoubleAttribute	ac/xml/tinyxml.cpp	/^void TiXmlElement::SetDoubleAttribute( const char * name, double val )$/;"	f	class:TiXmlElement
+SetDoubleValue	ac/xml/tinyxml.cpp	/^void TiXmlAttribute::SetDoubleValue( double _value )$/;"	f	class:TiXmlAttribute
+SetError	ac/xml/tinyxmlparser.cpp	/^void TiXmlDocument::SetError( int err, const char* pError, TiXmlParsingData* data, TiXmlEncoding encoding )$/;"	f	class:TiXmlDocument
+SetFD	ac/util/notify.h	/^	void SetFD(int fd){m_fd = fd;}$/;"	f	class:ac::SocketNotification
+SetFD	network/eventhandler.h	/^			void SetFD(int fd){m_fd = fd;}$/;"	f	class:ac::FDEventHandler
+SetHandle	network/socket.h	/^	void SetHandle(Handle handle) { this->handle = handle; }$/;"	f	class:ac::Socket
+SetIndent	ac/xml/tinyxml.h	/^	void SetIndent( const char* _indent )			{ indent = _indent ? _indent : "" ; }$/;"	f	class:TiXmlPrinter
+SetIntValue	ac/xml/tinyxml.cpp	/^void TiXmlAttribute::SetIntValue( int _value )$/;"	f	class:TiXmlAttribute
+SetLineBreak	ac/xml/tinyxml.h	/^	void SetLineBreak( const char* _lineBreak )		{ lineBreak = _lineBreak ? _lineBreak : ""; }$/;"	f	class:TiXmlPrinter
+SetLogger	ac/log/logdispatcher.cpp	/^void LogDispatcher::SetLogger(LogPriorities iPriorities, Logger * pNewLogger)$/;"	f	class:ac::LogDispatcher
+SetLogger	ac/log/logdispatcher.cpp	/^void LogDispatcher::SetLogger(LogPriority iPriority, Logger * pNewLogger)$/;"	f	class:ac::LogDispatcher
+SetMapForTMPackage	stockserver/stockclient.h	/^		void SetMapForTMPackage(hash_map<int,TMPackage*> *pMapForTMPackage){$/;"	f	class:TMPackage
+SetName	ac/xml/tinyxml.h	/^	void SetName( const char* _name )	{ name = _name; }				\/\/\/< Set the name of this attribute.$/;"	f	class:TiXmlAttribute
+SetName	ac/xml/tinyxml.h	/^	void SetName( const std::string& _name )	{ name = _name; }	$/;"	f	class:TiXmlAttribute
+SetNonBlocking	network/eventhandler.cpp	/^	int FDEventHandler::SetNonBlocking(bool blocking)$/;"	f	class:ac::FDEventHandler
+SetNotification	ac/util/queue.h	/^	void SetNotification(Notification* notify) { this->notify = notify; }$/;"	f	class:ac::Queue
+SetParams	stockserver/netproxy.h	/^		void SetParams(int p1,int p2,int p3,int p4){$/;"	f	class:StockDataDecoderBase
+SetPasswd	stockserver/stockclient.h	/^		void SetPasswd(char* passwd){$/;"	f	class:TMPackage_userauth
+SetReactor	network/eventhandler.h	/^			void SetReactor(Reactor *pReactor){m_pReactor = pReactor;}$/;"	f	class:ac::EventHandler
+SetReconnect	network/clientsocket.h	/^			void SetReconnect(bool isreconnect = false){$/;"	f	class:ac::BackClientSocketBase
+SetRecvTimeout	network/socket.cpp	/^int Socket::SetRecvTimeout(unsigned int usec_timeout)$/;"	f	class:ac::Socket
+SetResult	network/package.h	/^			void SetResult(int result) {m_result = result;}$/;"	f	class:ac::ResultPackage
+SetRetryTime	stockserver/stockclient.h	/^		void SetRetryTime(int retrytime){$/;"	f	class:TMPackage
+SetSendTimeout	network/socket.cpp	/^int Socket::SetSendTimeout(unsigned int usec_timeout)$/;"	f	class:ac::Socket
+SetStreamPrinting	ac/xml/tinyxml.h	/^	void SetStreamPrinting()						{ indent = "";$/;"	f	class:TiXmlPrinter
+SetTabSize	ac/xml/tinyxml.h	/^	void SetTabSize( int _tabsize )		{ tabsize = _tabsize; }$/;"	f	class:TiXmlDocument
+SetTimeOut	stockserver/stockclient.h	/^		void SetTimeOut(int timeout){$/;"	f	class:TMPackage
+SetTimeout	network/clientsocket.h	/^			void SetTimeout(int timeout){m_timeout = timeout;}$/;"	f	class:ac::ClientSocketBase
+SetTimerID	network/eventhandler.h	/^			void SetTimerID(int id){m_id = id;}$/;"	f	class:ac::TMEventHandler
+SetType	stockserver/stockclient.h	/^		void SetType(int type){$/;"	f	class:TMPackage
+SetUser	stockserver/stockclient.h	/^		void SetUser(char* user){$/;"	f	class:TMPackage_userauth
+SetUserData	ac/xml/tinyxml.h	/^	void  SetUserData( void* user )			{ userData = user; }	\/\/\/< Set a pointer to arbitrary user data.$/;"	f	class:TiXmlBase
+SetValue	ac/xml/tinyxml.h	/^	void SetValue( const char* _value )	{ value = _value; }				\/\/\/< Set the value.$/;"	f	class:TiXmlAttribute
+SetValue	ac/xml/tinyxml.h	/^	void SetValue( const std::string& _value )	{ value = _value; }$/;"	f	class:TiXmlAttribute
+SetValue	ac/xml/tinyxml.h	/^	void SetValue( const std::string& _value )	{ value = _value; }$/;"	f	class:TiXmlNode
+SetValue	ac/xml/tinyxml.h	/^	void SetValue(const char * _value) { value = _value;}$/;"	f	class:TiXmlNode
+Set_isAuth	stockserver/stockclient.h	/^		void Set_isAuth(bool isAuth){m_isAuth = isAuth;}$/;"	f	class:StockClient
+SignalNotification	ac/util/notify.h	/^	SignalNotification(int sig) : m_sig(sig){}$/;"	f	class:ac::SignalNotification
+SignalNotification	ac/util/notify.h	/^class SignalNotification : public Notification$/;"	c	namespace:ac
+Size	ac/xml/tinyxml.h	/^	size_t Size()									{ return buffer.size(); }$/;"	f	class:TiXmlPrinter
+Size	network/counter.h	/^			size_t Size()$/;"	f	class:ac::ClientMap
+SkipWhiteSpace	ac/xml/tinyxmlparser.cpp	/^const char* TiXmlBase::SkipWhiteSpace( const char* p, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+Socket	network/socket.h	/^	Socket(Handle handle_=Handle())$/;"	f	class:ac::Socket
+Socket	network/socket.h	/^class Socket$/;"	c	namespace:ac
+SocketNotification	ac/util/notify.h	/^class SocketNotification : public Notification$/;"	c	namespace:ac
+StackTrace	ac/log/stacktrace.cpp	/^StackTrace::StackTrace(const char* file_, size_t line_, const char* func_)$/;"	f	class:ac::StackTrace
+StackTrace	ac/log/stacktrace.h	/^class StackTrace$/;"	c	namespace:ac
+Stamp	ac/xml/tinyxmlparser.cpp	/^void TiXmlParsingData::Stamp( const char* now, TiXmlEncoding encoding )$/;"	f	class:TiXmlParsingData
+Standalone	ac/xml/tinyxml.h	/^	const char *Standalone() const		{ return standalone.c_str (); }$/;"	f	class:TiXmlDeclaration
+Start	ac/util/thread.cpp	/^int Thread::Start()$/;"	f	class:ac::Thread
+Start	ac/util/threadpool.cpp	/^int ThreadPool::Start(size_t count)$/;"	f	class:ac::ThreadPool
+Start	network/netapp.cpp	/^	int NetApp::Start()$/;"	f	class:ac::NetApp
+Start	stockserver/netproxy.cpp	/^int NetProxy::Start()$/;"	f	class:NetProxy
+StderrLogger	ac/log/ostreamlogger.h	/^	static OStreamLogger StderrLogger;$/;"	m	class:ac::OStreamLogger
+StdoutLogger	ac/log/ostreamlogger.h	/^	static OStreamLogger StdoutLogger;$/;"	m	class:ac::OStreamLogger
+StockClient	stockserver/stockclient.h	/^		StockClient() : m_isAuth(false){}$/;"	f	class:StockClient
+StockClient	stockserver/stockclient.h	/^		StockClient(Reactor *pReactor) : ClientSocket(pReactor),m_isAuth(false){}$/;"	f	class:StockClient
+StockClient	stockserver/stockclient.h	/^class StockClient : public ClientSocket , public TMEventHandler$/;"	c
+StockData	stockserver/stockdata.h	/^class StockData$/;"	c
+StockDataDecoderBase	stockserver/netproxy.h	/^		StockDataDecoderBase(int pttype,size_t hdlen) : DataDecoder(pttype,hdlen){}$/;"	f	class:StockDataDecoderBase
+StockDataDecoderBase	stockserver/netproxy.h	/^class StockDataDecoderBase : public DataDecoder$/;"	c
+StockListener	stockserver/stockclient.h	/^		StockListener(int port,Reactor *pReactor,ObjectAllocator<StockClient> * pObjectAllocator,Counter *pCounter,DataDecoderBase *pDecoder,ClientMap *pClientMap,int timeout = 3) :$/;"	f	class:StockListener
+StockListener	stockserver/stockclient.h	/^class StockListener : public ListenSocketBase2,public ObjectManager<StockClient>$/;"	c
+Stop	ac/util/thread.cpp	/^void Thread::Stop()$/;"	f	class:ac::Thread
+Stop	ac/util/threadpool.cpp	/^void ThreadPool::Stop(size_t count)$/;"	f	class:ac::ThreadPool
+Stop	network/netapp.cpp	/^	int NetApp::Stop()$/;"	f	class:ac::NetApp
+Stop	network/reactor.cpp	/^	int EPReactor::Stop()$/;"	f	class:ac::EPReactor
+Stop	stockserver/netproxy.cpp	/^int NetProxy::Stop()$/;"	f	class:NetProxy
+StopAll	ac/util/threadpool.cpp	/^void ThreadPool::StopAll()$/;"	f	class:ac::ThreadPool
+StopThreads	ac/util/threadpool.cpp	/^void ThreadPool::StopThreads(size_t stopcount)$/;"	f	class:ac::ThreadPool
+Str	ac/xml/tinyxml.h	/^	const std::string& Str()						{ return buffer; }$/;"	f	class:TiXmlPrinter
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlComment::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlComment
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlDeclaration::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlDeclaration
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlDocument::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlDocument
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlElement::StreamIn (std::istream * in, TIXML_STRING * tag)$/;"	f	class:TiXmlElement
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlText::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlText
+StreamIn	ac/xml/tinyxmlparser.cpp	/^void TiXmlUnknown::StreamIn( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlUnknown
+StreamTo	ac/xml/tinyxmlparser.cpp	/^\/*static*\/ bool TiXmlBase::StreamTo( std::istream * in, int character, TIXML_STRING * tag )$/;"	f	class:TiXmlBase
+StreamWhiteSpace	ac/xml/tinyxmlparser.cpp	/^\/*static*\/ bool TiXmlBase::StreamWhiteSpace( std::istream * in, TIXML_STRING * tag )$/;"	f	class:TiXmlBase
+StringEqual	ac/xml/tinyxmlparser.cpp	/^bool TiXmlBase::StringEqual( const char* p,$/;"	f	class:TiXmlBase
+SyncQueue	ac/util/queue.h	/^	SyncQueue(size_t limit = DEFAULT_LIMIT) $/;"	f	class:ac::SyncQueue
+SyncQueue	ac/util/queue.h	/^class SyncQueue : public Queue<T>$/;"	c	namespace:ac
+SyncToFile	ac/bdb/bdb_uk.cpp	/^	int Bdb_UK::SyncToFile()$/;"	f	class:ac::Bdb_UK
+TBDBSEQ_H_	ac/nouse/TBdbSeq.h	2;"	d
+TBDB_HASH_QUEUE_H_	ac/nouse/TBdbHashQueue.h	2;"	d
+TBDB_QUEUE_H_	ac/nouse/TBdb_Queue.h	2;"	d
+TBdbHashQueue	ac/nouse/TBdbHashQueue.h	/^class TBdbHashQueue$/;"	c
+TBdbSeq	ac/nouse/TBdbSeq.h	/^class TBdbSeq$/;"	c
+TBdb_Queue	ac/nouse/TBdb_Queue.cpp	/^TBdb_Queue::TBdb_Queue()$/;"	f	class:TBdb_Queue
+TBdb_Queue	ac/nouse/TBdb_Queue.h	/^class TBdb_Queue$/;"	c
+TEXT	ac/xml/tinyxml.h	/^		TEXT,$/;"	e	enum:TiXmlNode::NodeType
+TEXT_PACKAGE_MAXLEN	ac/util/protocolstream.h	/^	TEXT_PACKAGE_MAXLEN		= 0xffff,$/;"	e	enum:ac::<anonymous>
+TEXT_PACKAGE_MAXLEN_2	ac/util/protocolstream.h	/^	TEXT_PACKAGE_MAXLEN_2	= 0xffffff,$/;"	e	enum:ac::<anonymous>
+TEXT_PACKLEN_LEN	ac/util/protocolstream.h	/^	TEXT_PACKLEN_LEN		= 4,$/;"	e	enum:ac::<anonymous>
+TEXT_PACKLEN_LEN_2	ac/util/protocolstream.h	/^	TEXT_PACKLEN_LEN_2		= 6,$/;"	e	enum:ac::<anonymous>
+TEXT_STREAM_PROTOCOL	ac/util/stream.h	/^	TEXT_STREAM_PROTOCOL	= 0x01,$/;"	e	enum:ac::<anonymous>
+TEXT_STREAM_PROTOCOL_2	ac/util/stream.h	/^	TEXT_STREAM_PROTOCOL_2	= 0x03,$/;"	e	enum:ac::<anonymous>
+TINYXML_INCLUDED	ac/xml/tinyxml.h	27;"	d
+TIXML_DEFAULT_ENCODING	ac/xml/tinyxml.h	/^const TiXmlEncoding TIXML_DEFAULT_ENCODING = TIXML_ENCODING_UNKNOWN;$/;"	v
+TIXML_ENCODING_LEGACY	ac/xml/tinyxml.h	/^	TIXML_ENCODING_LEGACY$/;"	e	enum:TiXmlEncoding
+TIXML_ENCODING_UNKNOWN	ac/xml/tinyxml.h	/^	TIXML_ENCODING_UNKNOWN,$/;"	e	enum:TiXmlEncoding
+TIXML_ENCODING_UTF8	ac/xml/tinyxml.h	/^	TIXML_ENCODING_UTF8,$/;"	e	enum:TiXmlEncoding
+TIXML_ERROR	ac/xml/tinyxml.h	/^		TIXML_ERROR,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_DOCUMENT_EMPTY	ac/xml/tinyxml.h	/^		TIXML_ERROR_DOCUMENT_EMPTY,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_DOCUMENT_TOP_ONLY	ac/xml/tinyxml.h	/^		TIXML_ERROR_DOCUMENT_TOP_ONLY,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_EMBEDDED_NULL	ac/xml/tinyxml.h	/^		TIXML_ERROR_EMBEDDED_NULL,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_FAILED_TO_READ_ELEMENT_NAME	ac/xml/tinyxml.h	/^		TIXML_ERROR_FAILED_TO_READ_ELEMENT_NAME,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_OPENING_FILE	ac/xml/tinyxml.h	/^		TIXML_ERROR_OPENING_FILE,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_OUT_OF_MEMORY	ac/xml/tinyxml.h	/^		TIXML_ERROR_OUT_OF_MEMORY,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_CDATA	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_CDATA,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_COMMENT	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_COMMENT,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_DECLARATION	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_DECLARATION,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_ELEMENT	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_ELEMENT,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_EMPTY	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_EMPTY,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_PARSING_UNKNOWN	ac/xml/tinyxml.h	/^		TIXML_ERROR_PARSING_UNKNOWN,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_READING_ATTRIBUTES	ac/xml/tinyxml.h	/^		TIXML_ERROR_READING_ATTRIBUTES,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_READING_ELEMENT_VALUE	ac/xml/tinyxml.h	/^		TIXML_ERROR_READING_ELEMENT_VALUE,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_READING_END_TAG	ac/xml/tinyxml.h	/^		TIXML_ERROR_READING_END_TAG,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_ERROR_STRING_COUNT	ac/xml/tinyxml.h	/^		TIXML_ERROR_STRING_COUNT$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_EXPLICIT	ac/xml/tinystr.h	51;"	d
+TIXML_EXPLICIT	ac/xml/tinystr.h	54;"	d
+TIXML_EXPLICIT	ac/xml/tinystr.h	56;"	d
+TIXML_LOG	ac/xml/tinyxmlparser.cpp	34;"	d	file:
+TIXML_LOG	ac/xml/tinyxmlparser.cpp	36;"	d	file:
+TIXML_MAJOR_VERSION	ac/xml/tinyxml.h	/^const int TIXML_MAJOR_VERSION = 2;$/;"	v
+TIXML_MINOR_VERSION	ac/xml/tinyxml.h	/^const int TIXML_MINOR_VERSION = 5;$/;"	v
+TIXML_NO_ATTRIBUTE	ac/xml/tinyxml.h	/^	TIXML_NO_ATTRIBUTE,$/;"	e
+TIXML_NO_ERROR	ac/xml/tinyxml.h	/^		TIXML_NO_ERROR = 0,$/;"	e	enum:TiXmlBase::<anonymous>
+TIXML_PATCH_VERSION	ac/xml/tinyxml.h	/^const int TIXML_PATCH_VERSION = 3;$/;"	v
+TIXML_SAFE	ac/xml/tinyxml.h	60;"	d
+TIXML_SNPRINTF	ac/xml/tinyxml.h	65;"	d
+TIXML_SNPRINTF	ac/xml/tinyxml.h	71;"	d
+TIXML_SNPRINTF	ac/xml/tinyxml.h	77;"	d
+TIXML_SNSCANF	ac/xml/tinyxml.h	66;"	d
+TIXML_SNSCANF	ac/xml/tinyxml.h	72;"	d
+TIXML_SNSCANF	ac/xml/tinyxml.h	78;"	d
+TIXML_SSCANF	ac/xml/tinyxml.h	67;"	d
+TIXML_SSCANF	ac/xml/tinyxml.h	73;"	d
+TIXML_SSCANF	ac/xml/tinyxml.h	79;"	d
+TIXML_SSCANF	ac/xml/tinyxml.h	81;"	d
+TIXML_STRING	ac/xml/tinyxml.h	50;"	d
+TIXML_STRING	ac/xml/tinyxml.h	53;"	d
+TIXML_STRING_INCLUDED	ac/xml/tinystr.h	40;"	d
+TIXML_SUCCESS	ac/xml/tinyxml.h	/^	TIXML_SUCCESS,$/;"	e
+TIXML_UTF_LEAD_0	ac/xml/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_0 = 0xefU;$/;"	v
+TIXML_UTF_LEAD_1	ac/xml/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_1 = 0xbbU;$/;"	v
+TIXML_UTF_LEAD_2	ac/xml/tinyxmlparser.cpp	/^const unsigned char TIXML_UTF_LEAD_2 = 0xbfU;$/;"	v
+TIXML_WRONG_TYPE	ac/xml/tinyxml.h	/^	TIXML_WRONG_TYPE$/;"	e
+TMEHINFO	network/reactor.h	/^		}TMEHINFO;$/;"	t	class:ac::EventHandlerSet
+TMEHInfo	network/reactor.h	/^			TMEHInfo() : isInuse(false){}$/;"	f	struct:ac::EventHandlerSet::TMEHInfo
+TMEHInfo	network/reactor.h	/^		typedef struct TMEHInfo$/;"	s	class:ac::EventHandlerSet
+TMEventHandler	network/eventhandler.h	/^			TMEventHandler()$/;"	f	class:ac::TMEventHandler
+TMEventHandler	network/eventhandler.h	/^			TMEventHandler(Reactor *pReactor)$/;"	f	class:ac::TMEventHandler
+TMEventHandler	network/eventhandler.h	/^	class TMEventHandler : virtual public EventHandler$/;"	c	namespace:ac
+TMPackage	stockserver/stockclient.h	/^		TMPackage() : m_time(0){}$/;"	f	class:TMPackage
+TMPackage	stockserver/stockclient.h	/^class TMPackage : public PackageBase2 , public TMEventHandler,public Destroyable$/;"	c
+TMPackage_userauth	stockserver/stockclient.h	/^class TMPackage_userauth : public TMPackage$/;"	c
+TMysqlResGuard	mysqlproxy/mysqldataprocessor.h	/^		TMysqlResGuard(MYSQL_RES *res)$/;"	f	class:TMysqlResGuard
+TMysqlResGuard	mysqlproxy/mysqldataprocessor.h	/^class TMysqlResGuard$/;"	c
+TMysqlResGuard	mysqlproxy2/mysqldataprocessor.h	/^		TMysqlResGuard(MYSQL_RES *res)$/;"	f	class:TMysqlResGuard
+TMysqlResGuard	mysqlproxy2/mysqldataprocessor.h	/^class TMysqlResGuard$/;"	c
+TSS	ac/util/tss.cpp	/^TSS::TSS(CLEANUP_FUNC f)$/;"	f	class:ac::TSS
+TSS	ac/util/tss.h	/^class TSS$/;"	c	namespace:ac
+TSSInitFail	ac/util/tss.cpp	/^class TSSInitFail : public std::exception$/;"	c	namespace:ac	file:
+TSSSetSpecific	ac/util/tss.cpp	/^class TSSSetSpecific : public std::exception$/;"	c	namespace:ac	file:
+TYPECOUNT	ac/xml/tinyxml.h	/^		TYPECOUNT$/;"	e	enum:TiXmlNode::NodeType
+TabSize	ac/xml/tinyxml.h	/^	int TabSize() const	{ return tabsize; }$/;"	f	class:TiXmlDocument
+Text	ac/xml/tinyxml.h	/^	TiXmlText* Text() const			{ return ToText(); }$/;"	f	class:TiXmlHandle
+TextReadStream	ac/util/protocolstream.cpp	/^TextReadStream::TextReadStream(const char* ptr_, size_t len_)$/;"	f	class:ac::TextReadStream
+TextReadStream	ac/util/protocolstream.h	/^class TextReadStream : public ReadStreamImpl$/;"	c	namespace:ac
+TextReadStream2	ac/util/protocolstream.cpp	/^TextReadStream2::TextReadStream2(const char* ptr_, size_t len_)$/;"	f	class:ac::TextReadStream2
+TextReadStream2	ac/util/protocolstream.h	/^class TextReadStream2 : public ReadStreamImpl$/;"	c	namespace:ac
+TextWriteStream	ac/util/protocolstream.cpp	/^TextWriteStream::TextWriteStream(char* ptr_, size_t len_)$/;"	f	class:ac::TextWriteStream
+TextWriteStream	ac/util/protocolstream.h	/^class TextWriteStream : public WriteStreamImpl$/;"	c	namespace:ac
+TextWriteStream2	ac/util/protocolstream.cpp	/^TextWriteStream2::TextWriteStream2(char* ptr_, size_t len_)$/;"	f	class:ac::TextWriteStream2
+TextWriteStream2	ac/util/protocolstream.h	/^class TextWriteStream2 : public WriteStreamImpl$/;"	c	namespace:ac
+Thread	ac/util/thread.cpp	/^Thread::Thread()$/;"	f	class:ac::Thread
+Thread	ac/util/thread.h	/^class Thread : public NonCopyable$/;"	c	namespace:ac
+ThreadMutex	ac/util/mutex.h	/^	ThreadMutex()$/;"	f	class:ac::ThreadMutex
+ThreadMutex	ac/util/mutex.h	/^class ThreadMutex : public Mutex$/;"	c	namespace:ac
+ThreadPool	ac/util/threadpool.cpp	/^ThreadPool::ThreadPool() : stopcount(0)$/;"	f	class:ac::ThreadPool
+ThreadPool	ac/util/threadpool.h	/^class ThreadPool  : public NonCopyable$/;"	c	namespace:ac
+ThreadPtrContainer	ac/util/threadpool.h	/^	typedef std::list<Thread*>	ThreadPtrContainer;$/;"	t	class:ac::ThreadPool
+ThreadRWMutex	ac/util/rw_mutex.h	/^	ThreadRWMutex()$/;"	f	class:ac::ThreadRWMutex
+ThreadRWMutex	ac/util/rw_mutex.h	/^class ThreadRWMutex : public RWMutex$/;"	c	namespace:ac
+TiXmlAttribute	ac/xml/tinyxml.h	/^	TiXmlAttribute( const char * _name, const char * _value )$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	ac/xml/tinyxml.h	/^	TiXmlAttribute( const std::string& _name, const std::string& _value )$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	ac/xml/tinyxml.h	/^	TiXmlAttribute() : TiXmlBase()$/;"	f	class:TiXmlAttribute
+TiXmlAttribute	ac/xml/tinyxml.h	/^class TiXmlAttribute : public TiXmlBase$/;"	c
+TiXmlAttributeSet	ac/xml/tinyxml.cpp	/^TiXmlAttributeSet::TiXmlAttributeSet()$/;"	f	class:TiXmlAttributeSet
+TiXmlAttributeSet	ac/xml/tinyxml.h	/^class TiXmlAttributeSet$/;"	c
+TiXmlBase	ac/xml/tinyxml.h	/^	TiXmlBase()	:	userData(0)		{}$/;"	f	class:TiXmlBase
+TiXmlBase	ac/xml/tinyxml.h	/^class TiXmlBase$/;"	c
+TiXmlComment	ac/xml/tinyxml.cpp	/^TiXmlComment::TiXmlComment( const TiXmlComment& copy ) : TiXmlNode( TiXmlNode::COMMENT )$/;"	f	class:TiXmlComment
+TiXmlComment	ac/xml/tinyxml.h	/^	TiXmlComment( const char* _value ) : TiXmlNode( TiXmlNode::COMMENT ) {$/;"	f	class:TiXmlComment
+TiXmlComment	ac/xml/tinyxml.h	/^	TiXmlComment() : TiXmlNode( TiXmlNode::COMMENT ) {}$/;"	f	class:TiXmlComment
+TiXmlComment	ac/xml/tinyxml.h	/^class TiXmlComment : public TiXmlNode$/;"	c
+TiXmlCursor	ac/xml/tinyxml.h	/^	TiXmlCursor()		{ Clear(); }$/;"	f	struct:TiXmlCursor
+TiXmlCursor	ac/xml/tinyxml.h	/^struct TiXmlCursor$/;"	s
+TiXmlDeclaration	ac/xml/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration(	const std::string& _version,$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	ac/xml/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration( const TiXmlDeclaration& copy )$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	ac/xml/tinyxml.cpp	/^TiXmlDeclaration::TiXmlDeclaration( const char * _version,$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	ac/xml/tinyxml.h	/^	TiXmlDeclaration()   : TiXmlNode( TiXmlNode::DECLARATION ) {}$/;"	f	class:TiXmlDeclaration
+TiXmlDeclaration	ac/xml/tinyxml.h	/^class TiXmlDeclaration : public TiXmlNode$/;"	c
+TiXmlDocument	ac/xml/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const TiXmlDocument& copy ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	ac/xml/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const char * documentName ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	ac/xml/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument( const std::string& documentName ) : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	ac/xml/tinyxml.cpp	/^TiXmlDocument::TiXmlDocument() : TiXmlNode( TiXmlNode::DOCUMENT )$/;"	f	class:TiXmlDocument
+TiXmlDocument	ac/xml/tinyxml.h	/^class TiXmlDocument : public TiXmlNode$/;"	c
+TiXmlElement	ac/xml/tinyxml.cpp	/^TiXmlElement::TiXmlElement (const char * _value)$/;"	f	class:TiXmlElement
+TiXmlElement	ac/xml/tinyxml.cpp	/^TiXmlElement::TiXmlElement( const TiXmlElement& copy)$/;"	f	class:TiXmlElement
+TiXmlElement	ac/xml/tinyxml.cpp	/^TiXmlElement::TiXmlElement( const std::string& _value ) $/;"	f	class:TiXmlElement
+TiXmlElement	ac/xml/tinyxml.h	/^class TiXmlElement : public TiXmlNode$/;"	c
+TiXmlEncoding	ac/xml/tinyxml.h	/^enum TiXmlEncoding$/;"	g
+TiXmlFOpen	ac/xml/tinyxml.cpp	/^FILE* TiXmlFOpen( const char* filename, const char* mode )$/;"	f
+TiXmlHandle	ac/xml/tinyxml.h	/^	TiXmlHandle( TiXmlNode* _node )					{ this->node = _node; }$/;"	f	class:TiXmlHandle
+TiXmlHandle	ac/xml/tinyxml.h	/^	TiXmlHandle( const TiXmlHandle& ref )			{ this->node = ref.node; }$/;"	f	class:TiXmlHandle
+TiXmlHandle	ac/xml/tinyxml.h	/^class TiXmlHandle$/;"	c
+TiXmlNode	ac/xml/tinyxml.cpp	/^TiXmlNode::TiXmlNode( NodeType _type ) : TiXmlBase()$/;"	f	class:TiXmlNode
+TiXmlNode	ac/xml/tinyxml.h	/^class TiXmlNode : public TiXmlBase$/;"	c
+TiXmlOutStream	ac/xml/tinystr.h	/^class TiXmlOutStream : public TiXmlString$/;"	c
+TiXmlParsingData	ac/xml/tinyxmlparser.cpp	/^	TiXmlParsingData( const char* start, int _tabsize, int row, int col )$/;"	f	class:TiXmlParsingData	file:
+TiXmlParsingData	ac/xml/tinyxmlparser.cpp	/^class TiXmlParsingData$/;"	c	file:
+TiXmlPrinter	ac/xml/tinyxml.h	/^	TiXmlPrinter() : depth( 0 ), simpleTextPrint( false ),$/;"	f	class:TiXmlPrinter
+TiXmlPrinter	ac/xml/tinyxml.h	/^class TiXmlPrinter : public TiXmlVisitor$/;"	c
+TiXmlString	ac/xml/tinystr.h	/^	TIXML_EXPLICIT TiXmlString ( const char * copy) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	ac/xml/tinystr.h	/^	TIXML_EXPLICIT TiXmlString ( const char * str, size_type len) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	ac/xml/tinystr.h	/^	TiXmlString ( const TiXmlString & copy) : rep_(0)$/;"	f	class:TiXmlString
+TiXmlString	ac/xml/tinystr.h	/^	TiXmlString () : rep_(&nullrep_)$/;"	f	class:TiXmlString
+TiXmlString	ac/xml/tinystr.h	/^class TiXmlString$/;"	c
+TiXmlText	ac/xml/tinyxml.h	/^	TiXmlText (const char * initValue ) : TiXmlNode (TiXmlNode::TEXT)$/;"	f	class:TiXmlText
+TiXmlText	ac/xml/tinyxml.h	/^	TiXmlText( const TiXmlText& copy ) : TiXmlNode( TiXmlNode::TEXT )	{ copy.CopyTo( this ); }$/;"	f	class:TiXmlText
+TiXmlText	ac/xml/tinyxml.h	/^	TiXmlText( const std::string& initValue ) : TiXmlNode (TiXmlNode::TEXT)$/;"	f	class:TiXmlText
+TiXmlText	ac/xml/tinyxml.h	/^class TiXmlText : public TiXmlNode$/;"	c
+TiXmlUnknown	ac/xml/tinyxml.h	/^	TiXmlUnknown( const TiXmlUnknown& copy ) : TiXmlNode( TiXmlNode::UNKNOWN )		{ copy.CopyTo( this ); }$/;"	f	class:TiXmlUnknown
+TiXmlUnknown	ac/xml/tinyxml.h	/^	TiXmlUnknown() : TiXmlNode( TiXmlNode::UNKNOWN )	{}$/;"	f	class:TiXmlUnknown
+TiXmlUnknown	ac/xml/tinyxml.h	/^class TiXmlUnknown : public TiXmlNode$/;"	c
+TiXmlVisitor	ac/xml/tinyxml.h	/^class TiXmlVisitor$/;"	c
+ToComment	ac/xml/tinyxml.h	/^	virtual TiXmlComment*           ToComment()     { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToComment	ac/xml/tinyxml.h	/^	virtual TiXmlComment*  ToComment() { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlComment
+ToComment	ac/xml/tinyxml.h	/^	virtual const TiXmlComment*     ToComment()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToComment	ac/xml/tinyxml.h	/^	virtual const TiXmlComment*  ToComment() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlComment
+ToDeclaration	ac/xml/tinyxml.h	/^	virtual TiXmlDeclaration*       ToDeclaration()       { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDeclaration
+ToDeclaration	ac/xml/tinyxml.h	/^	virtual TiXmlDeclaration*       ToDeclaration() { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDeclaration	ac/xml/tinyxml.h	/^	virtual const TiXmlDeclaration* ToDeclaration() const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDeclaration	ac/xml/tinyxml.h	/^	virtual const TiXmlDeclaration* ToDeclaration() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDeclaration
+ToDocument	ac/xml/tinyxml.h	/^	virtual TiXmlDocument*          ToDocument()          { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDocument
+ToDocument	ac/xml/tinyxml.h	/^	virtual TiXmlDocument*          ToDocument()    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDocument	ac/xml/tinyxml.h	/^	virtual const TiXmlDocument*    ToDocument()    const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToDocument	ac/xml/tinyxml.h	/^	virtual const TiXmlDocument*    ToDocument()    const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlDocument
+ToElement	ac/xml/tinyxml.h	/^	TiXmlElement* ToElement() const		{ return ( ( node && node->ToElement() ) ? node->ToElement() : 0 ); }$/;"	f	class:TiXmlHandle
+ToElement	ac/xml/tinyxml.h	/^	virtual TiXmlElement*           ToElement()	          { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlElement
+ToElement	ac/xml/tinyxml.h	/^	virtual TiXmlElement*           ToElement()	    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToElement	ac/xml/tinyxml.h	/^	virtual const TiXmlElement*     ToElement()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToElement	ac/xml/tinyxml.h	/^	virtual const TiXmlElement*     ToElement()     const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlElement
+ToLower	ac/xml/tinyxml.h	/^	inline static int ToLower( int v, TiXmlEncoding encoding )$/;"	f	class:TiXmlBase
+ToNode	ac/xml/tinyxml.h	/^	TiXmlNode* ToNode() const			{ return node; } $/;"	f	class:TiXmlHandle
+ToText	ac/xml/tinyxml.h	/^	TiXmlText* ToText() const			{ return ( ( node && node->ToText() ) ? node->ToText() : 0 ); }$/;"	f	class:TiXmlHandle
+ToText	ac/xml/tinyxml.h	/^	virtual TiXmlText*	            ToText()        { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToText	ac/xml/tinyxml.h	/^	virtual TiXmlText*       ToText()       { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlText
+ToText	ac/xml/tinyxml.h	/^	virtual const TiXmlText*        ToText()        const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToText	ac/xml/tinyxml.h	/^	virtual const TiXmlText* ToText() const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlText
+ToUnknown	ac/xml/tinyxml.h	/^	TiXmlUnknown* ToUnknown() const		{ return ( ( node && node->ToUnknown() ) ? node->ToUnknown() : 0 ); }$/;"	f	class:TiXmlHandle
+ToUnknown	ac/xml/tinyxml.h	/^	virtual TiXmlUnknown*           ToUnknown()	    { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToUnknown	ac/xml/tinyxml.h	/^	virtual TiXmlUnknown*           ToUnknown()	    { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlUnknown
+ToUnknown	ac/xml/tinyxml.h	/^	virtual const TiXmlUnknown*     ToUnknown()     const { return 0; } \/\/\/< Cast to a more defined type. Will return null if not of the requested type.$/;"	f	class:TiXmlNode
+ToUnknown	ac/xml/tinyxml.h	/^	virtual const TiXmlUnknown*     ToUnknown()     const { return this; } \/\/\/< Cast to a more defined type. Will return null not of the requested type.$/;"	f	class:TiXmlUnknown
+Type	ac/xml/tinyxml.h	/^	int Type() const	{ return type; }$/;"	f	class:TiXmlNode
+UNKNOWN	ac/xml/tinyxml.h	/^		UNKNOWN,$/;"	e	enum:TiXmlNode::NodeType
+UdpListenSocket	network/listensocket.h	/^			UdpListenSocket(Reactor *pReactor,int port) : FDEventHandler(pReactor),m_port(port)$/;"	f	class:ac::UdpListenSocket
+UdpListenSocket	network/listensocket.h	/^	class UdpListenSocket : public FDEventHandler$/;"	c	namespace:ac
+UdpLogger	ac/log/udplogger.cpp	/^UdpLogger::UdpLogger(const char * sIP, unsigned short uPort, const std::string & sLogFormat)$/;"	f	class:ac::UdpLogger
+UdpLogger	ac/log/udplogger.h	/^class UdpLogger : public Logger$/;"	c	namespace:ac
+UnInit	ac/bdb/bdb_uk.cpp	/^	void Bdb_UK::UnInit(bool closebdb)$/;"	f	class:ac::Bdb_UK
+UnInit	ac/bdb/bdbenv.cpp	/^	void BdbEnv::UnInit()$/;"	f	class:ac::BdbEnv
+UnInit	ac/nouse/TBdbHashQueue.cpp	/^void TBdbHashQueue::UnInit(bool closebdb)$/;"	f	class:TBdbHashQueue
+UnInit	ac/nouse/TBdbSeq.cpp	/^void TBdbSeq::UnInit()$/;"	f	class:TBdbSeq
+UnInit	ac/nouse/TBdb_Queue.cpp	/^void TBdb_Queue::UnInit()$/;"	f	class:TBdb_Queue
+UnRegisterEvent	network/reactor.cpp	/^	int EPReactor::UnRegisterEvent(FDEventHandler *pHandler)$/;"	f	class:ac::EPReactor
+UnRegisterRead	network/eventhandler.cpp	/^	int FDEventHandler::UnRegisterRead()$/;"	f	class:ac::FDEventHandler
+UnRegisterReadEvent	network/reactor.cpp	/^	int EPReactor::UnRegisterReadEvent(FDEventHandler *pHandler)$/;"	f	class:ac::EPReactor
+UnRegisterTimer	network/eventhandler.cpp	/^	int TMEventHandler::UnRegisterTimer()$/;"	f	class:ac::TMEventHandler
+UnRegisterTimer	network/reactor.cpp	/^	int EPReactor::UnRegisterTimer(TMEventHandler *pHandler)$/;"	f	class:ac::EPReactor
+UnRegisterWrite	network/eventhandler.cpp	/^	int FDEventHandler::UnRegisterWrite()$/;"	f	class:ac::FDEventHandler
+UnRegisterWriteEvent	network/reactor.cpp	/^	int EPReactor::UnRegisterWriteEvent(FDEventHandler *pHandler)$/;"	f	class:ac::EPReactor
+Unknown	ac/xml/tinyxml.h	/^	TiXmlUnknown* Unknown() const	{ return ToUnknown(); }$/;"	f	class:TiXmlHandle
+Unlock	ac/util/mutex.h	/^	int Unlock() const$/;"	f	class:ac::LockGuard
+Unlock	ac/util/rw_mutex.h	/^	int Unlock() const$/;"	f	class:ac::RLockGuard
+Unlock	ac/util/rw_mutex.h	/^	int Unlock() const$/;"	f	class:ac::WLockGuard
+Value	ac/xml/tinyxml.h	/^	const char *Value() const { return value.c_str (); }$/;"	f	class:TiXmlNode
+Value	ac/xml/tinyxml.h	/^	const char*		Value() const		{ return value.c_str(); }		\/\/\/< Return the value of this attribute.$/;"	f	class:TiXmlAttribute
+ValueStr	ac/xml/tinyxml.h	/^	const std::string& ValueStr() const	{ return value; }				\/\/\/< Return the value of this attribute.$/;"	f	class:TiXmlAttribute
+ValueStr	ac/xml/tinyxml.h	/^	const std::string& ValueStr() const { return value; }$/;"	f	class:TiXmlNode
+ValueTStr	ac/xml/tinyxml.h	/^	const TIXML_STRING& ValueTStr() const { return value; }$/;"	f	class:TiXmlNode
+Version	ac/xml/tinyxml.h	/^	const char *Version() const			{ return version.c_str (); }$/;"	f	class:TiXmlDeclaration
+Visit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlComment& comment )$/;"	f	class:TiXmlPrinter
+Visit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlDeclaration& declaration )$/;"	f	class:TiXmlPrinter
+Visit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlText& text )$/;"	f	class:TiXmlPrinter
+Visit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::Visit( const TiXmlUnknown& unknown )$/;"	f	class:TiXmlPrinter
+Visit	ac/xml/tinyxml.h	/^	virtual bool Visit( const TiXmlComment& \/*comment*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	ac/xml/tinyxml.h	/^	virtual bool Visit( const TiXmlDeclaration& \/*declaration*\/ )	{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	ac/xml/tinyxml.h	/^	virtual bool Visit( const TiXmlText& \/*text*\/ )					{ return true; }$/;"	f	class:TiXmlVisitor
+Visit	ac/xml/tinyxml.h	/^	virtual bool Visit( const TiXmlUnknown& \/*unknown*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitEnter	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::VisitEnter( const TiXmlDocument& )$/;"	f	class:TiXmlPrinter
+VisitEnter	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::VisitEnter( const TiXmlElement& element, const TiXmlAttribute* firstAttribute )$/;"	f	class:TiXmlPrinter
+VisitEnter	ac/xml/tinyxml.h	/^	virtual bool VisitEnter( const TiXmlDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitEnter	ac/xml/tinyxml.h	/^	virtual bool VisitEnter( const TiXmlElement& \/*element*\/, const TiXmlAttribute* \/*firstAttribute*\/ )	{ return true; }$/;"	f	class:TiXmlVisitor
+VisitExit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::VisitExit( const TiXmlDocument& )$/;"	f	class:TiXmlPrinter
+VisitExit	ac/xml/tinyxml.cpp	/^bool TiXmlPrinter::VisitExit( const TiXmlElement& element )$/;"	f	class:TiXmlPrinter
+VisitExit	ac/xml/tinyxml.h	/^	virtual bool VisitExit( const TiXmlDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:TiXmlVisitor
+VisitExit	ac/xml/tinyxml.h	/^	virtual bool VisitExit( const TiXmlElement& \/*element*\/ )		{ return true; }$/;"	f	class:TiXmlVisitor
+WLockGuard	ac/util/rw_mutex.h	/^	WLockGuard(const RWMutex * mutex) : mutex_(mutex), acquired_(false) {}$/;"	f	class:ac::WLockGuard
+WLockGuard	ac/util/rw_mutex.h	/^class WLockGuard$/;"	c	namespace:ac
+WRITEMASK	test/main.cpp	50;"	d	file:
+WorkThreadPool	network/workthreadpool.h	/^		WorkThreadPool(ObjectPoolAllocator<ResultPackage> *pResultPackagePool,SyncQueue<Package*> *process_queue,SyncQueue<ResultPackage*> *result_queue,DataProcessor *pProcessor) $/;"	f	class:ac::WorkThreadPool
+WorkThreadPool	network/workthreadpool.h	/^	class WorkThreadPool : public ThreadPool,public ObjectManager<ResultPackage>$/;"	c	namespace:ac
+Write	ac/util/compositestream.h	/^    virtual bool Write(char c)$/;"	f	class:ac::CompositeWriteStream
+Write	ac/util/compositestream.h	/^    virtual bool Write(const char* str, size_t len)$/;"	f	class:ac::CompositeWriteStream
+Write	ac/util/compositestream.h	/^    virtual bool Write(int i)$/;"	f	class:ac::CompositeWriteStream
+Write	ac/util/compositestream.h	/^    virtual bool Write(short i)$/;"	f	class:ac::CompositeWriteStream
+Write	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::Write(char c)$/;"	f	class:ac::BinaryWriteStream
+Write	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::Write(const char* str, size_t length)$/;"	f	class:ac::BinaryWriteStream
+Write	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::Write(int i)$/;"	f	class:ac::BinaryWriteStream
+Write	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::Write(short i)$/;"	f	class:ac::BinaryWriteStream
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream2::Write(char c)$/;"	f	class:ac::TextWriteStream2
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream2::Write(const char* str, size_t len)$/;"	f	class:ac::TextWriteStream2
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream2::Write(int i)$/;"	f	class:ac::TextWriteStream2
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream2::Write(short i)$/;"	f	class:ac::TextWriteStream2
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream::Write(char c)$/;"	f	class:ac::TextWriteStream
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream::Write(const char* str, size_t len)$/;"	f	class:ac::TextWriteStream
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream::Write(int i)$/;"	f	class:ac::TextWriteStream
+Write	ac/util/protocolstream.cpp	/^bool TextWriteStream::Write(short i)$/;"	f	class:ac::TextWriteStream
+WriteContent	ac/util/protocolstream.cpp	/^bool TextWriteStream2::WriteContent(const char* str, size_t length)$/;"	f	class:ac::TextWriteStream2
+WriteContent	ac/util/protocolstream.cpp	/^bool TextWriteStream::WriteContent(const char* str, size_t length)$/;"	f	class:ac::TextWriteStream
+WriteLength	ac/util/protocolstream.cpp	/^bool BinaryWriteStream::WriteLength(size_t length)$/;"	f	class:ac::BinaryWriteStream
+WriteLength	ac/util/protocolstream.cpp	/^bool TextWriteStream2::WriteLength(size_t length)$/;"	f	class:ac::TextWriteStream2
+WriteLength	ac/util/protocolstream.cpp	/^bool TextWriteStream::WriteLength(size_t length)$/;"	f	class:ac::TextWriteStream
+WriteStream	ac/util/stream.h	/^struct WriteStream$/;"	s	namespace:ac
+WriteStreamImpl	ac/util/protocolstream.h	/^struct WriteStreamImpl : public WriteStream$/;"	s	namespace:ac
+_AC_CRITICAL	ac/log/log.h	73;"	d
+_AC_CRITICAL	ac/log/log.h	76;"	d
+_AC_DEBUG	ac/log/log.h	37;"	d
+_AC_DEBUG	ac/log/log.h	40;"	d
+_AC_ERROR	ac/log/log.h	64;"	d
+_AC_ERROR	ac/log/log.h	67;"	d
+_AC_INFO	ac/log/log.h	46;"	d
+_AC_INFO	ac/log/log.h	49;"	d
+_AC_STACK_TRACE	ac/log/stacktrace.h	22;"	d
+_AC_STACK_TRACE	ac/log/stacktrace.h	24;"	d
+_AC_TRACE	ac/log/log.h	28;"	d
+_AC_TRACE	ac/log/log.h	31;"	d
+_AC_WARNING	ac/log/log.h	55;"	d
+_AC_WARNING	ac/log/log.h	58;"	d
+_MD5_H	ac/util/md5.h	2;"	d
+_QUEUE_Block	ac/util/circle_queue.h	/^	typedef struct _QUEUE_Block {$/;"	s	class:ac::CircleQueue
+_Queue	ac/util/circle_queue.h	/^	typedef struct _Queue {$/;"	s	class:ac::CircleQueue
+__LPDesc	ac/log/logpriority.cpp	/^const char * __LPDesc[] =$/;"	v
+__StackTraceCleanup	ac/log/stacktrace.cpp	/^void __StackTraceCleanup(void* p)$/;"	f	namespace:ac
+__THREAD_FUNC	ac/util/thread.cpp	/^void* __THREAD_FUNC(void* p)$/;"	f	namespace:ac
+a	test/main.cpp	/^	A a;$/;"	m	class:B	file:
+ac	ac/bdb/bdb_uk.cpp	/^namespace ac$/;"	n	file:
+ac	ac/bdb/bdb_uk.h	/^namespace ac$/;"	n
+ac	ac/bdb/bdbenv.cpp	/^namespace ac$/;"	n	file:
+ac	ac/bdb/bdbenv.h	/^namespace ac$/;"	n
+ac	ac/log/datefilelogger.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/datefilelogger.h	/^namespace ac$/;"	n
+ac	ac/log/logdispatcher.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/logdispatcher.h	/^namespace ac$/;"	n
+ac	ac/log/logger.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/logger.h	/^namespace ac$/;"	n
+ac	ac/log/logpriority.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/logpriority.h	/^namespace ac$/;"	n
+ac	ac/log/nulllogger.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/nulllogger.h	/^namespace ac$/;"	n
+ac	ac/log/ostreamlogger.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/ostreamlogger.h	/^namespace ac$/;"	n
+ac	ac/log/stacktrace.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/log/stacktrace.h	/^namespace ac {$/;"	n
+ac	ac/log/udplogger.cpp	/^namespace ac$/;"	n	file:
+ac	ac/log/udplogger.h	/^namespace ac$/;"	n
+ac	ac/util/allocator.cpp	/^namespace ac$/;"	n	file:
+ac	ac/util/allocator.h	/^namespace ac$/;"	n
+ac	ac/util/circle_queue.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/util/circle_queue.h	/^namespace ac {$/;"	n
+ac	ac/util/circle_queue_4_type.h	/^namespace ac {$/;"	n
+ac	ac/util/compositestream.h	/^namespace ac {$/;"	n
+ac	ac/util/data_block.cpp	/^namespace ac$/;"	n	file:
+ac	ac/util/data_block.h	/^namespace ac$/;"	n
+ac	ac/util/destroyable.h	/^namespace ac {$/;"	n
+ac	ac/util/handle.h	/^namespace ac {$/;"	n
+ac	ac/util/mutex.cpp	/^namespace ac$/;"	n	file:
+ac	ac/util/mutex.h	/^namespace ac$/;"	n
+ac	ac/util/non_copyable.h	/^namespace ac$/;"	n
+ac	ac/util/notify.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/util/notify.h	/^namespace ac {$/;"	n
+ac	ac/util/objectallocator.h	/^namespace ac {$/;"	n
+ac	ac/util/objectmanager.h	/^namespace ac {$/;"	n
+ac	ac/util/objectpool.h	/^namespace ac {$/;"	n
+ac	ac/util/protocolstream.cpp	/^namespace ac $/;"	n	file:
+ac	ac/util/protocolstream.h	/^namespace ac$/;"	n
+ac	ac/util/queue.h	/^namespace ac {$/;"	n
+ac	ac/util/rw_mutex.h	/^namespace ac$/;"	n
+ac	ac/util/scope_guard.h	/^namespace ac$/;"	n
+ac	ac/util/static_check.h	/^namespace ac$/;"	n
+ac	ac/util/stream.h	/^namespace ac$/;"	n
+ac	ac/util/thread.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/util/thread.h	/^namespace ac {$/;"	n
+ac	ac/util/threadpool.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/util/threadpool.h	/^namespace ac {$/;"	n
+ac	ac/util/timeuse.h	/^namespace ac$/;"	n
+ac	ac/util/tss.cpp	/^namespace ac {$/;"	n	file:
+ac	ac/util/tss.h	/^namespace ac {$/;"	n
+ac	network/clientsocket.cpp	/^namespace ac$/;"	n	file:
+ac	network/clientsocket.h	/^namespace ac$/;"	n
+ac	network/counter.h	/^namespace ac$/;"	n
+ac	network/datadecoder.cpp	/^namespace ac$/;"	n	file:
+ac	network/datadecoder.h	/^namespace ac$/;"	n
+ac	network/dataprocessor.h	/^namespace ac$/;"	n
+ac	network/eventhandler.cpp	/^namespace ac$/;"	n	file:
+ac	network/eventhandler.h	/^namespace ac$/;"	n
+ac	network/listensocket.cpp	/^namespace ac$/;"	n	file:
+ac	network/listensocket.h	/^namespace ac$/;"	n
+ac	network/netapp.cpp	/^namespace ac$/;"	n	file:
+ac	network/netapp.h	/^namespace ac$/;"	n
+ac	network/package.h	/^namespace ac$/;"	n
+ac	network/reactor.cpp	/^namespace ac$/;"	n	file:
+ac	network/reactor.h	/^namespace ac$/;"	n
+ac	network/resulteventhandler.cpp	/^namespace ac$/;"	n	file:
+ac	network/resulteventhandler.h	/^namespace ac$/;"	n
+ac	network/socket.cpp	/^namespace ac {$/;"	n	file:
+ac	network/socket.h	/^namespace ac {$/;"	n
+ac	network/workthreadpool.cpp	/^namespace ac$/;"	n	file:
+ac	network/workthreadpool.h	/^namespace ac$/;"	n
+acquired_	ac/util/mutex.h	/^    mutable bool acquired_;$/;"	m	class:ac::LockGuard
+acquired_	ac/util/rw_mutex.h	/^    mutable bool acquired_;$/;"	m	class:ac::RLockGuard
+acquired_	ac/util/rw_mutex.h	/^    mutable bool acquired_;$/;"	m	class:ac::WLockGuard
+alive	ac/util/thread.h	/^	bool alive;$/;"	m	class:ac::Thread
+allocator_	ac/util/circle_queue.h	/^	Allocator *		allocator_;$/;"	m	class:ac::CircleQueue
+append	ac/xml/tinystr.cpp	/^TiXmlString& TiXmlString::append(const char* str, size_type len)$/;"	f	class:TiXmlString
+assign	ac/xml/tinystr.cpp	/^TiXmlString& TiXmlString::assign(const char* str, size_type len)$/;"	f	class:TiXmlString
+at	ac/xml/tinystr.h	/^	const char& at (size_type index) const$/;"	f	class:TiXmlString
+attributeSet	ac/xml/tinyxml.h	/^	TiXmlAttributeSet attributeSet;$/;"	m	class:TiXmlElement
+bdbinfo	bdbcache/serverconf.h	/^typedef struct bdbinfo$/;"	s
+block_size	ac/util/circle_queue.h	/^		size_t block_size;$/;"	m	struct:ac::CircleQueue::_Queue
+buffer	ac/util/md5.h	/^    uint8 buffer[64];$/;"	m
+buffer	ac/xml/tinyxml.h	/^	TIXML_STRING buffer;$/;"	m	class:TiXmlPrinter
+c	test/main.cpp	/^	C c;$/;"	m	class:B	file:
+c_str	ac/xml/tinystr.h	/^	const char * c_str () const { return rep_->str; }$/;"	f	class:TiXmlString
+call	ac/util/objectmanager.h	/^	virtual void call(Destroyable* pObject)$/;"	f	class:ac::ObjectManager
+capacity	ac/xml/tinystr.h	/^		size_type size, capacity;$/;"	m	struct:TiXmlString::Rep
+capacity	ac/xml/tinystr.h	/^	size_type capacity () const { return rep_->capacity; }$/;"	f	class:TiXmlString
+cdata	ac/xml/tinyxml.h	/^	bool cdata;			\/\/ true if this should be input and output as a CDATA style text element$/;"	m	class:TiXmlText
+chr	ac/xml/tinyxml.h	/^		char		    chr;$/;"	m	struct:TiXmlBase::Entity
+clear	ac/xml/tinystr.h	/^	void clear ()$/;"	f	class:TiXmlString
+col	ac/xml/tinyxml.h	/^	int col;	\/\/ 0 based.$/;"	m	struct:TiXmlCursor
+cond	ac/util/queue.h	/^	mutable pthread_cond_t  cond;$/;"	m	class:ac::SyncQueue
+condenseWhiteSpace	ac/xml/tinyxml.cpp	/^bool TiXmlBase::condenseWhiteSpace = true;$/;"	m	class:TiXmlBase	file:
+condenseWhiteSpace	ac/xml/tinyxml.h	/^	static bool condenseWhiteSpace;$/;"	m	class:TiXmlBase
+cqueue_	ac/util/circle_queue_4_type.h	/^	CircleQueue cqueue_;$/;"	m	class:ac::CircleQueue4Type
+cur	ac/util/protocolstream.h	/^	char*  cur;$/;"	m	class:ac::BinaryWriteStream
+cur	ac/util/protocolstream.h	/^	char*  cur;$/;"	m	class:ac::TextWriteStream
+cur	ac/util/protocolstream.h	/^	char*  cur;$/;"	m	class:ac::TextWriteStream2
+cur	ac/util/protocolstream.h	/^	const char* cur;$/;"	m	class:ac::BinaryReadStream
+cur	ac/util/protocolstream.h	/^	const char* cur;$/;"	m	class:ac::TextReadStream
+cur	ac/util/protocolstream.h	/^	const char* cur;$/;"	m	class:ac::TextReadStream2
+cursor	ac/xml/tinyxmlparser.cpp	/^	TiXmlCursor		cursor;$/;"	m	class:TiXmlParsingData	file:
+data	ac/util/circle_queue.h	/^		char data[0];$/;"	m	struct:ac::CircleQueue::_QUEUE_Block
+data	ac/xml/tinystr.h	/^	const char * data () const { return rep_->str; }$/;"	f	class:TiXmlString
+datablock	ac/util/compositestream.h	/^	DataBlock datablock;$/;"	m	class:ac::CompositeWriteStream
+deadthreads	ac/util/threadpool.h	/^	ThreadPtrContainer	deadthreads;$/;"	m	class:ac::ThreadPool
+depth	ac/xml/tinyxml.h	/^	int depth;$/;"	m	class:TiXmlPrinter
+dismissed_	ac/util/scope_guard.h	/^        mutable bool dismissed_;$/;"	m	class:ac::ScopeGuardImplBase
+document	ac/xml/tinyxml.h	/^	TiXmlDocument*	document;	\/\/ A pointer back to a document, for error reporting.$/;"	m	class:TiXmlAttribute
+empty	ac/xml/tinystr.h	/^	bool empty () const { return rep_->size == 0; }$/;"	f	class:TiXmlString
+encoding	ac/xml/tinyxml.h	/^	TIXML_STRING encoding;$/;"	m	class:TiXmlDeclaration
+entity	ac/xml/tinyxml.h	/^	static Entity entity[ NUM_ENTITY ];$/;"	m	class:TiXmlBase
+entity	ac/xml/tinyxmlparser.cpp	/^TiXmlBase::Entity TiXmlBase::entity[ NUM_ENTITY ] = $/;"	m	class:TiXmlBase	file:
+error	ac/xml/tinyxml.h	/^	bool error;$/;"	m	class:TiXmlDocument
+errorDesc	ac/xml/tinyxml.h	/^	TIXML_STRING errorDesc;$/;"	m	class:TiXmlDocument
+errorId	ac/xml/tinyxml.h	/^	int  errorId;$/;"	m	class:TiXmlDocument
+errorLocation	ac/xml/tinyxml.h	/^	TiXmlCursor errorLocation;$/;"	m	class:TiXmlDocument
+errorString	ac/xml/tinyxml.h	/^	static const char* errorString[ TIXML_ERROR_STRING_COUNT ];$/;"	m	class:TiXmlBase
+errorString	ac/xml/tinyxmlerror.cpp	/^const char* TiXmlBase::errorString[ TIXML_ERROR_STRING_COUNT ] =$/;"	m	class:TiXmlBase	file:
+file	ac/log/stacktrace.h	/^	const char* file;$/;"	m	class:ac::StackTrace
+find	ac/xml/tinystr.h	/^	size_type find (char lookup) const$/;"	f	class:TiXmlString
+find	ac/xml/tinystr.h	/^	size_type find (char tofind, size_type offset) const$/;"	f	class:TiXmlString
+finish	ac/xml/tinystr.h	/^	char* finish() const { return rep_->str + rep_->size; }$/;"	f	class:TiXmlString
+firstChild	ac/xml/tinyxml.h	/^	TiXmlNode*		firstChild;$/;"	m	class:TiXmlNode
+first_block_addr	ac/util/circle_queue.h	/^		char first_block_addr[0];$/;"	m	struct:ac::CircleQueue::_Queue
+flag	network/reactor.h	/^			int flag;\/\/ EPOLLIN或EPOLLOUT或EPOLLIN | EPOLLOUT$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+fun	test/main11.cpp	/^		virtual void fun(){$/;"	f	class:A
+fun	test/main11.cpp	/^		virtual void fun(){$/;"	f	class:B
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl0
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl1
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl2
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl3
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl4
+fun_	ac/util/scope_guard.h	/^        F fun_;$/;"	m	class:ac::ScopeGuardImpl5
+func	ac/log/stacktrace.h	/^	const char* func;$/;"	m	class:ac::StackTrace
+g_pNetApp	bdbcache/main.cpp	/^NetApp *g_pNetApp;$/;"	v
+g_pNetApp	mysqlproxy/main.cpp	/^NetApp *g_pNetApp;$/;"	v
+g_pNetApp	mysqlproxy2/main.cpp	/^NetApp *g_pNetApp;$/;"	v
+g_pNetApp	unittest/main.cpp	/^NetApp *g_pNetApp;$/;"	v
+g_pNetProxy	stockserver/main.cpp	/^NetProxy *g_pNetProxy;$/;"	v
+get	ac/util/tss.cpp	/^void* TSS::get()$/;"	f	class:ac::TSS
+handle	network/socket.h	/^	Handle handle;$/;"	m	class:ac::Socket
+hdl	ac/util/handle.h	/^	int hdl;$/;"	m	struct:ac::Handle
+hdl	ac/util/thread.h	/^	pthread_t hdl;$/;"	m	class:ac::Thread
+i	test/main.cpp	/^	int i;$/;"	m	class:A	file:
+iCurrNum_	ac/util/objectpool.h	/^	size_t		iCurrNum_;$/;"	m	class:ac::ObjectPoolAllocator
+iIncNum_	ac/util/objectpool.h	/^	size_t		iIncNum_;$/;"	m	class:ac::ObjectPoolAllocator
+iMaxNum_	ac/util/objectpool.h	/^	size_t		iMaxNum_;$/;"	m	class:ac::ObjectPoolAllocator
+indent	ac/xml/tinyxml.h	/^	TIXML_STRING indent;$/;"	m	class:TiXmlPrinter
+index	network/reactor.h	/^			int index;$/;"	m	struct:ac::EventHandlerSet::TMEHInfo
+index	network/reactor.h	/^			int index;\/\/在遍厉数组中的下标$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+init	ac/xml/tinystr.h	/^	void init(size_type sz) { init(sz, sz); }$/;"	f	class:TiXmlString
+init	ac/xml/tinystr.h	/^	void init(size_type sz, size_type cap)$/;"	f	class:TiXmlString
+isInuse	network/reactor.h	/^			bool isInuse;$/;"	m	struct:ac::EventHandlerSet::TMEHInfo
+isInuse	network/reactor.h	/^			bool isInuse;\/\/是否在用$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+key	ac/util/tss.h	/^	pthread_key_t key;$/;"	m	class:ac::TSS
+lastChild	ac/xml/tinyxml.h	/^	TiXmlNode*		lastChild;$/;"	m	class:TiXmlNode
+len	ac/util/circle_queue.h	/^		size_t len;$/;"	m	struct:ac::CircleQueue::_QUEUE_Block
+len	ac/util/protocolstream.h	/^	const size_t      len;$/;"	m	class:ac::TextReadStream2
+len	ac/util/protocolstream.h	/^	const size_t len;$/;"	m	class:ac::BinaryReadStream
+len	ac/util/protocolstream.h	/^	const size_t len;$/;"	m	class:ac::BinaryWriteStream
+len	ac/util/protocolstream.h	/^	const size_t len;$/;"	m	class:ac::TextReadStream
+len	ac/util/protocolstream.h	/^	const size_t len;$/;"	m	class:ac::TextWriteStream
+len	ac/util/protocolstream.h	/^	const size_t len;$/;"	m	class:ac::TextWriteStream2
+length	ac/xml/tinystr.h	/^	size_type length () const { return rep_->size; }$/;"	f	class:TiXmlString
+limit_	ac/util/queue.h	/^	size_t	limit_;	$/;"	m	class:ac::SyncQueue
+line	ac/log/stacktrace.h	/^	size_t		line;$/;"	m	class:ac::StackTrace
+lineBreak	ac/xml/tinyxml.h	/^	TIXML_STRING lineBreak;$/;"	m	class:TiXmlPrinter
+livethreads	ac/util/threadpool.h	/^	ThreadPtrContainer	livethreads;$/;"	m	class:ac::ThreadPool
+location	ac/xml/tinyxml.h	/^	TiXmlCursor location;$/;"	m	class:TiXmlBase
+mLoggerMap_	ac/log/logdispatcher.h	/^	LoggerMap mLoggerMap_;$/;"	m	class:ac::LogDispatcher
+m_BdbProxyList	stockserver/serverconf.h	/^		vector< pair<string,int> > m_BdbProxyList;$/;"	m	class:BdbProxyConf
+m_CacheDataDecoder	stockserver/netproxy.h	/^		CacheDataDecoder m_CacheDataDecoder;$/;"	m	class:NetProxy
+m_CacheServerList	stockserver/netproxy.h	/^		vector<BackClientSocket*> m_CacheServerList;$/;"	m	class:NetProxy
+m_ClientDataDecoder	stockserver/netproxy.h	/^		ClientDataDecoder m_ClientDataDecoder;$/;"	m	class:NetProxy
+m_ClientSocketPool	network/netapp.h	/^			ObjectPoolAllocator<ClientSocket> m_ClientSocketPool;$/;"	m	class:ac::NetApp
+m_ClientSocketPool	stockserver/netproxy.h	/^		ObjectPoolAllocator<StockClient> m_ClientSocketPool;$/;"	m	class:NetProxy
+m_Conntimeout	bdbcache/serverconf.h	/^		int m_Conntimeout;$/;"	m	class:ServerConf
+m_Conntimeout	mysqlproxy/serverconf.h	/^		int m_Conntimeout;$/;"	m	class:ServerConf
+m_Conntimeout	mysqlproxy2/serverconf.h	/^		int m_Conntimeout;$/;"	m	class:ServerConf
+m_Conntimeout	stockserver/serverconf.h	/^		int m_Conntimeout;$/;"	m	class:ServerConf
+m_Conntimeout	unittest/serverconf.h	/^		int m_Conntimeout;$/;"	m	class:ServerConf
+m_DBDataDecoder	stockserver/netproxy.h	/^		DBDataDecoder m_DBDataDecoder;$/;"	m	class:NetProxy
+m_DBServerList	stockserver/netproxy.h	/^		vector<BackClientSocket*> m_DBServerList;$/;"	m	class:NetProxy
+m_DataDecoder	network/netapp.h	/^			DataDecoder_Q m_DataDecoder;$/;"	m	class:ac::NetApp
+m_Env	ac/bdb/bdbenv.h	/^			DB_ENV *m_Env;$/;"	m	class:ac::BdbEnv
+m_FDEHMap	network/reactor.h	/^			hash_map<int,FDEHINFO > m_FDEHMap;$/;"	m	class:ac::EventHandlerSet
+m_FDEHvec	network/reactor.h	/^			FDEHINFO m_FDEHvec[MAXCLIENTCOUNT];$/;"	m	class:ac::EventHandlerSet
+m_Listenport	bdbcache/serverconf.h	/^		int m_Listenport;$/;"	m	class:ServerConf
+m_Listenport	mysqlproxy/serverconf.h	/^		int m_Listenport;$/;"	m	class:ServerConf
+m_Listenport	mysqlproxy2/serverconf.h	/^		int m_Listenport;$/;"	m	class:ServerConf
+m_Listenport	stockserver/serverconf.h	/^		int m_Listenport;$/;"	m	class:ServerConf
+m_Listenport	unittest/serverconf.h	/^		int m_Listenport;$/;"	m	class:ServerConf
+m_Logdir	bdbcache/serverconf.h	/^		char m_Logdir[128];$/;"	m	class:ServerConf
+m_Logdir	mysqlproxy/serverconf.h	/^		char m_Logdir[128];$/;"	m	class:ServerConf
+m_Logdir	mysqlproxy2/serverconf.h	/^		char m_Logdir[128];$/;"	m	class:ServerConf
+m_Logdir	stockserver/serverconf.h	/^		char m_Logdir[128];$/;"	m	class:ServerConf
+m_Logdir	unittest/serverconf.h	/^		char m_Logdir[128];$/;"	m	class:ServerConf
+m_MapForClient	network/netapp.h	/^			ClientMap m_MapForClient;$/;"	m	class:ac::NetApp
+m_MapForClient	stockserver/netproxy.h	/^		ClientMap m_MapForClient;$/;"	m	class:NetProxy
+m_MapForStockInfo	stockserver/stockdata.h	/^		map<string,STOCKINFO> m_MapForStockInfo;$/;"	m	class:StockData
+m_MapForTMPackage	stockserver/netproxy.h	/^		hash_map<int,TMPackage*> m_MapForTMPackage;$/;"	m	class:NetProxy
+m_Maxclientcount	bdbcache/serverconf.h	/^		int m_Maxclientcount;$/;"	m	class:ServerConf
+m_Maxclientcount	mysqlproxy/serverconf.h	/^		int m_Maxclientcount;$/;"	m	class:ServerConf
+m_Maxclientcount	mysqlproxy2/serverconf.h	/^		int m_Maxclientcount;$/;"	m	class:ServerConf
+m_Maxclientcount	stockserver/serverconf.h	/^		int m_Maxclientcount;$/;"	m	class:ServerConf
+m_Maxclientcount	unittest/serverconf.h	/^		int m_Maxclientcount;$/;"	m	class:ServerConf
+m_Maxqueuesize	bdbcache/serverconf.h	/^		int m_Maxqueuesize;$/;"	m	class:ServerConf
+m_Maxqueuesize	mysqlproxy/serverconf.h	/^		int m_Maxqueuesize;$/;"	m	class:ServerConf
+m_Maxqueuesize	mysqlproxy2/serverconf.h	/^		int m_Maxqueuesize;$/;"	m	class:ServerConf
+m_Maxqueuesize	unittest/serverconf.h	/^		int m_Maxqueuesize;$/;"	m	class:ServerConf
+m_MysqlPrxoyList	stockserver/serverconf.h	/^		vector<MYSQLPROXYINFO> m_MysqlPrxoyList;$/;"	m	class:MysqlProxyConf
+m_PackagePool	network/datadecoder.h	/^			ObjectPoolAllocator<Package> *m_PackagePool;	$/;"	m	class:ac::DataDecoder_Q
+m_ProcessPackagePool	network/netapp.h	/^			ObjectPoolAllocator<Package> m_ProcessPackagePool;$/;"	m	class:ac::NetApp
+m_ProcessQueue	network/netapp.h	/^                        SyncQueue<Package*> m_ProcessQueue;$/;"	m	class:ac::NetApp
+m_Reactor	network/netapp.h	/^			EPReactor m_Reactor;$/;"	m	class:ac::NetApp
+m_Reactor	stockserver/netproxy.h	/^		EPReactor m_Reactor;$/;"	m	class:NetProxy
+m_ResultPackagePool	network/netapp.h	/^			ObjectPoolAllocator<ResultPackage> m_ResultPackagePool;$/;"	m	class:ac::NetApp
+m_ResultQueue	network/netapp.h	/^                        SyncQueue<ResultPackage*> m_ResultQueue;$/;"	m	class:ac::NetApp
+m_Set	network/reactor.h	/^			EventHandlerSet m_Set;$/;"	m	class:ac::EPReactor
+m_SockNotification	network/netapp.h	/^			SocketNotification m_SockNotification;$/;"	m	class:ac::NetApp
+m_TMEHMap	network/reactor.h	/^			hash_map<int,TMEHINFO > m_TMEHMap;$/;"	m	class:ac::EventHandlerSet
+m_TMEHvec	network/reactor.h	/^			TMEHINFO m_TMEHvec[MAXPACKCOUNT];$/;"	m	class:ac::EventHandlerSet
+m_TMPackageAlloctor	stockserver/stockclient.h	/^		ObjectPoolAllocator<TMPackage> m_TMPackageAlloctor;$/;"	m	class:BackClientSocket
+m_TMPackageManager	stockserver/stockclient.h	/^		ObjectManager<TMPackage> m_TMPackageManager;$/;"	m	class:BackClientSocket
+m_Threadcount	bdbcache/serverconf.h	/^		int m_Threadcount;$/;"	m	class:ServerConf
+m_Threadcount	mysqlproxy/serverconf.h	/^		int m_Threadcount;$/;"	m	class:ServerConf
+m_Threadcount	mysqlproxy2/serverconf.h	/^		int m_Threadcount;$/;"	m	class:ServerConf
+m_Threadcount	unittest/serverconf.h	/^		int m_Threadcount;$/;"	m	class:ServerConf
+m_Udpport	bdbcache/serverconf.h	/^		int m_Udpport;$/;"	m	class:ServerConf
+m_Udpport	mysqlproxy/serverconf.h	/^		int m_Udpport;$/;"	m	class:ServerConf
+m_Udpport	mysqlproxy2/serverconf.h	/^		int m_Udpport;$/;"	m	class:ServerConf
+m_Udpport	stockserver/serverconf.h	/^		int m_Udpport;$/;"	m	class:ServerConf
+m_Udpport	unittest/serverconf.h	/^		int m_Udpport;$/;"	m	class:ServerConf
+m_WorkThreadPool	network/netapp.h	/^			WorkThreadPool m_WorkThreadPool;$/;"	m	class:ac::NetApp
+m_bdb	ac/nouse/TBdbHashQueue.h	/^	TBdb_UK		m_bdb;$/;"	m	class:TBdbHashQueue
+m_bdbenvfolder	ac/bdb/bdbenv.h	/^			char m_bdbenvfolder[64];$/;"	m	class:ac::BdbEnv
+m_bdbfilename	ac/bdb/bdb_uk.h	/^			char m_bdbfilename[64];$/;"	m	class:ac::Bdb_UK
+m_bdbfilename	ac/nouse/TBdb_Queue.h	/^	char m_bdbfilename[100];$/;"	m	class:TBdb_Queue
+m_bdbfolder	ac/bdb/bdbenv.h	/^			char m_bdbfolder[64];$/;"	m	class:ac::BdbEnv
+m_bdbseq	ac/nouse/TBdbHashQueue.h	/^	TBdb_UK		m_bdbseq;$/;"	m	class:TBdbHashQueue
+m_begin	stockserver/serverconf.h	/^		int m_begin;$/;"	m	class:BdbProxyConf
+m_begin	stockserver/serverconf.h	/^		int m_begin;$/;"	m	class:MysqlProxyConf
+m_buf	ac/util/data_block.h	/^	char *m_buf;$/;"	m	class:ac::DataBlock
+m_clientid	network/package.h	/^			int m_clientid;$/;"	m	class:ac::PackageBase2
+m_clientmap	network/counter.h	/^			hash_map<int,ClientSocketBase*> m_clientmap;	$/;"	m	class:ac::ClientMap
+m_count	network/counter.h	/^			int m_count;$/;"	m	class:ac::Counter
+m_count	stockserver/serverconf.h	/^		int m_count;$/;"	m	class:BdbProxyConf
+m_count	stockserver/serverconf.h	/^		int m_count;$/;"	m	class:MysqlProxyConf
+m_counter	network/netapp.h	/^			Counter m_counter;$/;"	m	class:ac::NetApp
+m_counter	stockserver/netproxy.h	/^		Counter m_counter;$/;"	m	class:NetProxy
+m_database	ac/bdb/bdb_uk.h	/^			char m_database[64];$/;"	m	class:ac::Bdb_UK
+m_db	ac/bdb/bdb_uk.h	/^			DB *m_db;$/;"	m	class:ac::Bdb_UK
+m_db	ac/nouse/TBdb_Queue.h	/^	DB *m_db;$/;"	m	class:TBdb_Queue
+m_db	network/package.h	/^			DataBlock m_db;$/;"	m	class:ac::PackageBase
+m_dbdir	bdbcache/serverconf.h	/^	char m_dbdir[64];$/;"	m	struct:bdbinfo
+m_dbname	bdbcache/serverconf.h	/^	char m_dbname[64];$/;"	m	struct:bdbinfo
+m_dbseq	ac/nouse/TBdbSeq.h	/^	DB_SEQUENCE *m_dbseq;$/;"	m	class:TBdbSeq
+m_envdir	bdbcache/serverconf.h	/^	char m_envdir[64];$/;"	m	struct:bdbinfo
+m_epfd	network/reactor.h	/^			int m_epfd;$/;"	m	class:ac::EPReactor
+m_fd	ac/util/notify.h	/^	int m_fd;$/;"	m	class:ac::SocketNotification
+m_fd	network/eventhandler.h	/^			int m_fd;$/;"	m	class:ac::FDEventHandler
+m_hdlen	network/datadecoder.h	/^			size_t m_hdlen;$/;"	m	class:ac::DataDecoder
+m_i	test/main9.cpp	/^		int m_i;$/;"	m	class:A	file:
+m_id	network/eventhandler.h	/^			int m_id;$/;"	m	class:ac::FDEventHandler
+m_id	network/eventhandler.h	/^			int m_id;$/;"	m	class:ac::TMEventHandler
+m_ip	network/clientsocket.h	/^			char m_ip[20];$/;"	m	class:ac::BackClientSocketBase
+m_ip	stockserver/serverconf.h	/^	char m_ip[20];$/;"	m	struct:mysqlproxyinfo
+m_isAuth	stockserver/stockclient.h	/^		bool m_isAuth;$/;"	m	class:StockClient
+m_isconnect	network/clientsocket.h	/^			bool m_isconnect;$/;"	m	class:ac::BackClientSocketBase
+m_isreconnect	network/clientsocket.h	/^			bool m_isreconnect;$/;"	m	class:ac::BackClientSocketBase
+m_listener	network/netapp.h	/^			ListenSocket m_listener;$/;"	m	class:ac::NetApp
+m_listener	stockserver/netproxy.h	/^		StockListener m_listener;$/;"	m	class:NetProxy
+m_maindbinfo	bdbcache/serverconf.h	/^		BDBINFO m_maindbinfo;			$/;"	m	class:BdbConf
+m_max	network/counter.h	/^			int m_max;$/;"	m	class:ac::Counter
+m_maxsize	ac/util/data_block.h	/^	size_t m_maxsize;$/;"	m	class:ac::DataBlock
+m_min	network/counter.h	/^			int m_min;$/;"	m	class:ac::Counter
+m_mod	stockserver/serverconf.h	/^	int m_mod;$/;"	m	struct:mysqlproxyinfo
+m_mysqlip	mysqlproxy/mysqldataprocessor.h	/^		char m_mysqlip[32];$/;"	m	class:MysqlDataProcessor
+m_mysqlip	mysqlproxy/serverconf.h	/^		char m_mysqlip[32];$/;"	m	class:MysqlConf
+m_mysqlip	mysqlproxy2/mysqldataprocessor.h	/^		char m_mysqlip[32];$/;"	m	class:MysqlDataProcessor
+m_mysqlip	mysqlproxy2/serverconf.h	/^		char m_mysqlip[32];$/;"	m	class:MysqlConf
+m_mysqlip	unittest/serverconf.h	/^		char m_mysqlip[32];$/;"	m	class:MysqlConf
+m_mysqlpass	mysqlproxy/mysqldataprocessor.h	/^		char m_mysqlpass[32];$/;"	m	class:MysqlDataProcessor
+m_mysqlpass	mysqlproxy/serverconf.h	/^		char m_mysqlpass[32];$/;"	m	class:MysqlConf
+m_mysqlpass	mysqlproxy2/mysqldataprocessor.h	/^		char m_mysqlpass[32];$/;"	m	class:MysqlDataProcessor
+m_mysqlpass	mysqlproxy2/serverconf.h	/^		char m_mysqlpass[32];$/;"	m	class:MysqlConf
+m_mysqlpass	unittest/serverconf.h	/^		char m_mysqlpass[32];$/;"	m	class:MysqlConf
+m_mysqlport	mysqlproxy/mysqldataprocessor.h	/^		int m_mysqlport;$/;"	m	class:MysqlDataProcessor
+m_mysqlport	mysqlproxy/serverconf.h	/^		int m_mysqlport;$/;"	m	class:MysqlConf
+m_mysqlport	mysqlproxy2/mysqldataprocessor.h	/^		int m_mysqlport;$/;"	m	class:MysqlDataProcessor
+m_mysqlport	mysqlproxy2/serverconf.h	/^		int m_mysqlport;$/;"	m	class:MysqlConf
+m_mysqlport	unittest/serverconf.h	/^		int m_mysqlport;$/;"	m	class:MysqlConf
+m_mysqluser	mysqlproxy/mysqldataprocessor.h	/^		char m_mysqluser[32];$/;"	m	class:MysqlDataProcessor
+m_mysqluser	mysqlproxy/serverconf.h	/^		char m_mysqluser[32];$/;"	m	class:MysqlConf
+m_mysqluser	mysqlproxy2/mysqldataprocessor.h	/^		char m_mysqluser[32];$/;"	m	class:MysqlDataProcessor
+m_mysqluser	mysqlproxy2/serverconf.h	/^		char m_mysqluser[32];$/;"	m	class:MysqlConf
+m_mysqluser	unittest/serverconf.h	/^		char m_mysqluser[32];$/;"	m	class:MysqlConf
+m_now_price	stockserver/stockdata.h	/^	int m_now_price;\/\/当前价格$/;"	m	struct:stockinfo
+m_pAllocator	ac/util/data_block.h	/^	Allocator *m_pAllocator;$/;"	m	class:ac::DataBlock
+m_pBackServer	stockserver/stockclient.h	/^		BackClientSocket *m_pBackServer;$/;"	m	class:TMPackage
+m_pBdb	bdbcache/bdbdataprocessor.h	/^		Bdb_UK *m_pBdb;$/;"	m	class:BDBDataProcessor
+m_pBdbProxyConf	stockserver/netproxy.h	/^		BdbProxyConf *m_pBdbProxyConf;$/;"	m	class:NetProxy
+m_pClientMap	network/clientsocket.h	/^			ClientMap *m_pClientMap;$/;"	m	class:ac::ClientSocket
+m_pClientMap	network/listensocket.h	/^			ClientMap *m_pClientMap;$/;"	m	class:ac::ListenSocketBase2
+m_pClientMap	network/resulteventhandler.h	/^		ClientMap *m_pClientMap;$/;"	m	class:ac::ResultEventHandler
+m_pCounter	network/listensocket.h	/^			Counter *m_pCounter;$/;"	m	class:ac::ListenSocketBase2
+m_pDab	ac/util/destroyable.h	/^	Destroyable *m_pDab;$/;"	m	class:ac::DestroyableGuard
+m_pDataProcessor	network/netapp.h	/^			DataProcessor *m_pDataProcessor;$/;"	m	class:ac::NetApp
+m_pDecoder	network/clientsocket.h	/^			DataDecoderBase *m_pDecoder;$/;"	m	class:ac::ClientSocketBase
+m_pDecoder	network/listensocket.h	/^			DataDecoderBase *m_pDecoder;$/;"	m	class:ac::ListenSocketBase2
+m_pMapForTMPackage	stockserver/stockclient.h	/^		hash_map<int,TMPackage*> *m_pMapForTMPackage;$/;"	m	class:TMPackage
+m_pMysqlProxyConf	stockserver/netproxy.h	/^		MysqlProxyConf *m_pMysqlProxyConf;$/;"	m	class:NetProxy
+m_pProcessor	network/workthreadpool.h	/^		DataProcessor *m_pProcessor;$/;"	m	class:ac::WorkThreadPool
+m_pReactor	network/eventhandler.h	/^			Reactor *m_pReactor;$/;"	m	class:ac::EventHandler
+m_pResultQueue	network/resulteventhandler.h	/^		SyncQueue<ResultPackage*> *m_pResultQueue;$/;"	m	class:ac::ResultEventHandler
+m_packtimeout_cacheserver	stockserver/netproxy.h	/^		int m_packtimeout_cacheserver;$/;"	m	class:StockDataDecoderBase
+m_packtimeout_mysqlproxy	stockserver/netproxy.h	/^		int m_packtimeout_mysqlproxy;$/;"	m	class:StockDataDecoderBase
+m_passwd	stockserver/stockclient.h	/^		char m_passwd[50];$/;"	m	class:TMPackage_userauth
+m_popqueuetime	network/package.h	/^			timeval m_popqueuetime;$/;"	m	class:ac::Package
+m_port	network/clientsocket.h	/^			int m_port;$/;"	m	class:ac::BackClientSocketBase
+m_port	network/listensocket.h	/^			int m_port;$/;"	m	class:ac::ListenSocketBase
+m_port	network/listensocket.h	/^			int m_port;$/;"	m	class:ac::UdpListenSocket
+m_port	stockserver/serverconf.h	/^	int m_port;$/;"	m	struct:mysqlproxyinfo
+m_pos	ac/util/data_block.h	/^	size_t m_pos;$/;"	m	class:ac::DataBlock
+m_process_queue	network/workthreadpool.h	/^		SyncQueue<Package*> *m_process_queue;$/;"	m	class:ac::WorkThreadPool
+m_processmutex	network/netapp.h	/^			ThreadMutex m_processmutex;$/;"	m	class:ac::NetApp
+m_pttype	network/datadecoder.h	/^			int m_pttype;$/;"	m	class:ac::DataDecoder
+m_pushqueuetime	network/package.h	/^			timeval m_pushqueuetime;$/;"	m	class:ac::Package
+m_queue	ac/nouse/TBdbHashQueue.h	/^	TBdb_Queue	m_queue;$/;"	m	class:TBdbHashQueue
+m_queue_process	network/datadecoder.h	/^			SyncQueue<Package*> *m_queue_process;$/;"	m	class:ac::DataDecoder_Q
+m_recvdata	network/clientsocket.h	/^			DataBlock m_recvdata;$/;"	m	class:ac::ClientSocketBase
+m_res	mysqlproxy/mysqldataprocessor.h	/^		MYSQL_RES* m_res;$/;"	m	class:TMysqlResGuard
+m_res	mysqlproxy2/mysqldataprocessor.h	/^		MYSQL_RES* m_res;$/;"	m	class:TMysqlResGuard
+m_result	network/package.h	/^			int m_result;$/;"	m	class:ac::ResultPackage
+m_result_queue	network/workthreadpool.h	/^		SyncQueue<ResultPackage*> *m_result_queue;$/;"	m	class:ac::WorkThreadPool
+m_resulteventhandler	network/netapp.h	/^			ResultEventHandler m_resulteventhandler;$/;"	m	class:ac::NetApp
+m_resultmutex	network/netapp.h	/^			ThreadMutex m_resultmutex;$/;"	m	class:ac::NetApp
+m_retrytime	stockserver/serverconf.h	/^		int m_retrytime;$/;"	m	class:BdbProxyConf
+m_retrytime	stockserver/serverconf.h	/^		int m_retrytime;$/;"	m	class:MysqlProxyConf
+m_retrytime	stockserver/stockclient.h	/^		int m_retrytime;$/;"	m	class:TMPackage
+m_retrytime_cacheserver	stockserver/netproxy.h	/^		int m_retrytime_cacheserver;$/;"	m	class:StockDataDecoderBase
+m_retrytime_mysqlproxy	stockserver/netproxy.h	/^		int m_retrytime_mysqlproxy;$/;"	m	class:StockDataDecoderBase
+m_running	network/reactor.h	/^			bool m_running;$/;"	m	class:ac::EPReactor
+m_senddata	network/clientsocket.h	/^			DataBlock m_senddata;$/;"	m	class:ac::ClientSocketBase
+m_seq	ac/nouse/TBdbHashQueue.h	/^	TBdbSeq		m_seq;$/;"	m	class:TBdbHashQueue
+m_sig	ac/util/notify.h	/^	int m_sig;$/;"	m	class:ac::SignalNotification
+m_size	ac/util/data_block.h	/^	size_t m_size;$/;"	m	class:ac::DataBlock
+m_size_b	bdbcache/serverconf.h	/^	int m_size_b;$/;"	m	struct:bdbinfo
+m_size_gb	bdbcache/serverconf.h	/^	int m_size_gb;$/;"	m	struct:bdbinfo
+m_threadcount	network/netapp.h	/^			size_t m_threadcount;$/;"	m	class:ac::NetApp
+m_time	stockserver/stockclient.h	/^		int m_time;$/;"	m	class:TMPackage
+m_timeout	network/clientsocket.h	/^			int m_timeout;$/;"	m	class:ac::ClientSocketBase
+m_timeout	network/listensocket.h	/^			int m_timeout;$/;"	m	class:ac::ListenSocketBase
+m_timeout	stockserver/serverconf.h	/^		int m_timeout;$/;"	m	class:BdbProxyConf
+m_timeout	stockserver/serverconf.h	/^		int m_timeout;$/;"	m	class:MysqlProxyConf
+m_timeout	stockserver/stockclient.h	/^		int m_timeout;$/;"	m	class:TMPackage
+m_tmpackcounter	stockserver/netproxy.h	/^		Counter m_tmpackcounter;$/;"	m	class:NetProxy
+m_today_opening_price	stockserver/stockdata.h	/^	int m_today_opening_price;\/\/今日开盘价格$/;"	m	struct:stockinfo
+m_type	stockserver/stockclient.h	/^		int m_type;$/;"	m	class:TMPackage
+m_udplistener	network/netapp.h	/^			UdpListenSocket m_udplistener;$/;"	m	class:ac::NetApp
+m_udplistener	stockserver/netproxy.h	/^		UdpListenSocket m_udplistener;$/;"	m	class:NetProxy
+m_user	stockserver/stockclient.h	/^		char m_user[50];$/;"	m	class:TMPackage_userauth
+m_yesterday_closing_price	stockserver/stockdata.h	/^	int m_yesterday_closing_price;\/\/昨日收盘价格$/;"	m	struct:stockinfo
+main	bdbcache/main.cpp	/^int main(int ,char )$/;"	f
+main	mysqlproxy/main.cpp	/^int main(int ,char )$/;"	f
+main	mysqlproxy2/main.cpp	/^int main(int ,char )$/;"	f
+main	presstest/testbdbcache.cpp	/^int main()$/;"	f
+main	presstest/testclient.cpp	/^int main(int \/*argc*\/, char* \/*argv[]*\/)$/;"	f
+main	presstest/testmysqlproxy.cpp	/^int main()$/;"	f
+main	stockserver/main.cpp	/^int main(int ,char )$/;"	f
+main	test/main.cpp	/^int main(int argc,char **argv)$/;"	f
+main	test/main10.cpp	/^int main()$/;"	f
+main	test/main11.cpp	/^int main()$/;"	f
+main	test/main2.cpp	/^int main()$/;"	f
+main	test/main3.cpp	/^int main ()$/;"	f
+main	test/main4.cpp	/^int main()$/;"	f
+main	test/main5.cpp	/^int main()$/;"	f
+main	test/main6.cpp	/^int main()$/;"	f
+main	test/main7.cpp	/^int main()$/;"	f
+main	test/main8.cpp	/^int main()$/;"	f
+main	test/main9.cpp	/^int main()$/;"	f
+main	unittest/main.cpp	/^int main(int ,char )$/;"	f
+main	unittest/main2.cpp	/^int main()$/;"	f
+main	unittest/main3.cpp	/^int main(int argc,char **argv)$/;"	f
+md5_context	ac/util/md5.h	/^md5_context;$/;"	t
+md5_finish	ac/util/md5.c	/^void md5_finish( md5_context *ctx, uint8 digest[16] )$/;"	f
+md5_padding	ac/util/md5.c	/^static uint8 md5_padding[64] =$/;"	v	file:
+md5_process	ac/util/md5.c	/^void md5_process( md5_context *ctx, uint8 data[64] )$/;"	f
+md5_starts	ac/util/md5.c	/^void md5_starts( md5_context *ctx )$/;"	f
+md5_string	ac/util/md5.c	/^char *md5_string(const unsigned char *in, char *out, uint32 in_len)$/;"	f
+md5_update	ac/util/md5.c	/^void md5_update( md5_context *ctx, uint8 *input, uint32 length )$/;"	f
+memFun_	ac/util/scope_guard.h	/^        MemFun memFun_;$/;"	m	class:ac::ObjScopeGuardImpl0
+memFun_	ac/util/scope_guard.h	/^        MemFun memFun_;$/;"	m	class:ac::ObjScopeGuardImpl1
+memFun_	ac/util/scope_guard.h	/^        MemFun memFun_;$/;"	m	class:ac::ObjScopeGuardImpl2
+memFun_	ac/util/scope_guard.h	/^        MemFun memFun_;$/;"	m	class:ac::ObjScopeGuardImpl3
+mutex	ac/util/queue.h	/^	mutable pthread_mutex_t mutex;$/;"	m	class:ac::SyncQueue
+mutex	ac/util/threadpool.h	/^	pthread_mutex_t		mutex;$/;"	m	class:ac::ThreadPool
+mutex_	ac/log/datefilelogger.h	/^	ThreadMutex mutex_;$/;"	m	class:ac::DateFileLogger
+mutex_	ac/log/logdispatcher.h	/^	ThreadRWMutex mutex_;$/;"	m	class:ac::LogDispatcher
+mutex_	ac/log/ostreamlogger.h	/^	ThreadMutex mutex_;$/;"	m	class:ac::OStreamLogger
+mutex_	ac/util/mutex.h	/^	mutable pthread_mutex_t mutex_;$/;"	m	class:ac::ThreadMutex
+mutex_	ac/util/mutex.h	/^    const Mutex * mutex_;$/;"	m	class:ac::LockGuard
+mutex_	ac/util/rw_mutex.h	/^    const RWMutex * mutex_;$/;"	m	class:ac::RLockGuard
+mutex_	ac/util/rw_mutex.h	/^    const RWMutex * mutex_;$/;"	m	class:ac::WLockGuard
+mysqlproxyinfo	stockserver/serverconf.h	/^typedef struct mysqlproxyinfo$/;"	s
+name	ac/xml/tinyxml.h	/^	TIXML_STRING name;$/;"	m	class:TiXmlAttribute
+next	ac/xml/tinyxml.h	/^	TiXmlAttribute*	next;$/;"	m	class:TiXmlAttribute
+next	ac/xml/tinyxml.h	/^	TiXmlNode*		next;$/;"	m	class:TiXmlNode
+node	ac/xml/tinyxml.h	/^	TiXmlNode* node;$/;"	m	class:TiXmlHandle
+notify	ac/util/notify.cpp	/^void SignalNotification::notify()$/;"	f	class:ac::SignalNotification
+notify	ac/util/notify.cpp	/^void SocketNotification::notify()$/;"	f	class:ac::SocketNotification
+notify	ac/util/queue.h	/^	Notification* notify;$/;"	m	class:ac::Queue
+npos	ac/xml/tinystr.cpp	/^const TiXmlString::size_type TiXmlString::npos = static_cast< TiXmlString::size_type >(-1);$/;"	m	class:TiXmlString	file:
+npos	ac/xml/tinystr.h	/^	static const size_type npos; \/\/ = -1;$/;"	m	class:TiXmlString
+nullrep_	ac/xml/tinystr.cpp	/^TiXmlString::Rep TiXmlString::nullrep_ = { 0, 0, { '\\0' } };$/;"	m	class:TiXmlString	file:
+nullrep_	ac/xml/tinystr.h	/^	static Rep nullrep_;$/;"	m	class:TiXmlString
+obj	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 & obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+obj	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 * obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+obj	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl1<Obj1,Ret(Obj2::*)(P1a),P1b> MakeGuard(Ret(Obj2::*memFun)(P1a), Obj1 &obj, P1b p1) $/;"	v
+obj	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl1<Obj1,Ret(Obj2::*)(P1a),P1b> MakeGuard(Ret(Obj2::*memFun)(P1a), Obj1 *obj, P1b p1) $/;"	v
+obj	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl2<Obj1,Ret(Obj2::*)(P1a,P2a),P1b,P2b> MakeGuard(Ret(Obj2::*memFun)(P1a,P2a), Obj1 &obj, P1b p1, P2b p2) $/;"	v
+obj	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl2<Obj1,Ret(Obj2::*)(P1a,P2a),P1b,P2b> MakeGuard(Ret(Obj2::*memFun)(P1a,P2a), Obj1 *obj, P1b p1, P2b p2) $/;"	v
+obj_	ac/util/scope_guard.h	/^        Obj& obj_;$/;"	m	class:ac::ObjScopeGuardImpl0
+obj_	ac/util/scope_guard.h	/^        Obj& obj_;$/;"	m	class:ac::ObjScopeGuardImpl1
+obj_	ac/util/scope_guard.h	/^        Obj& obj_;$/;"	m	class:ac::ObjScopeGuardImpl2
+obj_	ac/util/scope_guard.h	/^        Obj& obj_;$/;"	m	class:ac::ObjScopeGuardImpl3
+operator !=	ac/xml/tinystr.h	/^inline bool operator != (const TiXmlString & a, const TiXmlString & b) { return !(a == b); }$/;"	f
+operator !=	ac/xml/tinystr.h	/^inline bool operator != (const TiXmlString & a, const char* b) { return !(a == b); }$/;"	f
+operator !=	ac/xml/tinystr.h	/^inline bool operator != (const char* a, const TiXmlString & b) { return !(b == a); }$/;"	f
+operator ()	ac/util/protocolstream.cpp	/^string* ResultSet::operator()(int i,int j)$/;"	f	class:ac::ResultSet
+operator ()	test/main6.cpp	/^		int operator()(int i,int j)$/;"	f	class:A
+operator +	ac/xml/tinystr.cpp	/^TiXmlString operator + (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator +	ac/xml/tinystr.cpp	/^TiXmlString operator + (const TiXmlString & a, const char* b)$/;"	f
+operator +	ac/xml/tinystr.cpp	/^TiXmlString operator + (const char* a, const TiXmlString & b)$/;"	f
+operator +=	ac/xml/tinystr.h	/^	TiXmlString& operator += (char single)$/;"	f	class:TiXmlString
+operator +=	ac/xml/tinystr.h	/^	TiXmlString& operator += (const TiXmlString & suffix)$/;"	f	class:TiXmlString
+operator +=	ac/xml/tinystr.h	/^	TiXmlString& operator += (const char * suffix)$/;"	f	class:TiXmlString
+operator <	ac/xml/tinystr.h	/^inline bool operator < (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator <	ac/xml/tinyxml.h	/^	bool operator<( const TiXmlAttribute& rhs )	 const { return name < rhs.name; }$/;"	f	class:TiXmlAttribute
+operator <<	ac/xml/tinystr.h	/^	TiXmlOutStream & operator << (const TiXmlString & in)$/;"	f	class:TiXmlOutStream
+operator <<	ac/xml/tinystr.h	/^	TiXmlOutStream & operator << (const char * in)$/;"	f	class:TiXmlOutStream
+operator <<	ac/xml/tinyxml.cpp	/^std::ostream& operator<< (std::ostream & out, const TiXmlNode & base)$/;"	f
+operator <<	ac/xml/tinyxml.cpp	/^std::string& operator<< (std::string& out, const TiXmlNode& base )$/;"	f
+operator <=	ac/xml/tinystr.h	/^inline bool operator <= (const TiXmlString & a, const TiXmlString & b) { return !(b < a); }$/;"	f
+operator =	ac/xml/tinystr.h	/^	TiXmlString& operator = (const TiXmlString & copy)$/;"	f	class:TiXmlString
+operator =	ac/xml/tinystr.h	/^	TiXmlString& operator = (const char * copy)$/;"	f	class:TiXmlString
+operator =	ac/xml/tinyxml.cpp	/^void TiXmlComment::operator=( const TiXmlComment& base )$/;"	f	class:TiXmlComment
+operator =	ac/xml/tinyxml.cpp	/^void TiXmlDeclaration::operator=( const TiXmlDeclaration& copy )$/;"	f	class:TiXmlDeclaration
+operator =	ac/xml/tinyxml.cpp	/^void TiXmlDocument::operator=( const TiXmlDocument& copy )$/;"	f	class:TiXmlDocument
+operator =	ac/xml/tinyxml.cpp	/^void TiXmlElement::operator=( const TiXmlElement& base )$/;"	f	class:TiXmlElement
+operator =	ac/xml/tinyxml.h	/^	TiXmlHandle operator=( const TiXmlHandle& ref ) { this->node = ref.node; return *this; }$/;"	f	class:TiXmlHandle
+operator =	ac/xml/tinyxml.h	/^	void operator=( const TiXmlText& base )							 	{ base.CopyTo( this ); }$/;"	f	class:TiXmlText
+operator =	ac/xml/tinyxml.h	/^	void operator=( const TiXmlUnknown& copy )										{ copy.CopyTo( this ); }$/;"	f	class:TiXmlUnknown
+operator ==	ac/xml/tinystr.h	/^inline bool operator == (const TiXmlString & a, const TiXmlString & b)$/;"	f
+operator ==	ac/xml/tinystr.h	/^inline bool operator == (const TiXmlString & a, const char* b) { return strcmp(a.c_str(), b) == 0; }$/;"	f
+operator ==	ac/xml/tinystr.h	/^inline bool operator == (const char* a, const TiXmlString & b) { return b == a; }$/;"	f
+operator ==	ac/xml/tinyxml.h	/^	bool operator==( const TiXmlAttribute& rhs ) const { return rhs.name == name; }$/;"	f	class:TiXmlAttribute
+operator >	ac/xml/tinystr.h	/^inline bool operator >  (const TiXmlString & a, const TiXmlString & b) { return b < a; }$/;"	f
+operator >	ac/xml/tinyxml.h	/^	bool operator>( const TiXmlAttribute& rhs )  const { return name > rhs.name; }$/;"	f	class:TiXmlAttribute
+operator >=	ac/xml/tinystr.h	/^inline bool operator >= (const TiXmlString & a, const TiXmlString & b) { return !(a < b); }$/;"	f
+operator >>	ac/xml/tinyxml.cpp	/^std::istream& operator>> (std::istream & in, TiXmlNode & base)$/;"	f
+operator []	ac/xml/tinystr.h	/^	char& operator [] (size_type index) const$/;"	f	class:TiXmlString
+operator int	ac/util/handle.h	/^	operator int() const$/;"	f	struct:ac::Handle
+p1	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 & obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+p1	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 * obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+p1	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl2<Obj1,Ret(Obj2::*)(P1a,P2a),P1b,P2b> MakeGuard(Ret(Obj2::*memFun)(P1a,P2a), Obj1 &obj, P1b p1, P2b p2) $/;"	v
+p1	ac/util/scope_guard.h	/^    inline ObjScopeGuardImpl2<Obj1,Ret(Obj2::*)(P1a,P2a),P1b,P2b> MakeGuard(Ret(Obj2::*memFun)(P1a,P2a), Obj1 *obj, P1b p1, P2b p2) $/;"	v
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ObjScopeGuardImpl1
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ObjScopeGuardImpl2
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ObjScopeGuardImpl3
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ScopeGuardImpl1
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ScopeGuardImpl2
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ScopeGuardImpl3
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ScopeGuardImpl4
+p1_	ac/util/scope_guard.h	/^        const P1 p1_;$/;"	m	class:ac::ScopeGuardImpl5
+p2	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 & obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+p2	ac/util/scope_guard.h	/^        MakeGuard( Ret( Obj2::*memFun )( P1a, P2a, P3a ), Obj1 * obj, P1b p1, P2b p2, P3b p3 )$/;"	v
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ObjScopeGuardImpl2
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ObjScopeGuardImpl3
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ScopeGuardImpl2
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ScopeGuardImpl3
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ScopeGuardImpl4
+p2_	ac/util/scope_guard.h	/^        const P2 p2_;$/;"	m	class:ac::ScopeGuardImpl5
+p3_	ac/util/scope_guard.h	/^        const P3 p3_;$/;"	m	class:ac::ObjScopeGuardImpl3
+p3_	ac/util/scope_guard.h	/^        const P3 p3_;$/;"	m	class:ac::ScopeGuardImpl3
+p3_	ac/util/scope_guard.h	/^        const P3 p3_;$/;"	m	class:ac::ScopeGuardImpl4
+p3_	ac/util/scope_guard.h	/^        const P3 p3_;$/;"	m	class:ac::ScopeGuardImpl5
+p4_	ac/util/scope_guard.h	/^        const P4 p4_;$/;"	m	class:ac::ScopeGuardImpl4
+p4_	ac/util/scope_guard.h	/^        const P4 p4_;$/;"	m	class:ac::ScopeGuardImpl5
+p5_	ac/util/scope_guard.h	/^        const P5 p5_;$/;"	m	class:ac::ScopeGuardImpl5
+pAllocator_	ac/util/objectallocator.h	/^	Allocator * pAllocator_;$/;"	m	class:ac::ObjectDefaultAllocator
+pAllocator_	ac/util/objectpool.h	/^	Allocator *	pAllocator_;$/;"	m	class:ac::ObjectPoolAllocator
+pCB_	ac/util/destroyable.h	/^	DestroyCallback * pCB_;$/;"	m	class:ac::Destroyable
+pDefaultLogger_	ac/log/logdispatcher.h	/^	Logger * pDefaultLogger_;$/;"	m	class:ac::LogDispatcher
+pHandler	network/reactor.h	/^			FDEventHandler *pHandler;$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+pHandler	network/reactor.h	/^			TMEventHandler *pHandler;$/;"	m	struct:ac::EventHandlerSet::TMEHInfo
+pMutex_	ac/util/objectpool.h	/^	Mutex *		pMutex_;$/;"	m	class:ac::ObjectPoolAllocator
+pObjectAllocator_	ac/util/objectmanager.h	/^	ObjectAllocator<T> * pObjectAllocator_;$/;"	m	class:ac::ObjectManager
+parent	ac/xml/tinyxml.h	/^	TiXmlNode*		parent;$/;"	m	class:TiXmlNode
+pool	ac/util/threadpool.cpp	/^	ThreadPool* pool;$/;"	m	class:ac::JobThread	file:
+prev	ac/xml/tinyxml.h	/^	TiXmlAttribute*	prev;$/;"	m	class:TiXmlAttribute
+prev	ac/xml/tinyxml.h	/^	TiXmlNode*		prev;$/;"	m	class:TiXmlNode
+print	test/main5.cpp	/^void print(int* a[],int ii,int jj)$/;"	f
+prog_exit	bdbcache/main.cpp	/^void prog_exit(int signo)$/;"	f
+prog_exit	mysqlproxy/main.cpp	/^void prog_exit(int signo)$/;"	f
+prog_exit	mysqlproxy2/main.cpp	/^void prog_exit(int signo)$/;"	f
+prog_exit	stockserver/main.cpp	/^void prog_exit(int signo)$/;"	f
+prog_exit	unittest/main.cpp	/^void prog_exit(int signo)$/;"	f
+ptr	ac/util/protocolstream.h	/^	char* const ptr;$/;"	m	class:ac::BinaryWriteStream
+ptr	ac/util/protocolstream.h	/^	char* const ptr;$/;"	m	class:ac::TextWriteStream
+ptr	ac/util/protocolstream.h	/^	char* const ptr;$/;"	m	class:ac::TextWriteStream2
+ptr	ac/util/protocolstream.h	/^	const char* const ptr;$/;"	m	class:ac::BinaryReadStream
+ptr	ac/util/protocolstream.h	/^	const char* const ptr;$/;"	m	class:ac::TextReadStream
+ptr	ac/util/protocolstream.h	/^	const char* const ptr;$/;"	m	class:ac::TextReadStream2
+queue	ac/util/queue.h	/^	std::list<T> queue;$/;"	m	class:ac::SyncQueue
+queue_	ac/util/circle_queue.h	/^	CQueue *		queue_;$/;"	m	class:ac::CircleQueue
+quit	ac/xml/tinystr.h	/^	void quit()$/;"	f	class:TiXmlString
+rd_ptr	ac/util/circle_queue.h	/^		volatile size_t rd_ptr;$/;"	m	struct:ac::CircleQueue::_Queue
+reader_mutex_	ac/util/circle_queue.h	/^	const Mutex *	reader_mutex_;$/;"	m	class:ac::CircleQueue
+regtime	network/reactor.h	/^			struct timeval regtime;$/;"	m	struct:ac::EventHandlerSet::TMEHInfo
+rep_	ac/xml/tinystr.h	/^	Rep * rep_;$/;"	m	class:TiXmlString
+reserve	ac/xml/tinystr.cpp	/^void TiXmlString::reserve (size_type cap)$/;"	f	class:TiXmlString
+row	ac/xml/tinyxml.h	/^	int row;	\/\/ 0 based.$/;"	m	struct:TiXmlCursor
+rregtime	network/reactor.h	/^			struct timeval rregtime;$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+rto	network/reactor.h	/^			struct timeval rto;$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+rwmutex_	ac/util/rw_mutex.h	/^	mutable pthread_rwlock_t rwmutex_;$/;"	m	class:ac::ThreadRWMutex
+sLogFile_	ac/log/datefilelogger.h	/^	std::string sLogFile_;$/;"	m	class:ac::DateFileLogger
+sLogFormat_	ac/log/logger.h	/^	const std::string sLogFormat_;$/;"	m	class:ac::Logger
+semid_	ac/util/mutex.h	/^	int semid_;$/;"	m	class:ac::SemMutex
+sentinel	ac/xml/tinyxml.h	/^	TiXmlAttribute sentinel;$/;"	m	class:TiXmlAttributeSet
+servaddr_	ac/log/udplogger.h	/^	struct sockaddr_in servaddr_;$/;"	m	class:ac::UdpLogger
+set	ac/util/tss.cpp	/^void TSS::set(void* p)$/;"	f	class:ac::TSS
+set_size	ac/xml/tinystr.h	/^	void set_size(size_type sz) { rep_->str[ rep_->size = sz ] = '\\0'; }$/;"	f	class:TiXmlString
+simpleTextPrint	ac/xml/tinyxml.h	/^	bool simpleTextPrint;$/;"	m	class:TiXmlPrinter
+size	ac/xml/tinystr.h	/^		size_type size, capacity;$/;"	m	struct:TiXmlString::Rep
+size	ac/xml/tinystr.h	/^	size_type size () const { return rep_->size; }$/;"	f	class:TiXmlString
+size_type	ac/xml/tinystr.h	/^  	typedef size_t size_type;$/;"	t	class:TiXmlString
+sss	test/main.cpp	/^void sss(int *i)$/;"	f
+stamp	ac/xml/tinyxmlparser.cpp	/^	const char*		stamp;$/;"	m	class:TiXmlParsingData	file:
+standalone	ac/xml/tinyxml.h	/^	TIXML_STRING standalone;$/;"	m	class:TiXmlDeclaration
+start	ac/xml/tinystr.h	/^	char* start() const { return rep_->str; }$/;"	f	class:TiXmlString
+state	ac/util/md5.h	/^    uint32 state[4];$/;"	m
+stockinfo	stockserver/stockdata.h	/^typedef struct stockinfo$/;"	s
+stopcount	ac/util/threadpool.h	/^	volatile size_t			stopcount;$/;"	m	class:ac::ThreadPool
+str	ac/xml/tinystr.h	/^		char str[1];$/;"	m	struct:TiXmlString::Rep
+str	ac/xml/tinyxml.h	/^		const char*     str;$/;"	m	struct:TiXmlBase::Entity
+strLength	ac/xml/tinyxml.h	/^		unsigned int	strLength;$/;"	m	struct:TiXmlBase::Entity
+stream	ac/util/compositestream.h	/^	Stream stream;$/;"	m	class:ac::CompositeWriteStream
+stream_	ac/log/ostreamlogger.h	/^	std::ostream & stream_;$/;"	m	class:ac::OStreamLogger
+swap	ac/xml/tinystr.h	/^	void swap (TiXmlString& other)$/;"	f	class:TiXmlString
+tabsize	ac/xml/tinyxml.h	/^	int tabsize;$/;"	m	class:TiXmlDocument
+tabsize	ac/xml/tinyxmlparser.cpp	/^	int				tabsize;$/;"	m	class:TiXmlParsingData	file:
+test	test/main5.cpp	/^void test(int **a,int ii,int jj)$/;"	f
+time_use	ac/util/timeuse.h	/^	inline long time_use(timeval *timebegin,timeval *timeend)$/;"	f	namespace:ac
+to	network/reactor.h	/^			struct timeval to;$/;"	m	struct:ac::EventHandlerSet::TMEHInfo
+total	ac/util/md5.h	/^    uint32 total[2];$/;"	m
+type	ac/xml/tinyxml.h	/^	NodeType		type;$/;"	m	class:TiXmlNode
+uint32	ac/util/md5.h	13;"	d
+uint8	ac/util/md5.h	8;"	d
+useMicrosoftBOM	ac/xml/tinyxml.h	/^	bool useMicrosoftBOM;		\/\/ the UTF-8 BOM were found when read. Note this, and try to write.$/;"	m	class:TiXmlDocument
+userData	ac/xml/tinyxml.h	/^	void*			userData;$/;"	m	class:TiXmlBase
+utf8ByteTable	ac/xml/tinyxml.h	/^	static const int utf8ByteTable[256];$/;"	m	class:TiXmlBase
+utf8ByteTable	ac/xml/tinyxmlparser.cpp	/^const int TiXmlBase::utf8ByteTable[256] = $/;"	m	class:TiXmlBase	file:
+value	ac/xml/tinyxml.h	/^	TIXML_STRING	value;$/;"	m	class:TiXmlNode
+value	ac/xml/tinyxml.h	/^	TIXML_STRING value;$/;"	m	class:TiXmlAttribute
+version	ac/xml/tinyxml.h	/^	TIXML_STRING version;$/;"	m	class:TiXmlDeclaration
+wr_ptr	ac/util/circle_queue.h	/^		volatile size_t wr_ptr;$/;"	m	struct:ac::CircleQueue::_Queue
+wregtime	network/reactor.h	/^			struct timeval wregtime;$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+writer_mutex_	ac/util/circle_queue.h	/^	const Mutex * 	writer_mutex_;$/;"	m	class:ac::CircleQueue
+wto	network/reactor.h	/^			struct timeval wto;$/;"	m	struct:ac::EventHandlerSet::FDEHInfo
+~Allocator	ac/util/allocator.h	/^	virtual ~Allocator() {}$/;"	f	class:ac::Allocator
+~BDBDataProcessor	bdbcache/bdbdataprocessor.h	/^		virtual ~BDBDataProcessor(){}$/;"	f	class:BDBDataProcessor
+~BackClientSocketBase	network/clientsocket.h	/^			virtual ~BackClientSocketBase(){}$/;"	f	class:ac::BackClientSocketBase
+~CacheDataDecoder	stockserver/netproxy.h	/^		virtual ~CacheDataDecoder(){}$/;"	f	class:CacheDataDecoder
+~CircleQueue	ac/util/circle_queue.cpp	/^CircleQueue::~CircleQueue()$/;"	f	class:ac::CircleQueue
+~ClientDataDecoder	stockserver/netproxy.h	/^		virtual ~ClientDataDecoder(){}$/;"	f	class:ClientDataDecoder
+~ClientSocket	network/clientsocket.h	/^			virtual ~ClientSocket(){}$/;"	f	class:ac::ClientSocket
+~ClientSocketBase	network/clientsocket.h	/^			virtual ~ClientSocketBase(){}$/;"	f	class:ac::ClientSocketBase
+~DBDataDecoder	stockserver/netproxy.h	/^		virtual ~DBDataDecoder(){}$/;"	f	class:DBDataDecoder
+~DataBlock	ac/util/data_block.h	/^	virtual ~DataBlock()$/;"	f	class:ac::DataBlock
+~DataDecoder	network/datadecoder.h	/^			virtual ~DataDecoder(){}$/;"	f	class:ac::DataDecoder
+~DataDecoderBase	network/datadecoder.h	/^			virtual ~DataDecoderBase(){}$/;"	f	class:ac::DataDecoderBase
+~DataDecoder_Q	network/datadecoder.h	/^			virtual ~DataDecoder_Q(){}$/;"	f	class:ac::DataDecoder_Q
+~DataDecoder_Q_echo	network/datadecoder.h	/^			virtual ~DataDecoder_Q_echo(){}$/;"	f	class:ac::DataDecoder_Q_echo
+~DataDecoder_helloworld	network/datadecoder.h	/^			virtual ~DataDecoder_helloworld(){}$/;"	f	class:ac::DataDecoder_helloworld
+~DataProcessor	network/dataprocessor.h	/^			virtual ~DataProcessor(){}$/;"	f	class:ac::DataProcessor
+~DataProcessor_Echo	network/dataprocessor.h	/^			virtual ~DataProcessor_Echo(){}$/;"	f	class:ac::DataProcessor_Echo
+~DestroyCallback	ac/util/destroyable.h	/^	virtual ~DestroyCallback() {}$/;"	f	struct:ac::DestroyCallback
+~Destroyable	ac/util/destroyable.h	/^	virtual ~Destroyable() {}$/;"	f	class:ac::Destroyable
+~DestroyableGuard	ac/util/destroyable.h	/^	~DestroyableGuard(){$/;"	f	class:ac::DestroyableGuard
+~EPReactor	network/reactor.h	/^			virtual ~EPReactor(){}$/;"	f	class:ac::EPReactor
+~EventHandler	network/eventhandler.h	/^			virtual ~EventHandler(){}$/;"	f	class:ac::EventHandler
+~FDEventHandler	network/eventhandler.h	/^			virtual ~FDEventHandler()$/;"	f	class:ac::FDEventHandler
+~ListenSocket	network/listensocket.h	/^			virtual ~ListenSocket(){}$/;"	f	class:ac::ListenSocket
+~ListenSocketBase	network/listensocket.h	/^			virtual ~ListenSocketBase(){}$/;"	f	class:ac::ListenSocketBase
+~LockGuard	ac/util/mutex.h	/^	~LockGuard()$/;"	f	class:ac::LockGuard
+~Logger	ac/log/logger.h	/^	virtual ~Logger() {}$/;"	f	class:ac::Logger
+~Mutex	ac/util/mutex.h	/^	virtual ~Mutex() {}$/;"	f	class:ac::Mutex
+~MysqlDataProcessor	mysqlproxy/mysqldataprocessor.h	/^		virtual ~MysqlDataProcessor(){}$/;"	f	class:MysqlDataProcessor
+~MysqlDataProcessor	mysqlproxy2/mysqldataprocessor.h	/^		virtual ~MysqlDataProcessor(){}$/;"	f	class:MysqlDataProcessor
+~NetApp	network/netapp.h	/^			virtual ~NetApp(){}$/;"	f	class:ac::NetApp
+~NetProxy	stockserver/netproxy.h	/^		virtual ~NetProxy(){}$/;"	f	class:NetProxy
+~NonCopyable	ac/util/non_copyable.h	/^    ~NonCopyable() {}$/;"	f	class:ac::NonCopyable
+~Notification	ac/util/notify.h	/^	virtual ~Notification() {}$/;"	f	struct:ac::Notification
+~ObjScopeGuardImpl0	ac/util/scope_guard.h	/^        ~ObjScopeGuardImpl0() throw() $/;"	f	class:ac::ObjScopeGuardImpl0
+~ObjScopeGuardImpl1	ac/util/scope_guard.h	/^        ~ObjScopeGuardImpl1() throw() $/;"	f	class:ac::ObjScopeGuardImpl1
+~ObjScopeGuardImpl2	ac/util/scope_guard.h	/^        ~ObjScopeGuardImpl2() throw() $/;"	f	class:ac::ObjScopeGuardImpl2
+~ObjScopeGuardImpl3	ac/util/scope_guard.h	/^        ~ObjScopeGuardImpl3() throw() $/;"	f	class:ac::ObjScopeGuardImpl3
+~ObjectAllocator	ac/util/objectallocator.h	/^	virtual ~ObjectAllocator() {}$/;"	f	class:ac::ObjectAllocator
+~ObjectPoolAllocator	ac/util/objectpool.h	/^	virtual ~ObjectPoolAllocator()$/;"	f	class:ac::ObjectPoolAllocator
+~Queue	ac/util/queue.h	/^	virtual ~Queue() {}$/;"	f	class:ac::Queue
+~RLockGuard	ac/util/rw_mutex.h	/^	~RLockGuard()$/;"	f	class:ac::RLockGuard
+~RWMutex	ac/util/rw_mutex.h	/^	virtual ~RWMutex() {}$/;"	f	class:ac::RWMutex
+~Reactor	network/reactor.h	/^			virtual ~Reactor(){}$/;"	f	class:ac::Reactor
+~ReadStream	ac/util/stream.h	/^	virtual ~ReadStream(){}$/;"	f	struct:ac::ReadStream
+~ResultEventHandler	network/resulteventhandler.h	/^		~ResultEventHandler(){}$/;"	f	class:ac::ResultEventHandler
+~ScopeGuardImpl0	ac/util/scope_guard.h	/^        ~ScopeGuardImpl0() throw() $/;"	f	class:ac::ScopeGuardImpl0
+~ScopeGuardImpl1	ac/util/scope_guard.h	/^        ~ScopeGuardImpl1() throw() $/;"	f	class:ac::ScopeGuardImpl1
+~ScopeGuardImpl2	ac/util/scope_guard.h	/^        ~ScopeGuardImpl2() throw() $/;"	f	class:ac::ScopeGuardImpl2
+~ScopeGuardImpl3	ac/util/scope_guard.h	/^        ~ScopeGuardImpl3() throw() $/;"	f	class:ac::ScopeGuardImpl3
+~ScopeGuardImpl4	ac/util/scope_guard.h	/^        ~ScopeGuardImpl4() throw() $/;"	f	class:ac::ScopeGuardImpl4
+~ScopeGuardImpl5	ac/util/scope_guard.h	/^        ~ScopeGuardImpl5() throw() $/;"	f	class:ac::ScopeGuardImpl5
+~ScopeGuardImplBase	ac/util/scope_guard.h	/^        ~ScopeGuardImplBase()$/;"	f	class:ac::ScopeGuardImplBase
+~StackTrace	ac/log/stacktrace.cpp	/^StackTrace::~StackTrace()$/;"	f	class:ac::StackTrace
+~SyncQueue	ac/util/queue.h	/^	virtual ~SyncQueue()$/;"	f	class:ac::SyncQueue
+~TBdb_Queue	ac/nouse/TBdb_Queue.cpp	/^TBdb_Queue::~TBdb_Queue()$/;"	f	class:TBdb_Queue
+~TMEventHandler	network/eventhandler.h	/^			virtual ~TMEventHandler()$/;"	f	class:ac::TMEventHandler
+~TMysqlResGuard	mysqlproxy/mysqldataprocessor.h	/^		~TMysqlResGuard()$/;"	f	class:TMysqlResGuard
+~TMysqlResGuard	mysqlproxy2/mysqldataprocessor.h	/^		~TMysqlResGuard()$/;"	f	class:TMysqlResGuard
+~TSS	ac/util/tss.h	/^	~TSS(){pthread_key_delete(key);}$/;"	f	class:ac::TSS
+~Thread	ac/util/thread.cpp	/^Thread::~Thread()$/;"	f	class:ac::Thread
+~ThreadMutex	ac/util/mutex.h	/^	virtual ~ThreadMutex()$/;"	f	class:ac::ThreadMutex
+~ThreadPool	ac/util/threadpool.cpp	/^ThreadPool::~ThreadPool()$/;"	f	class:ac::ThreadPool
+~ThreadRWMutex	ac/util/rw_mutex.h	/^	~ThreadRWMutex()$/;"	f	class:ac::ThreadRWMutex
+~TiXmlAttributeSet	ac/xml/tinyxml.cpp	/^TiXmlAttributeSet::~TiXmlAttributeSet()$/;"	f	class:TiXmlAttributeSet
+~TiXmlBase	ac/xml/tinyxml.h	/^	virtual ~TiXmlBase()			{}$/;"	f	class:TiXmlBase
+~TiXmlComment	ac/xml/tinyxml.h	/^	virtual ~TiXmlComment()	{}$/;"	f	class:TiXmlComment
+~TiXmlDeclaration	ac/xml/tinyxml.h	/^	virtual ~TiXmlDeclaration()	{}$/;"	f	class:TiXmlDeclaration
+~TiXmlDocument	ac/xml/tinyxml.h	/^	virtual ~TiXmlDocument() {}$/;"	f	class:TiXmlDocument
+~TiXmlElement	ac/xml/tinyxml.cpp	/^TiXmlElement::~TiXmlElement()$/;"	f	class:TiXmlElement
+~TiXmlNode	ac/xml/tinyxml.cpp	/^TiXmlNode::~TiXmlNode()$/;"	f	class:TiXmlNode
+~TiXmlString	ac/xml/tinystr.h	/^	~TiXmlString ()$/;"	f	class:TiXmlString
+~TiXmlText	ac/xml/tinyxml.h	/^	virtual ~TiXmlText() {}$/;"	f	class:TiXmlText
+~TiXmlUnknown	ac/xml/tinyxml.h	/^	virtual ~TiXmlUnknown() {}$/;"	f	class:TiXmlUnknown
+~TiXmlVisitor	ac/xml/tinyxml.h	/^	virtual ~TiXmlVisitor() {}$/;"	f	class:TiXmlVisitor
+~WLockGuard	ac/util/rw_mutex.h	/^	~WLockGuard()$/;"	f	class:ac::WLockGuard
+~WriteStream	ac/util/stream.h	/^	virtual ~WriteStream(){}$/;"	f	struct:ac::WriteStream

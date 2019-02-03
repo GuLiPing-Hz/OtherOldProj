@@ -1,0 +1,6 @@
+LIBRARY	"STASource"
+EXPORTS
+	DllMain				PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

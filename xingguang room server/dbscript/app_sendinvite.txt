@@ -1,0 +1,22 @@
+CREATE TABLE 'app_sendinvite' ('app_key' varchar(32) NOT NULL,'account' varchar(50) NOT NULL,'date' date NOT NULL DEFAULT CURRENT_DATE,'count' tinyint(2) NOT NULL DEFAULT '0',
+  PRIMARY KEY ('app_key','account','date')
+)
+
+CREATE TABLE userauth(username varchar(64) not null,pw varchar(32) not null,regtime datetime not null,vip tinyint(2) not null default '0',PRIMARY KEY (username))
+CREATE TABLE userauth(username varchar(64) not null,pw varchar(32) not null)
+
+CREATE TABLE 'user'('username' varchar(64) not null,'stocks' text not null,PRIMARY KEY ('username'))
+ALTER TABLE userauth ADD userstat tinyint(1);
+ALTER TABLE userauth MODIFY userstat TINYINT(1) NOT NULL
+
+
+                        $sql = "insert into app_user_rel ".get_sql_insert(array("fan"=>$fan, "app_key"=>$app_key, "username"=>$this-
+>mUser))." ON DUPLICATE KEY UPDATE fan=".escape_raw_input_value($fan);
+                        $farm_db = & OpAppFarmDb::getInstanceByObjectId($app_key);
+                        $res = $farm_db->mod($sql);
+                        if($res !== false)
+                        {
+                                OpMemcache::delete($app_key."_fans_num");
+                                OpMemcache::delete($app_key."_view_fans");
+                        }
+                        return $res;

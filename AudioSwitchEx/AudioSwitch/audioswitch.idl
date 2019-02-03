@@ -1,0 +1,66 @@
+import "oaidl.idl";
+import "ocidl.idl";
+import "objidl.idl";
+ 
+typedef enum _eSoundTrack
+{
+	Stereo,//立体声
+	MonoL,//左声道
+	MonoR//右声道
+}eSoundTrack;
+
+// cpp_quote("#if 0")
+// typedef _eSoundTrack eSoundTrack;
+// cpp_quote("#endif")
+
+typedef LONGLONG REFERENCE_TIME;
+
+[
+	object,
+	uuid(01454652-6904-4ffa-B00C-46538B6CA23A),
+	helpstring("switch audio track or sound track interface"),
+	pointer_default(unique)
+]
+interface IOS_AudioSwitch : IUnknown
+{
+	HRESULT SwitchATrack([in] BOOL bFirstAudio) = 0;//只提供两路音轨切换
+
+	//切换声道，是否用拷贝，默认拷贝;
+	//切换到左声道，如果拷贝，则两个声道同时播放原左声道的声音；如果不是拷贝，则只播放左声道声音，右声道无声音
+	//切换到右声道相反
+	HRESULT SetSTrackCopy([in] BOOL bCopy) = 0;
+	HRESULT GetSTrackCopy([out] BOOL* bCopy) = 0;
+	HRESULT SwitchSTrack([in] eSoundTrack eType) = 0;//提供切换声道
+}
+
+[
+	object,
+	uuid(DBD365F1-1AAE-4d5e-BF9F-AAE12BFF3AEE),
+	helpstring("change audio pitch"),
+	pointer_default(unique)
+]
+interface IOS_ChangePitch : IUnknown
+{
+	HRESULT ChangeCurPitch([in] INT nPitch) = 0;//改变音调
+}
+//////////////////////////////////////////////////////////////////////////
+[
+	uuid(4AC6D67F-AA1E-4b02-873C-C07C3F0E817F)
+]
+coclass AudioSwitch
+{
+	interface IOS_AudioSwitch;
+	interface IOS_ChangePitch;
+}
+//////////////////////////////////////////////////////////////////////////
+[
+	object,
+	uuid(523DF7C3-E094-43fc-90FB-82765BBE6954),
+	helpstring("prop"),
+	pointer_default(unique)
+]
+interface IOS_Saturation :  IUnknown//用于内部filter属性页的参数设置，不要使用
+{
+	HRESULT GetSaturation(long* plSat) = 0;
+	HRESULT SetSaturation(long plSat) = 0;
+}

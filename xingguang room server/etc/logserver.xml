@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/home/heyu/9158superstar/netapp/log/" listen="7500" udp="11000" maxclient="5000" conntimeout="5"/>
+</config>

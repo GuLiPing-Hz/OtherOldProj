@@ -1,0 +1,1349 @@
+<?xml version="1.0" ?>
+<!--<?xml version="1.0"  encoding="GB2312" ?>-->
+<!-- 身份描述userid取值
+7:	游戏管理员
+1:	室主
+8:	副室主
+4:	主持人
+5:	助理主持
+6:	房间会员
+9:	VIP用户 
+10:	红色皇冠用户
+11:	紫色皇冠用户 
+12:	超级皇冠用户 
+13:	至尊皇冠用户 
+0:	普通用户
+14: 游客
+-->
+<!--property 取值 1:允许 "0"：不允许 -->
+
+<roomright>
+	<!--无需密码进入密码房-->
+	<rightdetail type="1" optionid="1">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--进入关闭房间-->
+	<rightdetail type="1" optionid="2">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--进入仅对会员开放房间-->
+	<rightdetail type="1" optionid="3">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="1" />
+		<USER userid="9" property="1" />
+		<USER userid="10" property="1" />
+		<USER userid="11" property="1" />
+		<USER userid="12" property="1" />
+		<USER userid="13" property="1" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--进入满员房间-->
+	<rightdetail type="1" optionid="4">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="1" />
+		<USER userid="10" property="1" />
+		<USER userid="11" property="1" />
+		<USER userid="12" property="1" />
+		<USER userid="13" property="1" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--上主持麦 -->
+	<rightdetail type="1" optionid="5">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="1" />
+		<USER userid="11" property="1" />
+		<USER userid="12" property="1" />
+		<USER userid="13" property="1" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--调整麦序列表-->
+	<rightdetail type="1" optionid="6">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--非自由排麦下能排麦 -->
+	<rightdetail type="1" optionid="7">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--对房间内用户禁言 -->
+	<rightdetail type="2" optionid="8">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="5" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--拉入黑名单并踢出房间 -->
+	<rightdetail type="2" optionid="9">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="5" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--踢出房间 -->
+	<rightdetail type="2" optionid="10">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="5" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--邀请上主持麦-->
+	<rightdetail type="2" optionid="11">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--下别人主持麦-->
+	<rightdetail type="2" optionid="12">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--下别人表演麦-->
+	<rightdetail type="2" optionid="13">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="3" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--删除别人麦序 -->
+	<rightdetail type="2" optionid="14">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="5" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="1" />
+			<USER userid="10" property="1" />
+			<USER userid="11" property="1" />
+			<USER userid="12" property="1" />
+			<USER userid="13" property="1" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--邀请别人上排麦 -->
+	<rightdetail type="1" optionid="15">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!-- 禁止公聊后能在房间公聊 -->
+	<rightdetail type="1" optionid="16">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="1" />
+		<USER userid="10" property="1" />
+		<USER userid="11" property="1" />
+		<USER userid="12" property="1" />
+		<USER userid="13" property="1" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--房间设置 -->
+	<!--审核房间会员列表 -->
+	<rightdetail type="1" optionid="17">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--审核会员加入申请 -->
+	<rightdetail type="1" optionid="18">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--查看会员列表 -->
+	<rightdetail type="1" optionid="19">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="1" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--解除会员 -->
+	<rightdetail type="2" optionid="20">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="1" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--赋予会员资格 由管理员降为会员 -->
+	<rightdetail type="2" optionid="21">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="0" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="1" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--赋予主持助理权限 -->
+	<rightdetail type="2" optionid="22">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--赋予主持人权限 -->
+	<rightdetail type="2" optionid="23">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="1" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--赋予副室主权限 -->
+	<rightdetail type="2" optionid="24">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="1" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="0" />
+			<USER userid="14" property="0" />
+		</USER>
+		<USER userid="8" property="0" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--查看房间黑名单 -->
+	<rightdetail type="1" optionid="25">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="1" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间密码 -->
+	<rightdetail type="1" optionid="26">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间开启关闭 -->
+	<rightdetail type="1" optionid="27">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间仅对会员开放 -->
+	<rightdetail type="1" optionid="28">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置用户进出信息开启关闭 -->
+	<rightdetail type="1" optionid="29">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--自由上麦开启关闭 -->
+	<rightdetail type="1" optionid="30">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--房间名称修改 -->
+	<rightdetail type="1" optionid="31">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="0" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间公告 -->
+	<rightdetail type="1" optionid="32">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置临时公告 -->
+	<rightdetail type="1" optionid="33">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--允许房间公聊 -->
+	<rightdetail type="1" optionid="34">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间欢迎词 -->
+	<rightdetail type="1" optionid="35">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间LOGO -->
+	<rightdetail type="1" optionid="36">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="0" />
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--设置房间暂停上麦 -->
+	<rightdetail type="1" optionid="37">
+		<USER userid="7" property="1" />
+		<USER userid="1" property="1" />
+		<USER userid="8" property="1" />
+		<USER userid="4" property="1" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+	<!--禁止IP和MAC -->
+	<rightdetail type="2" optionid="38">
+		<USER userid="7" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="1" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="1" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="8" property="1" >
+			<USER userid="7" property="0" />
+			<USER userid="1" property="0" />
+			<USER userid="8" property="0" />
+			<USER userid="4" property="0" />
+			<USER userid="5" property="0" />
+			<USER userid="6" property="1" />
+			<USER userid="9" property="0" />
+			<USER userid="10" property="0" />
+			<USER userid="11" property="0" />
+			<USER userid="12" property="0" />
+			<USER userid="13" property="0" />
+			<USER userid="0" property="1" />
+			<USER userid="14" property="1" />
+		</USER>
+		<USER userid="4" property="0" />
+		<USER userid="5" property="0" />
+		<USER userid="6" property="0" />
+		<USER userid="9" property="0" />
+		<USER userid="10" property="0" />
+		<USER userid="11" property="0" />
+		<USER userid="12" property="0" />
+		<USER userid="13" property="0" />
+		<USER userid="0" property="0" />
+		<USER userid="14" property="0" />
+	</rightdetail>
+  <!--延长麦序时间 -->
+  <rightdetail type="1" optionid="39">
+    <USER userid="7" property="1" />
+    <USER userid="1" property="1" />
+    <USER userid="8" property="1" />
+    <USER userid="4" property="0" />
+    <USER userid="5" property="0" />
+    <USER userid="6" property="0" />
+    <USER userid="9" property="0" />
+    <USER userid="10" property="0" />
+    <USER userid="11" property="0" />
+    <USER userid="12" property="0" />
+    <USER userid="13" property="0" />
+    <USER userid="0" property="0" />
+    <USER userid="14" property="0" />
+  </rightdetail>
+	<version property="2" />
+</roomright>
+

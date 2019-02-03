@@ -1,0 +1,1 @@
+这里需要严格区分debug跟release，sqlitexx如果引入错误会导致程序崩溃。

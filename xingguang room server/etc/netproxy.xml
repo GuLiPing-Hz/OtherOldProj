@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/app/dev/netapp/log/" listen="8200" udp="8200" maxclient="10000" conntimeout="3" mysqlproxy_ip="127.0.0.1" mysqlproxy_port="8000" />
+</config>

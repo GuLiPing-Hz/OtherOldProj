@@ -1,0 +1,1165 @@
+<?xml version="1.0" ?>
+<!--<?xml version="1.0"  encoding="GB2312" ?>-->
+<!-- 身份描述
+GM			游戏管理员
+owner		室主
+subowner	副室主
+VJ			主持人
+VJA			助理主持
+MEMBER		房间会员
+VIP			VIP用户 
+RED			红色皇冠用户
+PURPLE		紫色皇冠用户 
+SUPER		超级皇冠用户 
+IMPERIAL	至尊皇冠用户 
+USER		普通用户
+-->
+<!--property 取值 1:允许 "0"：不允许 -->
+
+<roomright>
+	<!--无需密码进入密码房-->
+	<unpasswd>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</unpasswd>
+	<!--进入关闭房间-->
+	<closed>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</closed>
+	<!--进入仅对会员开放房间-->
+	<private>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="1" />
+		<VIP  property="1" />
+		<RED property="1" />
+		<PURPLE property="1" />
+		<SUPER property="1" />
+		<IMPERIAL property="1" />
+		<USER property="0" />
+	</private>
+	<!--进入满员房间-->
+	<fulllimit>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="0" />
+		<VIP property="1" />
+		<RED property="1" />
+		<PURPLE property="1" />
+		<SUPER property="1" />
+		<IMPERIAL property="1" />
+		<USER property="0" />
+	</fulllimit>
+	<!--上主持麦 -->
+	<onvjmic>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="1" />
+		<PURPLE property="1" />
+		<SUPER property="1" />
+		<IMPERIAL property="1" />
+		<USER property="0" />
+	</onvjmic>
+	<!--调整麦序列表-->
+	<updownwaitmic>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</updownwaitmic>
+	<!--非自由排麦下能排麦 -->
+	<freewaitmic>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</freewaitmic>
+	<!--对房间内用户禁言 -->
+	<forbiden>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</forbiden>
+	<!--拉入黑名单并踢出房间 -->
+	<black>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="0" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</black>
+	<!--踢出房间 -->>
+	<kick>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="0" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</kick>
+	<!--邀请上主持麦-->
+	<giveonvjmic>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="0" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="0" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+                        <VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="0" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+		        <VJA property="0" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="0" />
+		</VJ>
+		<VJA property="0" >
+
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</giveonvjmic>
+	<!--下别人主持麦-->
+	<giveoffvjmic>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="0" >
+
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</giveoffvjmic>
+	<!--下别人表演麦-->
+	<giveoffmic>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="0" >
+
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</giveoffmic>
+	<!--删除别人麦序 -->
+	<delwaitmic>
+	<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="1">
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</VJ>
+		<VJA property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="1" />
+			<RED property="1" />
+			<PURPLE property="1" />
+			<SUPER property="1" />
+			<IMPERIAL property="1" />
+			<USER property="1" />
+		</VJA>
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</delwaitmic>
+	<!--邀请别人上排麦 -->
+	<invitewaitmic>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</invitewaitmic>
+	<!-- 禁止公聊后能在房间公聊 -->
+	<roomchat>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="0" />
+		<VIP property="1" />
+		<RED property="1" />
+		<PURPLE property="1" />
+		<SUPER property="1" />
+		<IMPERIAL property="1" />
+		<USER property="0" />
+	</roomchat>
+	<!--房间设置 -->
+	<!--审核房间会员列表 -->
+	<getapplylist>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</getapplylist>
+	<!--审核会员加入申请 -->
+	<auditapply>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</auditapply>
+	<!--查看会员列表 -->
+	<getmemberlist>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="1" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</getmemberlist>
+	<!--解除会员 -->
+	<delmember>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</delmember>
+	<!--赋予会员资格 由管理员降为会员 -->
+	<setmember>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="0" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setmember>
+	<!--赋予主持助理权限 -->
+	<setvja>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="1" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="0" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setvja>
+	<!--赋予主持人权限 -->
+	<setvj>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="1" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="0" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</subowner>
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setvj>
+	<!--赋予副室主权限 -->
+	<setsubonwer>
+		<GM property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</GM>
+		<owner property="1" >
+			<GM property="0" />
+			<owner property="0" />
+			<subowner property="0" />
+			<VJ property="1" />
+			<VJA property="1" />
+			<MEMBER property="1" />
+			<VIP property="0" />
+			<RED property="0" />
+			<PURPLE property="0" />
+			<SUPER property="0" />
+			<IMPERIAL property="0" />
+			<USER property="1" />
+		</owner>
+		<subowner property="0" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setsubonwer>
+	<!--查看房间黑名单 -->
+	<getblacklist>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="1" />
+		<VJA property="1" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</getblacklist>
+	<!--设置房间密码 -->
+	<setpassword>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setpassword>
+	<!--设置房间开启关闭 -->
+	<setroomclose>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomclose>
+	<!--设置房间仅对会员开放 -->
+	<setroomprivate>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomprivate>
+	<!--设置用户进出信息开启关闭 -->
+	<setroominout>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroominout>
+	<!--自由上麦开启关闭 -->
+	<setfreewaitmic>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setfreewaitmic>
+	<!--房间名称修改 -->
+	<setroomname>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="0" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomname>
+	<!--设置房间公告 -->
+	<setroomaffiche>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomaffiche>
+	<!--设置临时公告 -->
+	<sendnotice>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</sendnotice>
+	<!--允许房间公聊 -->
+	<setroomchat>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomchat>
+	<!--设置房间欢迎词 -->
+	<setroomwelcome>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="1" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomwelcome>
+	<!--设置房间LOGO -->
+	<setroomlogo>
+		<GM property="1" />
+		<owner property="1" />
+		<subowner property="0" />
+		<VJ property="0" />
+		<VJA property="0" />
+		<MEMBER property="0" />
+		<VIP property="0" />
+		<RED property="0" />
+		<PURPLE property="0" />
+		<SUPER property="0" />
+		<IMPERIAL property="0" />
+		<USER property="0" />
+	</setroomlogo>
+</roomright>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/home/jinguangfu/roomserver/log/" ip="60.191.222.15" listen="7100" udp="7102" maxclient="5000" conntimeout="100" serverkey="iyaoxg2011" runscan="50" numberonescan="1000" readtimeout="60"/>
+	<hallsvrcfg ip="10.191.232.26" port="20001" id="2"/>
+	<dbagentcfg ipmain="10.191.231.79" portmain="30000" ipbak="10.191.231.79" portbak="30001" />
+	<dbagentcfgGift ipmain="10.191.231.79" portmain="30000" ipbak="10.191.231.79" portbak="30001" />
+	<dbagentcfgRight ipmain="10.191.233.92" portmain="64000" />
+  <dbmonitor ip="10.191.232.26" port="26001"  id="1" />
+  <logserver ip="10.191.232.26" port="8810" />
+  <factoryserver ip="10.191.232.26" port="19100" />
+</config>

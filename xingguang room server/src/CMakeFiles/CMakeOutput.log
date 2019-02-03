@@ -1,0 +1,17 @@
+The system is: Linux - 2.6.9-42.ELsmp - i686
+Determining if the C compiler is GNU succeeded with the following output:
+# 1 "/app/software/cmake-2.4.8-Linux-i386/share/cmake-2.4/Modules/CMakeTestGNU.c"
+# 1 "<built-in>"
+# 1 "<command line>"
+# 1 "/app/software/cmake-2.4.8-Linux-i386/share/cmake-2.4/Modules/CMakeTestGNU.c"
+
+void THIS_IS_GNU();
+
+Determining if the C++ compiler is GNU succeeded with the following output:
+# 1 "/app/software/cmake-2.4.8-Linux-i386/share/cmake-2.4/Modules/CMakeTestGNU.c"
+# 1 "<built-in>"
+# 1 "<command line>"
+# 1 "/app/software/cmake-2.4.8-Linux-i386/share/cmake-2.4/Modules/CMakeTestGNU.c"
+
+void THIS_IS_GNU();
+

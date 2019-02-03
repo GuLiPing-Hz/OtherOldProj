@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/home/jinguangfu/roomserver/log/smallroom/" ip="60.191.222.15" ip_netcom="60.191.222.15" listen="7200" udp="7202" maxclient="5000" conntimeout="5" serverkey="iyaoxg2011" runscan="50" numberonescan="1000" readtimeout="60"/>
+	<hallsvrcfg ip="10.191.232.26" port="20001" id="5"/>
+	<dbagentcfg ipmain="10.191.231.79" portmain="30000" ipbak="10.191.231.79" portbak="30001" />
+  <dbmonitor ip="10.191.232.26" port="26001"  id="1" />
+  <logserver ip="60.191.222.139" port="8810" />
+</config>

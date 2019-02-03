@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/app/dev/netapp/log/" listen="6102" udp="6102" maxclient="5000" conntimeout="5" serverkey="zhouliheyu"/>
+	<cachecfg hashtype="md5" begin="0" count="2" >
+		<cache ip="192.168.0.207" port="8000" />
+		<!--cache ip="192.168.0.246" port="6100" /-->
+	</cachecfg>
+	<dbagentcfg hashtype="md5" begin="0" count="2" >
+		<dbagent ipmain="192.168.0.23" portmain="10000" ipbak="192.168.0.23" portbak="10001" />
+		<!--dbagent ipmain="192.168.0.246" portmain="6101" ipbak="192.168.0.246" portbak="6101" /-->
+	</dbagentcfg>
+	<logsvrcfg ip="192.168.0.207" port="6666" />
+	<echocfg hashtype="md5" begin="0" count="2" >
+		<echo ip="192.168.0.204" port = "6100" />
+		<echo ip="192.168.0.204" port = "6100" />
+	</echocfg>
+</config>

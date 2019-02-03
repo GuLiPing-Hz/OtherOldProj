@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/app/dev/netapp/log/" listen="8200" udp="8200" maxclient="10000" conntimeout="100000" />
+	<backclient>
+		<mysqlproxy begin="0" count="2" retrytime="2" timeout="3">
+			<proxy mod="0" ip="127.0.0.1" port="8000" />
+			<proxy mod="1" ip="127.0.0.1" port="8000" />
+		</mysqlproxy>
+		<bdbproxy begin="0" count="2" retrytime="2" timeout="3">
+			<proxy ip="127.0.0.1" port="8100" />
+			<proxy ip="127.0.0.1" port="8100"/>
+		</bdbproxy>
+	</backclient>
+</config>

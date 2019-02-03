@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MpegSplitter", "MpegSplitter\MpegSplitter.vcproj", "{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MP4Splitter", "MP4Splitter\MP4Splitter.vcproj", "{F100FA8E-2870-477D-9923-9689D7F29C1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioSwitch", "AudioSwitch\AudioSwitch.vcproj", "{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WMASource", "WMASource\WMASource.vcproj", "{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|Win32 = Debug Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release Unicode|Win32 = Release Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Debug|Win32.ActiveCfg = Debug Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Debug|Win32.Build.0 = Debug Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Release|Win32.ActiveCfg = Release Unicode|Win32
+		{36FC1229-1543-48B6-A6F2-D6B109D7FBFB}.Release|Win32.Build.0 = Release Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Debug|Win32.ActiveCfg = Debug Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Debug|Win32.Build.0 = Debug Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Release|Win32.ActiveCfg = Release Unicode|Win32
+		{F100FA8E-2870-477D-9923-9689D7F29C1C}.Release|Win32.Build.0 = Release Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Debug|Win32.ActiveCfg = Debug Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Debug|Win32.Build.0 = Debug Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Release|Win32.ActiveCfg = Release Unicode|Win32
+		{2FE9D258-A989-485B-ABCB-3A69CA8E22AF}.Release|Win32.Build.0 = Release Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Debug|Win32.ActiveCfg = Debug Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Debug|Win32.Build.0 = Debug Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Release|Win32.ActiveCfg = Release Unicode|Win32
+		{706D48EF-15F4-46A3-8C44-E3AE81C3E06C}.Release|Win32.Build.0 = Release Unicode|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

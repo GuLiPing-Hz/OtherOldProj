@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<config>
+	<servercfg logdir="/home/jinguangfu/roomserver/log/" ip="60.191.222.15" listen="8001"  maxclient="50"  readtimeout="60"/>
+	<dbagentcfg ipmain="10.191.231.79" portmain="30000" ipbak="10.191.231.79" portbak="30001" />
+</config>
